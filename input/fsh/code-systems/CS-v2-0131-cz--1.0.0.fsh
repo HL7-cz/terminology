@@ -2,11 +2,12 @@ CodeSystem: V20131Cz100
 Id: v2-0131-cz--1.0.0
 Title: "v2-0131 Cz"
 * ^language = #cs-CZ
+* ^description = "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)."
 * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 * ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
-* ^url = "hl7.cz/CodeSystems/v2-0131-cz"
+* ^url = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
 * ^status = #draft
