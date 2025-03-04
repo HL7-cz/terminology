@@ -6,12 +6,12 @@ Title: "v2-0131 Cz"
 * ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
-* ^url = "hl7.cz/CodeSystems/v2-0131-cz"
+* ^url = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-03-03T10:36:45.465879Z"
+* ^date = "2025-03-04T13:22:41.873587Z"
 * ^publisher = "HL7 Czech Republic"
 * ^effectivePeriod.start = "2025-02-28T00:00:00Z"
 * ^content = #supplement
