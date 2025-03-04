@@ -8,15 +8,15 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
     "valueCode" : "executable"
   } ],
-  "url" : "https://ncez.mzcr.cz/fhir/CodeSystem/role-code-supplement",
+  "url" : "https://hl7.cz/fhir/CodeSystem/role-code-supplement",
   "version" : "1.0.0",
   "versionAlgorithmString" : "semver",
   "name" : "RoleCodeCz",
   "title" : "RoleCode(Supplement)",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-09T10:38:00.271394Z",
-  "publisher" : "NCEZ",
+  "date" : "2025-02-28T11:36:04.316816Z",
+  "publisher" : "HL7 Czech Republic",
   "effectivePeriod" : {
     "start" : "2025-01-05T00:00:00Z"
   },
