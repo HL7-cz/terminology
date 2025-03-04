@@ -3,14 +3,14 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cz.empty
-canonical: https://hl7.cz/fhir/empty #!!change here!!
-name: HL7CzEmptyImplementationGuide
-title: HL7 Czech Empty Implementation Guide
-description: HL7 Czech Empty Implementation Guide
+id: hl7.fhir.cz.terminology
+canonical: https://hl7.cz/fhir/terminology #!!change here!!
+name: HL7CzTerminologyImplementationGuide
+title: HL7 Czech Terminology Implementation Guide
+description: HL7 Czech Terminology Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.0.1
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -34,9 +34,8 @@ publisher:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
-dependencies:
-  hl7.fhir.uv.ips: 1.1.0
-  hl7.fhir.cz.core: current
+# dependencies:
+  #hl7.fhir.cz.core: current
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -62,12 +61,13 @@ dependencies:
 pages:
   index.md:
     title: Home
+  terminologies.md:
+    title: Terminologies
+
 # general-guidance.md:
 #   title: General Guidance
 # identifiers.md:
 #   title: Identifiers
-# artifacts.xml:
-#   title: Summary artifacts
 # profiles-and-extensions.md:
 #   title: Profiles and extensions
 # downloads.md:
@@ -145,7 +145,7 @@ menu:
 #  Guidance:
 #    General guidance: general-guidance.html
 #    Identifiers: identifiers.html
-#  Artifacts: 
+#  Artifacts:
 #    Czech artifacts: artifacts.html
 #    Profiles and extensions: profiles-and-extensions.html
 #  About:

@@ -1,7 +1,6 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "v3-RoleCode-cz--1.0.0",
-  "language" : "cs-CZ",
   "extension" : [ {
     "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
     "valueUrl" : "http://demo-web:4200/fhir/CodeSystem/v3-RoleCode-cz"
@@ -9,27 +8,15 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel",
     "valueCode" : "executable"
   } ],
-  "url" : "https://hl7.cz/fhir/CodeSystem/role-code-supplement",
+  "url" : "https://ncez.mzcr.cz/fhir/CodeSystem/role-code-supplement",
   "version" : "1.0.0",
   "versionAlgorithmString" : "semver",
   "name" : "RoleCodeCz",
   "title" : "RoleCode(Supplement)",
-  "_title" : {
-    "extension" : [ {
-      "extension" : [ {
-        "url" : "lang",
-        "valueCode" : "en"
-      }, {
-        "url" : "content",
-        "valueString" : "RoleCode(Supplement)"
-      } ],
-      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
-    } ]
-  },
-  "status" : "active",
+  "status" : "draft",
   "experimental" : false,
-  "date" : "2025-03-04T13:22:37.141286Z",
-  "publisher" : "HL7 Czech Republic",
+  "date" : "2025-02-09T10:38:00.271394Z",
+  "publisher" : "NCEZ",
   "effectivePeriod" : {
     "start" : "2025-01-05T00:00:00Z"
   },
@@ -64,13 +51,8 @@
   "concept" : [ {
     "code" : "AUNT",
     "display" : "teta",
+    "definition" : "The player of the role is a sister of the scoping person's mother or father.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a sister of the scoping person's mother or father."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -87,13 +69,8 @@
   }, {
     "code" : "BRO",
     "display" : "bratr",
+    "definition" : "The player of the role is a male sharing one or both parents in common with the scoping entity.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a male sharing one or both parents in common with the scoping entity."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -110,13 +87,8 @@
   }, {
     "code" : "BROINLAW",
     "display" : "švagr",
+    "definition" : "The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -133,13 +105,8 @@
   }, {
     "code" : "CHILD",
     "display" : "dítě",
+    "definition" : "The player of the role is a child of the scoping entity.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child of the scoping entity."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -156,13 +123,8 @@
   }, {
     "code" : "CHLDADOPT",
     "display" : "osvojené dítě",
+    "definition" : "The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -179,13 +141,8 @@
   }, {
     "code" : "CHLDFOST",
     "display" : "dítě v náhradní péči (kromě osvojení)",
+    "definition" : "The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -202,13 +159,8 @@
   }, {
     "code" : "CHLDINLAW",
     "display" : "zeť/snacha",
+    "definition" : "The player of the role is the spouse of scoping person's child.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the spouse of scoping person's child."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -225,13 +177,8 @@
   }, {
     "code" : "COUSN",
     "display" : "sestřenice/bratranec",
+    "definition" : "The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -248,13 +195,8 @@
   }, {
     "code" : "DAU",
     "display" : "vlastní dcera",
+    "definition" : "The player of the role is a female offspring of the scoping entity (parent).",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a female offspring of the scoping entity (parent)."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -274,13 +216,8 @@
   }, {
     "code" : "DAUADOPT",
     "display" : "osvojená dcera",
+    "definition" : "The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -300,13 +237,8 @@
   }, {
     "code" : "DAUC",
     "display" : "dcera",
+    "definition" : "**Description:** The player of the role is a female child (of any type) of scoping entity (parent)",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "**Description:** The player of the role is a female child (of any type) of scoping entity (parent)"
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -323,13 +255,8 @@
   }, {
     "code" : "DAUFOST",
     "display" : "dcera v náhradní péči (kromě osvojení)",
+    "definition" : "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -349,13 +276,8 @@
   }, {
     "code" : "DAUINLAW",
     "display" : "snacha",
+    "definition" : "The player of the role is the wife of scoping person's son.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the wife of scoping person's son."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -372,13 +294,8 @@
   }, {
     "code" : "DOMPART",
     "display" : "druh/družka",
+    "definition" : "The player of the role cohabits with the scoping person but is not the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role cohabits with the scoping person but is not the scoping person's spouse."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -395,13 +312,8 @@
   }, {
     "code" : "FAMMEMB",
     "display" : "rodinný příslušník",
+    "definition" : "A relationship between two people characterizing their \"familial\" relationship",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "A relationship between two people characterizing their \"familial\" relationship"
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -418,13 +330,8 @@
   }, {
     "code" : "FRND",
     "display" : "přítel/přítelkyně",
+    "definition" : "The player of the role is a person who is known, liked, and trusted by the scoping person.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a person who is known, liked, and trusted by the scoping person."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -441,13 +348,8 @@
   }, {
     "code" : "FTH",
     "display" : "otec",
+    "definition" : "The player of the role is a male who begets or raises or nurtures the scoping entity (child).",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a male who begets or raises or nurtures the scoping entity (child)."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -464,13 +366,8 @@
   }, {
     "code" : "FTHINLAW",
     "display" : "tchán",
+    "definition" : "The player of the role is the father of the scoping person's husband or wife.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the father of the scoping person's husband or wife."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -487,13 +384,8 @@
   }, {
     "code" : "GGRFTH",
     "display" : "pradědeček",
+    "definition" : "The player of the role is the father of the scoping person's grandparent.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the father of the scoping person's grandparent."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -510,13 +402,8 @@
   }, {
     "code" : "GGRMTH",
     "display" : "prababička",
+    "definition" : "The player of the role is the mother of the scoping person's grandparent.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the mother of the scoping person's grandparent."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -533,13 +420,8 @@
   }, {
     "code" : "GGRPRN",
     "display" : "praprarodič",
+    "definition" : "The player of the role is a parent of the scoping person's grandparent.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a parent of the scoping person's grandparent."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -556,13 +438,8 @@
   }, {
     "code" : "GRFTH",
     "display" : "dědeček",
+    "definition" : "The player of the role is the father of the scoping person's mother or father.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the father of the scoping person's mother or father."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -579,13 +456,8 @@
   }, {
     "code" : "GRMTH",
     "display" : "babička",
+    "definition" : "The player of the role is the mother of the scoping person's mother or father.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the mother of the scoping person's mother or father."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -602,13 +474,8 @@
   }, {
     "code" : "GRNDCHILD",
     "display" : "vnouče",
+    "definition" : "The player of the role is a child of the scoping person's son or daughter.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child of the scoping person's son or daughter."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -625,13 +492,8 @@
   }, {
     "code" : "GRNDDAU",
     "display" : "vnučka",
+    "definition" : "The player of the role is a daughter of the scoping person's son or daughter.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a daughter of the scoping person's son or daughter."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -648,13 +510,8 @@
   }, {
     "code" : "GRNDSON",
     "display" : "vnuk",
+    "definition" : "The player of the role is a son of the scoping person's son or daughter.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a son of the scoping person's son or daughter."
-    }, {
       "language" : "cs",
       "use" : {
         "code" : "display"
@@ -677,13 +534,8 @@
   }, {
     "code" : "GRPRN",
     "display" : "prarodič",
+    "definition" : "The player of the role is a parent of the scoping person's mother or father.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a parent of the scoping person's mother or father."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -700,13 +552,8 @@
   }, {
     "code" : "HUSB",
     "display" : "manžel",
+    "definition" : "The player of the role is a man joined to a woman (scoping person) in marriage.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a man joined to a woman (scoping person) in marriage."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -723,13 +570,8 @@
   }, {
     "code" : "MTH",
     "display" : "matka",
+    "definition" : "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child)."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -746,13 +588,8 @@
   }, {
     "code" : "MTHINLAW",
     "display" : "tchýně",
+    "definition" : "The player of the role is the mother of the scoping person's husband or wife.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the mother of the scoping person's husband or wife."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -772,13 +609,8 @@
   }, {
     "code" : "NBOR",
     "display" : "soused/sousedka",
+    "definition" : "The player of the role lives near or next to the scoping person.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role lives near or next to the scoping person."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -795,13 +627,8 @@
   }, {
     "code" : "NCHILD",
     "display" : "potomek",
+    "definition" : "The player of the role is an offspring of the scoping entity as determined by birth.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is an offspring of the scoping entity as determined by birth."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -818,13 +645,8 @@
   }, {
     "code" : "NEPHEW",
     "display" : "synovec",
+    "definition" : "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -840,19 +662,9 @@
     } ]
   }, {
     "code" : "NIECE",
+    "display" : "neteř",
+    "definition" : "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
-    }, {
-      "language" : "cs",
-      "use" : {
-        "code" : "display"
-      },
-      "value" : "neteř"
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -869,13 +681,8 @@
   }, {
     "code" : "NIENEPH",
     "display" : "neteř/synovec",
+    "definition" : "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -892,13 +699,8 @@
   }, {
     "code" : "NOK",
     "display" : "příbuzný",
+    "definition" : "Played by an individual who is designated as the next of kin for another individual which scopes the role.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "Played by an individual who is designated as the next of kin for another individual which scopes the role."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -915,13 +717,8 @@
   }, {
     "code" : "PRN",
     "display" : "rodič",
+    "definition" : "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child)."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -938,13 +735,8 @@
   }, {
     "code" : "PRNINLAW",
     "display" : "tchyně/tchán",
+    "definition" : "The player of the role is the parent of scoping person's husband or wife.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the parent of scoping person's husband or wife."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -961,13 +753,8 @@
   }, {
     "code" : "ROOM",
     "display" : "spolubydlící",
+    "definition" : "One who shares living quarters with the subject.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "One who shares living quarters with the subject."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -984,13 +771,8 @@
   }, {
     "code" : "SIB",
     "display" : "sourozenec",
+    "definition" : "The player of the role shares one or both parents in common with the scoping entity.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role shares one or both parents in common with the scoping entity."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1007,13 +789,8 @@
   }, {
     "code" : "SIGOTHR",
     "display" : "osoba blízká",
+    "definition" : "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)"
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1030,13 +807,8 @@
   }, {
     "code" : "SIS",
     "display" : "sestra",
+    "definition" : "The player of the role is a female sharing one or both parents in common with the scoping entity.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a female sharing one or both parents in common with the scoping entity."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1053,13 +825,8 @@
   }, {
     "code" : "SISINLAW",
     "display" : "švagrová",
+    "definition" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1079,13 +846,8 @@
   }, {
     "code" : "SON",
     "display" : "vlastní syn",
+    "definition" : "The player of the role is a male offspring of the scoping entity (parent).",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a male offspring of the scoping entity (parent)."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1105,13 +867,8 @@
   }, {
     "code" : "SONADOPT",
     "display" : "osvojený syn",
+    "definition" : "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1131,13 +888,8 @@
   }, {
     "code" : "SONC",
     "display" : "syn",
+    "definition" : "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)"
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1154,13 +906,8 @@
   }, {
     "code" : "SONFOST",
     "display" : "syn v náhradní péči (kromě osvojení)",
+    "definition" : "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1180,13 +927,8 @@
   }, {
     "code" : "SONINLAW",
     "display" : "zeť",
+    "definition" : "The player of the role is the husband of scoping person's daughter.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is the husband of scoping person's daughter."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1203,13 +945,8 @@
   }, {
     "code" : "SPS",
     "display" : "manžel/maželka",
+    "definition" : "The player of the role is a marriage partner of the scoping person.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a marriage partner of the scoping person."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1226,13 +963,8 @@
   }, {
     "code" : "STPCHLD",
     "display" : "nevlastní dítě",
+    "definition" : "The player of the role is a child of the scoping person's spouse by a previous union.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a child of the scoping person's spouse by a previous union."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1249,13 +981,8 @@
   }, {
     "code" : "STPDAU",
     "display" : "nevlastní dcera",
+    "definition" : "The player of the role is a daughter of the scoping person's spouse by a previous union.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a daughter of the scoping person's spouse by a previous union."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1275,13 +1002,8 @@
   }, {
     "code" : "STPSON",
     "display" : "nevlastní syn",
+    "definition" : "The player of the role is a son of the scoping person's spouse by a previous union.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a son of the scoping person's spouse by a previous union."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1301,13 +1023,8 @@
   }, {
     "code" : "UNCLE",
     "display" : "strýc",
+    "definition" : "The player of the role is a brother of the scoping person's mother or father.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a brother of the scoping person's mother or father."
-    }, {
       "language" : "en",
       "use" : {
         "code" : "display"
@@ -1324,13 +1041,8 @@
   }, {
     "code" : "WIFE",
     "display" : "manželka",
+    "definition" : "The player of the role is a woman joined to a man (scoping person) in marriage.",
     "designation" : [ {
-      "language" : "en",
-      "use" : {
-        "code" : "definition"
-      },
-      "value" : "The player of the role is a woman joined to a man (scoping person) in marriage."
-    }, {
       "language" : "cs",
       "use" : {
         "code" : "display"
