@@ -1,7 +1,7 @@
 {
   "web" : "http://demo-web:4200",
-  "code" : "NCEZ",
+  "code" : "hl7-cz",
   "names" : {
-    "en" : "NCEZ terminologies"
+    "en" : "HL7 Terminology"
   }
 }
