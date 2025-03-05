@@ -61,8 +61,14 @@ publisher:
 pages:
   index.md:
     title: Home
-  terminologies.md:
+  artifactsPage.md:
     title: Terminologies
+  codeSystems.md:
+    title: Code Systems
+  valueSets.md:
+    title: Value Sets
+#  conceptMaps.md:
+#    title: Concept Maps
 
 # general-guidance.md:
 #   title: General Guidance
@@ -144,6 +150,13 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Terminologies: artifactsPage.html
+  Artifacts: artifacts.html
+#  Support:
+#    FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
+#    Copyrights: copyright.html
+#    Downloads: downloads.html
+
 #  Guidance:
 #    General guidance: general-guidance.html
 #    Identifiers: identifiers.html
