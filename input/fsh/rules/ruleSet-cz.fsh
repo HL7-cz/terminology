@@ -30,5 +30,5 @@ RuleSet: NIBSCCopyrightForVS
 * ^experimental = true
  */
 
-//RuleSet: ValueSetSupplementRule (codeSystem)
-//* ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = {codeSystem}
+RuleSet: ValueSetSupplementRule (codeSystem)
+* ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = {codeSystem}

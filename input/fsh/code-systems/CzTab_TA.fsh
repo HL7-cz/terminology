@@ -1,8 +1,9 @@
-CodeSystem: CZ_TabTaCS
-Id: cz-tab-ta
+CodeSystem: DASTA_TabTaCS
+Id: dasta-tab-ta
 Title: "Type of address (DASTA)"
 Description: "Czech national code system (DASTA) for type of address."
 
+/*
 * ^language = #cs-CZ
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.2.4.4"
@@ -11,89 +12,32 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^date = "1980-01-01"
 * ^experimental = false
 * ^publisher = "DASTA"
-* ^caseSensitive = true
+* ^caseSensitive = false
 * ^content = #complete
 * ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta"
 * insert SetFmmandStatusRule(2, trial-use)
-
-
-/*
-* #1
-//* #1 ^designation.language = * #cs-CZ
-* #1 ^designation.value = "trvalé bydliště"
-* #1 ^definition = "Místo trvalého pobytu"
-* #2
-//* #2 ^designation.language = * #cs-CZ
-* #2 ^designation.value = "přechodné bydliště"
-* #2 ^definition = "Místo přechodného pobytu"
-* #3
-//* #3 ^designation.language = * #cs-CZ
-* #3 ^designation.value = "příbuzný"
-* #3 ^definition = "Příbuzný pacienta"
-* #4
-//* #4 ^designation.language = * #cs-CZ
-* #4 ^designation.value = "registrující lékař"
-* #4 ^definition = "Registrující všeobecný praktický lékař nebo praktický lékař pro děti a dorost"
-* #5
-//* #5 ^designation.language = * #cs-CZ
-* #5 ^designation.value = "zaměstnavatel"
-* #6
-//* #6 ^designation.language = * #cs-CZ
-* #6 ^designation.value = "plátce nemocenských dávek"
-* #7
-//* #7 ^designation.language = * #cs-CZ
-* #7 ^designation.value = "zdravotnické zařízení"
-* #8
-//* #8 ^designation.language = * #cs-CZ
-* #8 ^designation.value = "právní zástupce"
-* #8 ^definition = "právní zástupce (pacienta), nejedná se o zákonného zástupce"
-* #9
-//* #9 ^designation.language = * #cs-CZ
-* #9 ^designation.value = "farnost"
-* #S
-//* #S ^designation.language = * #cs-CZ
-* #S ^designation.value = "základní škola"
-* #S ^definition = "Základní škola (dětského pacienta)"
-* #C
-//* #C ^designation.language = * #cs-CZ
-* #C ^designation.value = "kontakt na poskytovatele"
-* #C ^definition = "Kontaktní zdravotnický profesionál či poskytovatel zdrav. služeb (ve vazbě k pacientovi) dle projektu Patient Summary"
-* #K
-//* #K ^designation.language = * #cs-CZ
-* #K ^designation.value = "kontaktní osoba"
-* #K ^definition = "Kontaktní osoba (ve vazbě k pacientovi) dle projektu Patient Summary"
-* #Z
-//* #Z ^designation.language = * #cs-CZ
-* #Z ^designation.value = "zákonný zástupce (pacienta)"
-* #G
-//* #G ^designation.language = * #cs-CZ
-* #G ^designation.value = "registrující gynekolog"
-* #M
-//* #M ^designation.language = * #cs-CZ
-* #M ^designation.value = "registrující stomatolog"
-* #T
-//* #T ^designation.language = * #cs-CZ
-* #T ^designation.value = "tlumočník"
-* #L
-//* #L ^designation.language = * #cs-CZ
-* #L ^designation.value = "laboratoř"
-* #A
-//* #A ^designation.language = * #cs-CZ
-* #A ^designation.value = "zdravotnické pracoviště (poskytovatel, klinika, pracoviště)"
-* #B
-//* #B ^designation.language = * #cs-CZ
-* #B ^designation.value = "zdravotní pojišťovna"
-* #P
-//* #P ^designation.language = * #cs-CZ
-* #P ^designation.value = "adresa příjemce"
-* #O
-//* #O ^designation.language = * #cs-CZ
-* #O ^designation.value = "adresa odesílatele"
-* #X
-//* #X ^designation.language = * #cs-CZ
-* #X ^designation.value = "jiná adresa"
 */
-
+* ^language = #cs-CZ
+//* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
+//* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/dasta-tab_ta"
+//* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
+//* ^extension[=].valueCode = #executable
+//* ^extension[+].extension[0].url = "name"
+//* ^extension[=].extension[=].valueString = "TAB_TA"
+//* ^extension[=].extension[+].url = "preferred"
+//* ^extension[=].extension[=].valueBoolean = false
+//* ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/codesystem-otherTitle"
+* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.203.24341.11.2.4.4"
+* ^version = "1.0.0"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-02-09T09:09:54.764025Z"
+* ^publisher = "DASTA"
+* ^effectivePeriod.start = "2025-01-01T00:00:00Z"
+* ^caseSensitive = false
+* ^content = #complete
 * ^property[0].code = #definition
 * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
 * ^property[=].description = "Definition"
@@ -103,11 +47,15 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 * ^property[+].code = #n32
+* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#n32"
 * ^property[=].type = #string
 * ^property[+].code = #plati_od
+* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#plati_od"
 * ^property[=].type = #dateTime
 * ^property[+].code = #poradi
+* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#poradi"
 * ^property[=].type = #string
+
 * #1 "Trvalé bydliště pacienta" "Místo trvalého pobytu"
 * #1 ^designation.language = #en
 * #1 ^designation.use.code = #display
