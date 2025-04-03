@@ -91,6 +91,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # HL7 Code systems
     - https://hl7.cz/fhir/CodeSystems/v2-0131-cz
     - https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0
+    - https://hl7.cz/fhir/CodeSystem/v3-role-code--1.0.0
 
 # NCEZ Code systems
     - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
@@ -101,6 +102,8 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # HL7 Valuesets
     - https://hl7.cz/fhir/ValueSet/administrative-gender-cz-vs
     - https://hl7.cz/fhir/ValueSet/personal-relationship
+    - https://hl7.cz/fhir/ValueSet/hl7vs-contact-and-relationship-cz
+    - https://hl7.cz/fhir/ValueSet/hl7vs-contactrole2-cz
 
 # NCEZ valuesets
     - https://ncez.mzcr.cz/fhir/ValueSet/nrzp-povolani-vs
