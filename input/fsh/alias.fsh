@@ -2,6 +2,7 @@
 // Code systems
 Alias: $sct =  http://snomed.info/sct
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131
+Alias: $v2-0131-CZ = https://hl7.cz/fhir/CodeSystems/v2-0131-cz
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0
 Alias: $drzar = https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar
