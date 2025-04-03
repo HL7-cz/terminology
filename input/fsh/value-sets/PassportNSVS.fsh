@@ -10,6 +10,7 @@ Description: "Valueset of passport namespaces"
 * ^date = "2023-01-01"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs-CZ
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(1, draft)
 
 * $uri#http://hl7.org/fhir/sid/passport-AFG "Pas: Afghanistan"
