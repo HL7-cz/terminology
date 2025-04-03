@@ -14,14 +14,12 @@ Description: "Vztah kontaktní osoby k subjektu."
 * ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystem/role-code-supplement|1.0.0"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
 * ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz|1.0.0"
-// * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
-// * ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz|1.0.0"
 * ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.8"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-03-03T12:31:40.515581Z"
 * ^publisher = "hl7.cz"
@@ -33,7 +31,7 @@ Description: "Vztah kontaktní osoby k subjektu."
 * ^compose.property[+] = "deprecated"
 * ^compose.property[+] = "notSelectable"
 
-* include codes from system $v2-0131 where code is-not-a "O"
+//* include codes from system $v2-0131 where code is-not-a "O"
 //* exclude codes from system $v2-0131 where code = "O"
 
 * $v3-RoleCode#AUNT "teta"
