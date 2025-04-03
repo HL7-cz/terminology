@@ -2,11 +2,11 @@ CodeSystem: RoleCodeCz
 Id: v3-RoleCode-cz--1.0.0
 Title: "RoleCode(Supplement)"
 * ^language = #cs-CZ
-* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v3-RoleCode-cz"
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
-* ^extension[=].valueCode = #executable
-* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/role-code-supplement"
+//* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
+//* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v3-RoleCode-cz"
+//* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
+//* ^extension[=].valueCode = #executable
+* ^url = "https://hl7.cz/fhir/CodeSystem/v3-role-code"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
 * ^status = #draft
