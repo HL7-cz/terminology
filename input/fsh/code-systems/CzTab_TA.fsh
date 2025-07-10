@@ -44,8 +44,7 @@ Description: "Czech national code system (DASTA) for type of address."
 //* ^property[=].description = "Definition"
 //* ^property[=].type = #string
 //* ^property[+].code = #display
-// //* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
-//* ^property[=].uri = "https://terminology.hl7.org/1.0.0/CodeSystem-designation-usage.html#display"
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 //* ^property[=].description = "Display"
 //* ^property[=].type = #string
 * ^property[+].code = #n32
