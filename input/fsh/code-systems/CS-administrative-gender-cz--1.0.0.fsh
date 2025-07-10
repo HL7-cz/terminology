@@ -1,6 +1,6 @@
 CodeSystem: AdministrativeGenderCz100
 Id: administrative-gender-cz--1.0.0
-Title: "Administrative Gender CZ"
+Title: "Administrative Gender (CZ supplement)"
 Description: "The gender of a person used for administrative purposes."
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/administrative-gender-cz"
@@ -22,8 +22,7 @@ Description: "The gender of a person used for administrative purposes."
 * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
 * ^property[=].type = #string
 * ^property[+].code = #display
-//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
-* ^property[=].uri = "https://terminology.hl7.org/1.0.0/CodeSystem-designation-usage.html#display"
+* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 * #female "žena" "Žena"
