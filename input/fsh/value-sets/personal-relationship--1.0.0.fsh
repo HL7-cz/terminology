@@ -1,19 +1,11 @@
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0
-Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 
 ValueSet: PersonalRelationshipCzVS
 Id: personal-relationship-cz-vs--1.0.0
-Title: "Osobní vztah k pacientovi"
-Description: "Vztah kontaktní osoby k subjektu."
+Title: "Role code (CZ)"
+Description: "Relationship between subject and contact person. (Vztah kontaktní osoby k subjektu)"
 * ^language = #cs-CZ
-//* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-//* ^extension[=].valueUrl = "http://demo-web:4200/fhir/ValueSet/personal-relationship"
-//* ^extension[+].url = "https://fhir.ee/StructureDefinition/version-description"
-//* ^extension[=].valueString = "Relationship of the contact person to the subject."
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
-* ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystem/role-code-supplement|1.0.0"
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
-* ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz|1.0.0"
+* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
 * ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.8"
@@ -24,15 +16,14 @@ Description: "Vztah kontaktní osoby k subjektu."
 * ^date = "2025-03-03T12:31:40.515581Z"
 * ^publisher = "hl7.cz"
 * ^copyright = "HL7"
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^effectivePeriod.start = "2025-03-01T00:00:00Z"
 * ^compose.inactive = false
 * ^compose.property[0] = "display"
-* ^compose.property[+] = "display"
 * ^compose.property[+] = "deprecated"
 * ^compose.property[+] = "notSelectable"
 
-//* include codes from system $v2-0131 where code is-not-a "O"
-//* exclude codes from system $v2-0131 where code = "O"
+//* include codes from system https://hl7.cz/fhir/CodeSystem/v3-role-code
 
 * $v3-RoleCode#AUNT "teta"
 * $v3-RoleCode#BRO "bratr"
