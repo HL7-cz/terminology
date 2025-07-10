@@ -1,8 +1,8 @@
 CodeSystem: V20131Cz100
 Id: v2-0131-cz--1.0.0
-Title: "v2-0131 Cz"
+Title: "Contact Role (CZ)"
+Description: "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 * ^language = #cs-CZ
-* ^description = "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
@@ -17,25 +17,27 @@ Title: "v2-0131 Cz"
 * ^effectivePeriod.start = "2025-02-28T00:00:00Z"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^content = #supplement
+//* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0"
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0131"
 * ^property[0].code = #definition
 * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
 * ^property[=].description = "Definition"
 * ^property[=].type = #string
-* ^property[+].code = #deprecated
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"
-* ^property[=].description = "Version of HL7 in which the code was deprecated"
-* ^property[=].type = #code
+//* ^property[+].code = #deprecated
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"
+//* ^property[=].description = "Version of HL7 in which the code was deprecated"
+//* ^property[=].type = #code
 * ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+* ^property[=].uri = "https://terminology.hl7.org/1.0.0/CodeSystem-designation-usage.html#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 * ^property[+].code = #notSelectable
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
 * ^property[=].description = "Not Selectable"
 * ^property[=].type = #boolean
-* ^property[+].code = #preferredForLanguage
-* ^property[=].type = #string
+//* ^property[+].code = #preferredForLanguage
+//* ^property[=].type = #string
 * #C "emergentní kontakt"
 * #C ^designation[0].language = #en
 * #C ^designation[=].use.code = #definition
