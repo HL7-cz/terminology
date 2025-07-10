@@ -11,6 +11,7 @@ Description: "Czech national code system for type of healthcare facility."
 * ^date = "1980-01-01"
 * ^experimental = false
 * ^publisher = "DASTA"
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
 * ^content = #complete
 * ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar"
