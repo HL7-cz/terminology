@@ -31,4 +31,6 @@ RuleSet: NIBSCCopyrightForVS
  */
 
 RuleSet: ValueSetSupplementRule (codeSystem)
-* ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = {codeSystem}
+//* ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = {codeSystem}
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
+* ^extension[=].valueCanonical = {codeSystem}
