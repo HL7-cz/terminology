@@ -11,6 +11,8 @@ Alias: $nrzp_povolani = https://ncez.mzcr.cz/fhir/CodeSystem/nrzp-povolani
 Alias: $uri = urn:ietf:rfc:3986
 Alias: $oid = urn:ietf:rfc:1155
 Alias: $administrative-gender = http://hl7.org/fhir/administrative-gender
+Alias: $cz-tab-ta-CS = https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
+Alias: $designation-usage = http://terminology.hl7.org/CodeSystem/designation-usage
 
 // Extensions:
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
