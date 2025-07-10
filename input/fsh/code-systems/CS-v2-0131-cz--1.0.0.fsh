@@ -28,8 +28,7 @@ Description: "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 //* ^property[=].description = "Version of HL7 in which the code was deprecated"
 //* ^property[=].type = #code
 * ^property[+].code = #display
-//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
-* ^property[=].uri = "https://terminology.hl7.org/1.0.0/CodeSystem-designation-usage.html#display"
+* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 * ^property[+].code = #notSelectable
