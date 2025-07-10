@@ -35,17 +35,19 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^experimental = false
 * ^date = "2025-02-09T09:09:54.764025Z"
 * ^publisher = "DASTA"
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^effectivePeriod.start = "2025-01-01T00:00:00Z"
 * ^caseSensitive = false
 * ^content = #complete
-* ^property[0].code = #definition
-* ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
-* ^property[=].description = "Definition"
-* ^property[=].type = #string
-* ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
-* ^property[=].description = "Display"
-* ^property[=].type = #string
+//* ^property[0].code = #definition
+//* ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
+//* ^property[=].description = "Definition"
+//* ^property[=].type = #string
+//* ^property[+].code = #display
+// //* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+//* ^property[=].uri = "https://terminology.hl7.org/1.0.0/CodeSystem-designation-usage.html#display"
+//* ^property[=].description = "Display"
+//* ^property[=].type = #string
 * ^property[+].code = #n32
 * ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#n32"
 * ^property[=].type = #string
@@ -57,9 +59,9 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^property[=].type = #string
 
 * #1 "Trvalé bydliště pacienta" "Místo trvalého pobytu"
-* #1 ^designation.language = #en
-* #1 ^designation.use.code = #display
-* #1 ^designation.value = "Registered permanent residential address"
+//* #1 ^designation.language = #en
+//* #1 ^designation.use.code = $designation-usage#display
+//* #1 ^designation.value = "Registered permanent residential address"
 * #1 ^property[0].code = #n32
 * #1 ^property[=].valueString = "trvalé bydliště"
 * #1 ^property[+].code = #plati_od
