@@ -2,7 +2,7 @@ ValueSet: Hl7vs_contactrole_cz
 Id: hl7vs-contactrole-cz--1.0.0
 Title: "Contact Role (CZ)"
 Description: "Concepts specifying role of contact person. (Pojmy, které specifikují roli kontaktní osoby ve vztahu k pacientovi.)"
-* ^language = #cs-CZ
+* ^language = #cs
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/ValueSet/hl7vs-contactrole2-cz"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"

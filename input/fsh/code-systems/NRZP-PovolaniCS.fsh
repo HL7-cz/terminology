@@ -3,7 +3,7 @@ Id: nrzp-povolani-cs
 Title: "NRZP - Czech health professional occupation"
 Description: "Czech national code system for health professional occupation used in the national registry of healthcare practicioners."
 
-* ^language = #cs-CZ
+* ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.2.10.2.1"
 * ^version = "1.0"

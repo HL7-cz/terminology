@@ -10,7 +10,7 @@ Description: "Gender for administrative purposes. (Pohlaví pro administrativní
 * ^experimental = false
 * ^date = "2022-12-26"
 * ^publisher = "HL7 Czech Republic"
-* ^language = #cs-CZ
+* ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0")
 

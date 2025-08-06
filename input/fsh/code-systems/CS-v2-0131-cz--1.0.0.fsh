@@ -2,7 +2,7 @@ CodeSystem: V20131Cz100
 Id: v2-0131-cz--1.0.0
 Title: "Contact Role (CZ)"
 Description: "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
-* ^language = #cs-CZ
+* ^language = #cs
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
@@ -28,13 +28,13 @@ Description: "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 //* ^property[=].description = "Version of HL7 in which the code was deprecated"
 //* ^property[=].type = #code
 * ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
-* ^property[+].code = #notSelectable
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
-* ^property[=].description = "Not Selectable"
-* ^property[=].type = #boolean
+//* ^property[+].code = #notSelectable
+//* ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
+//* ^property[=].description = "Not Selectable"
+//* ^property[=].type = #boolean
 //* ^property[+].code = #preferredForLanguage
 //* ^property[=].type = #string
 * #C "emergentní kontakt"
@@ -61,8 +61,8 @@ Description: "FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 * #F ^designation[+].language = #en
 * #F ^designation[=].use.code = #display
 * #F ^designation[=].value = "Federal Agency"
-* #F ^property[0].code = #notSelectable
-* #F ^property[=].valueBoolean = true
+//* #F ^property[0].code = #notSelectable
+//* #F ^property[=].valueBoolean = true
 * #I "pojišťovna"
 * #I ^designation[0].language = #en
 * #I ^designation[=].use.code = #definition

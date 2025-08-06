@@ -4,7 +4,7 @@ ValueSet: PersonalRelationshipCzVS
 Id: personal-relationship-cz-vs--1.0.0
 Title: "Role code (CZ)"
 Description: "Relationship between subject and contact person. (Vztah kontaktní osoby k subjektu)"
-* ^language = #cs-CZ
+* ^language = #cs
 * insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
 * ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
 * ^identifier.system = "urn:ietf:rfc:3986"

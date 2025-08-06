@@ -22,7 +22,7 @@ Description: "The gender of a person used for administrative purposes. (Pohlaví
 * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
 * ^property[=].type = #string
 * ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 * #female "žena" "Žena"

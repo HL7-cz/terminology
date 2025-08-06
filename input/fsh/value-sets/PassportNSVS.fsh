@@ -10,7 +10,7 @@ Description: "Valueset of passport namespaces"
 * ^experimental = false
 * ^date = "2023-01-01"
 * ^publisher = "HL7 Czech Republic"
-* ^language = #cs-CZ
+* ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(1, draft)
 

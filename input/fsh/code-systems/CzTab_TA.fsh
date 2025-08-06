@@ -17,7 +17,7 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta"
 * insert SetFmmandStatusRule(2, trial-use)
 */
-* ^language = #cs-CZ
+* ^language = #cs
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/dasta-tab_ta"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"

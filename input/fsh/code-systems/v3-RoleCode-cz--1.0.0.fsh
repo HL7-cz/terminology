@@ -2,7 +2,7 @@ CodeSystem: RoleCodeCz
 Id: v3-RoleCode-cz
 Title: "RoleCode (CZ Supplement)"
 Description: "A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."
-* ^language = #cs-CZ
+* ^language = #cs
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v3-RoleCode-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
@@ -23,7 +23,7 @@ Description: "A Czech supplement to the v3-RoleCode code system which is a set o
 * ^property[=].description = "Definition"
 * ^property[=].type = #string
 * ^property[+].code = #display
-* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
+//* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
 * ^property[=].description = "Display"
 * ^property[=].type = #string
 //* ^property[+].code = #internalId
