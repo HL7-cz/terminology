@@ -16,14 +16,14 @@ Description: "Registering healthcare provider service type."
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = false
 * ^effectivePeriod.start = "2025-03-10T00:00:00Z"
-* ^property[0].code = #definition
-* ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
-* ^property[=].description = "Definition"
-* ^property[=].type = #string
-* ^property[+].code = #display
+// * ^property[0].code = #definition
+// * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
+// * ^property[=].description = "Definition"
+// * ^property[=].type = #string
+//* ^property[+].code = #display
 //* ^property[=].uri = "http://terminology.hl7.org/CodeSystem/designation-usage#display"
-* ^property[=].description = "Display"
-* ^property[=].type = #string
+//* ^property[=].description = "Display"
+//* ^property[=].type = #string
 
 * #310060005 "gynekologické a porodnické služby"
 * #310060005 ^designation[0].language = #en
