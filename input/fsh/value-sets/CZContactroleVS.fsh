@@ -1,12 +1,10 @@
 ValueSet: Hl7vs_contactrole_cz
 Id: hl7vs-contactrole-cz--1.0.0
 Title: "Contact Role (CZ)"
-Description: "Concepts specifying role of contact person. (Pojmy, které specifikují roli kontaktní osoby ve vztahu k pacientovi.)"
+Description: "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"
 * ^language = #cs
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/ValueSet/hl7vs-contactrole2-cz"
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
-* ^extension[=].valueCanonical = "https://hl7.cz/fhir/CodeSystems/v2-0131-cz|1.0.0"
 * ^url = "https://hl7.cz/fhir/ValueSet/contactrole-cz"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
@@ -20,4 +18,12 @@ Description: "Concepts specifying role of contact person. (Pojmy, které specifi
 * ^compose.inactive = false
 * ^compose.property[0] = "display"
 * ^compose.property[+] = "definition"
-* include codes from system http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0
+
+* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v2-0131-cz--1.0.0")
+* include codes from system $v2-0131 //http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0
+// exclude deprecated codes and #O (Other)
+* exclude $v2-0131#O
+* exclude $v2-0131#BP
+* exclude $v2-0131#EP
+* exclude $v2-0131#PR
+* exclude $v2-0131#CP
