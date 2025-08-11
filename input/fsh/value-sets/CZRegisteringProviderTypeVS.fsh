@@ -9,7 +9,7 @@ Description: "Registering healthcare provider service type value set. (Typ regis
 * ^url = "https://ncez.mzcr.cz/fhir/ValueSet/registering-provider-service-type-cz"
 * ^version = "1.0.0"
 * ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-03-10T12:47:28.893239Z"
 * ^publisher = "MZCR Czech Republic"
@@ -18,7 +18,6 @@ Description: "Registering healthcare provider service type value set. (Typ regis
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.10"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-//* insert ValueSetSupplementRule("https://ncez.mzcr.cz/fhir/CodeSystem/registering-provider-service-type-cz-cs")
 
 * insert SetFmmandStatusRule(2, trial-use)
 * include codes from system RegisteringProviderServiceTypeCzCS
