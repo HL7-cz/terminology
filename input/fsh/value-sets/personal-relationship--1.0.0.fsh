@@ -1,11 +1,8 @@
-Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0
-
 ValueSet: PersonalRelationshipCzVS
 Id: personal-relationship-cz-vs--1.0.0
 Title: "Role code (CZ)"
 Description: "Relationship between subject and contact person. (Vztah kontaktní osoby k subjektu)"
 * ^language = #cs
-* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
 * ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.8"
@@ -23,58 +20,65 @@ Description: "Relationship between subject and contact person. (Vztah kontaktní
 * ^compose.property[+] = "deprecated"
 * ^compose.property[+] = "notSelectable"
 
-//* include codes from system https://hl7.cz/fhir/CodeSystem/v3-role-code
+* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
 
-* $v3-RoleCode#AUNT "teta"
-* $v3-RoleCode#BRO "bratr"
-* $v3-RoleCode#BROINLAW "švagr"
-* $v3-RoleCode#CHILD "dítě"
-* $v3-RoleCode#CHLDADOPT "osvojené dítě"
-* $v3-RoleCode#CHLDFOST "dítě v náhradní péči (kromě osvojení)"
-* $v3-RoleCode#CHLDINLAW "zeť/snacha"
-* $v3-RoleCode#COUSN "sestřenice/bratranec"
-* $v3-RoleCode#DAU "vlastní dcera"
-* $v3-RoleCode#DAUADOPT "osvojená dcera"
-* $v3-RoleCode#DAUC "dcera"
-* $v3-RoleCode#DAUFOST "dcera v náhradní péči (kromě osvojení)"
-* $v3-RoleCode#DAUINLAW "snacha"
-* $v3-RoleCode#DOMPART "druh/družka"
-* $v3-RoleCode#FAMMEMB "rodinný příslušník"
-* $v3-RoleCode#FRND "přítel/přítelkyně"
-* $v3-RoleCode#FTH "otec"
-* $v3-RoleCode#FTHINLAW "tchán"
-* $v3-RoleCode#GGRFTH "pradědeček"
-* $v3-RoleCode#GGRMTH "prababička"
-* $v3-RoleCode#GGRPRN "praprarodič"
-* $v3-RoleCode#GRFTH "dědeček"
-* $v3-RoleCode#GRMTH "babička"
-* $v3-RoleCode#GRNDCHILD "vnouče"
-* $v3-RoleCode#GRNDDAU "vnučka"
-* $v3-RoleCode#GRNDSON "vnuk"
-* $v3-RoleCode#GRPRN "prarodič"
-* $v3-RoleCode#HUSB "manžel"
-* $v3-RoleCode#MTH "matka"
-* $v3-RoleCode#MTHINLAW "tchýně"
-* $v3-RoleCode#NBOR "soused/sousedka"
-* $v3-RoleCode#NCHILD "potomek"
-* $v3-RoleCode#NEPHEW "synovec"
-* $v3-RoleCode#NIECE "neteř"
-* $v3-RoleCode#NIENEPH "neteř/synovec"
-* $v3-RoleCode#PRN "rodič"
-* $v3-RoleCode#PRNINLAW "tchyně/tchán"
-* $v3-RoleCode#ROOM "spolubydlící"
-* $v3-RoleCode#SIB "sourozenec"
-* $v3-RoleCode#SIGOTHR "osoba blízká"
-* $v3-RoleCode#SIS "sestra"
-* $v3-RoleCode#SISINLAW "švagrová"
-* $v3-RoleCode#SON "vlastní syn"
-* $v3-RoleCode#SONADOPT "osvojený syn"
-* $v3-RoleCode#SONC "syn"
-* $v3-RoleCode#SONFOST "syn v náhradní péči (kromě osvojení)"
-* $v3-RoleCode#SONINLAW "zeť"
-* $v3-RoleCode#SPS "manžel/maželka"
-* $v3-RoleCode#STPCHLD "nevlastní dítě"
-* $v3-RoleCode#STPDAU "nevlastní dcera"
-* $v3-RoleCode#STPSON "nevlastní syn"
-* $v3-RoleCode#UNCLE "strýc"
-* $v3-RoleCode#WIFE "manželka"
+//* include codes from system https://hl7.cz/fhir/CodeSystem/v3-role-code-cz|1.0.0
+//* include codes from system $v3-RoleCode where concept is-a #_PersonalRelationshipRoleType
+//* include $v3-RoleCode#NOK
+//* exclude $v3-RoleCode#_PersonalRelationshipRoleType
+
+* include $v3-RoleCode#NOK
+* include $v3-RoleCode#FAMMEMB
+* include $v3-RoleCode#FRND
+* include $v3-RoleCode#NBOR
+* include $v3-RoleCode#DAUFOST
+* include $v3-RoleCode#AUNT
+* include $v3-RoleCode#GRNDSON
+* include $v3-RoleCode#GRMTH
+* include $v3-RoleCode#DOMPART
+* include $v3-RoleCode#DAUADOPT
+* include $v3-RoleCode#SONINLAW
+* include $v3-RoleCode#NIENEPH
+* include $v3-RoleCode#UNCLE
+* include $v3-RoleCode#GGRFTH
+* include $v3-RoleCode#BROINLAW
+* include $v3-RoleCode#CHLDFOST
+* include $v3-RoleCode#DAUC
+* include $v3-RoleCode#SONC
+* include $v3-RoleCode#STPCHLD
+* include $v3-RoleCode#DAUINLAW
+* include $v3-RoleCode#COUSN
+* include $v3-RoleCode#SON
+* include $v3-RoleCode#SPS
+* include $v3-RoleCode#CHLDADOPT
+* include $v3-RoleCode#NCHILD
+* include $v3-RoleCode#SIGOTHR
+* include $v3-RoleCode#GGRMTH
+* include $v3-RoleCode#MTH
+* include $v3-RoleCode#MTHINLAW
+* include $v3-RoleCode#BRO
+* include $v3-RoleCode#HUSB
+* include $v3-RoleCode#PRN
+* include $v3-RoleCode#SIB
+* include $v3-RoleCode#NIECE
+* include $v3-RoleCode#FTH
+* include $v3-RoleCode#FTHINLAW
+* include $v3-RoleCode#STPSON
+* include $v3-RoleCode#SONFOST
+* include $v3-RoleCode#GGRPRN
+* include $v3-RoleCode#GRNDCHILD
+* include $v3-RoleCode#EXT
+* include $v3-RoleCode#SISINLAW
+* include $v3-RoleCode#WIFE
+* include $v3-RoleCode#DAU
+* include $v3-RoleCode#GRPRN
+* include $v3-RoleCode#CHILD
+* include $v3-RoleCode#GRNDDAU
+* include $v3-RoleCode#GRFTH
+* include $v3-RoleCode#PRNINLAW
+* include $v3-RoleCode#ROOM
+* include $v3-RoleCode#CHLDINLAW
+* include $v3-RoleCode#SONADOPT
+* include $v3-RoleCode#STPDAU
+* include $v3-RoleCode#NEPHEW
+* include $v3-RoleCode#SIS
