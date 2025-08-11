@@ -58,9 +58,12 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^property[=].type = #string
 
 * #1 "Trvalé bydliště pacienta" "Místo trvalého pobytu"
-//* #1 ^designation.language = #en
-//* #1 ^designation.use.code = $designation-usage#display
-//* #1 ^designation.value = "Registered permanent residential address"
+// * #1 ^designation[0].language = #en
+// * #1 ^designation[=].use.code = $designation-usage#display
+// * #1 ^designation[=].value = "Residential address"
+// * #1 ^designation[+].language = #en
+// * #1 ^designation[=].use.code = $designation-usage#definition
+// * #1 ^designation[=].value = "Registered permanent residential address"
 * #1 ^property[0].code = #n32
 * #1 ^property[=].valueString = "trvalé bydliště"
 * #1 ^property[+].code = #plati_od
