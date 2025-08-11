@@ -1,8 +1,8 @@
 ValueSet: AdministrativeGenderCzVs
 Id: administrative-gender-cz
 Title: "Administrative  Gender (CZ)"
-Description: "Gender for administrative purposes. (Pohlaví pro administrativní účely.)"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+Description: "Pohlaví pro administrativní účely. (Gender for administrative purposes)"
+//* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Gender for administrative purposes"
 * ^url = "https://hl7.cz/fhir/ValueSet/administrative-gender-cz"
 * ^version = "1.0.0"
@@ -12,6 +12,10 @@ Description: "Gender for administrative purposes. (Pohlaví pro administrativní
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
+* ^compose.inactive = false
+* ^compose.property[0] = "display"
+* ^compose.property[+] = "definition"
+
 * insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0")
 
 
