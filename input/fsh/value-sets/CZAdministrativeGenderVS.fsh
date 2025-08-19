@@ -13,8 +13,8 @@ Description: "Pohlaví pro administrativní účely. (Gender for administrative 
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^compose.inactive = false
-* ^compose.property[0] = "display"
-* ^compose.property[+] = "definition"
+//* ^compose.property[0] = "display"
+//* ^compose.property[+] = "definition"
 
 * insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0")
 

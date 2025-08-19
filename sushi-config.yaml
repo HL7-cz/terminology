@@ -10,7 +10,7 @@ title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.1.0 # The version is used to create the packageId, which is used in the IG URL.
-fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -93,7 +93,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://hl7.cz/fhir/CodeSystem/v3-role-code-cz
 
 # NCEZ Code systems
-    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
+#    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
     - https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar
     - https://ncez.mzcr.cz/fhir/CodeSystem/nrzp-povolani
     - https://ncez.mzcr.cz/fhir/CodeSystem/registering-provider-service-type-cz-cs
@@ -115,6 +115,10 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     #- https://hl7.cz/fhir/CodeSystem
     #- https://hl7.cz/fhir/ValueSet
 
+#  generate-version:
+#    - r4
+#    - r5
+
 #    - https://ncez.mzcr.cz/fhir/CodeSystem/role-code-supplement
 #    - https://ncez.mzcr.cz/fhir/CodeSystem/contact-role-supplement
 #    - http://ncez.mzcr.cz/fhir/StructureDefinition/address-point-cz
@@ -132,6 +136,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 #  generate-turtle:
 #  html-template:
 #  active-tables: false
+  path-expansion-params: ../../input/tx-params.json
   apply-contact: true
   apply-jurisdiction: false
   apply-publisher: true

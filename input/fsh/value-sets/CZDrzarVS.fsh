@@ -1,7 +1,7 @@
 ValueSet: DrzarVS
 Id: cz-drzar-vs
 Title: "Drzar (CZ)"
-Description: "Type of (healthcare) facility. (Druh zdravotnického zařízení.)"
+Description: "Číselník druhů zdravotnických zařízení. (Type of healthcare provider facility.)"
 * ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.7"

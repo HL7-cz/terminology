@@ -7,7 +7,7 @@ Description: "Číselník vztahů a rolí kontaktních osob k pacientovi. Číse
 //* ^extension.valueUrl = "http://demo-web:4200/fhir/ValueSet/hl7vs-contact-and-relationship-cz"
 * ^url = "https://hl7.cz/fhir/ValueSet/hl7vs-contact-and-relationship-cz"
 * ^version = "1.0.0"
-* ^versionAlgorithmString = "semver"
+//* ^versionAlgorithmString = "semver"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-04-03T08:40:10.799745Z"

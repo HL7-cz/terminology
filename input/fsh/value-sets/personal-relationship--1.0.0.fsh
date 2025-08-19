@@ -1,24 +1,24 @@
 ValueSet: PersonalRelationshipCzVS
 Id: personal-relationship-cz-vs--1.0.0
 Title: "Role code (CZ)"
-Description: "Relationship between subject and contact person. (Vztah kontaktní osoby k subjektu)"
+Description: "Vztah kontaktní osoby k subjektu. (Relationship between subject and contact person.)"
 * ^language = #cs
 * ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.8"
 * ^version = "1.0.0"
-* ^versionAlgorithmString = "semver"
+//* ^versionAlgorithmString = "semver"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-03-03T12:31:40.515581Z"
 * ^publisher = "hl7.cz"
 * ^copyright = "HL7"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* ^effectivePeriod.start = "2025-03-01T00:00:00Z"
+//* ^effectivePeriod.start = "2025-03-01T00:00:00Z"
 * ^compose.inactive = false
-* ^compose.property[0] = "display"
-* ^compose.property[+] = "deprecated"
-* ^compose.property[+] = "notSelectable"
+//* ^compose.property[0] = "display"
+//* ^compose.property[+] = "deprecated"
+//* ^compose.property[+] = "notSelectable"
 
 * insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
 

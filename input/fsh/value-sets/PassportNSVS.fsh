@@ -1,7 +1,7 @@
 ValueSet: PassportNSVS
 Id: passport-NS-VS
 Title: "Passport namespaces (CZ)"
-Description: "Valueset of passport namespaces"
+Description: "Číselník jmenných prostorů pro pasy. (Passport namespaces.)"
 //* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Standard namespaces for passports"
 * ^url = "https://ncez.mzcr.cz/fhir/ValueSet/PassportNS-vs"
@@ -14,7 +14,6 @@ Description: "Valueset of passport namespaces"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(1, draft)
 
-// TODO: Přepsat na češtinu
 * $uri#http://terminology.hl7.org/NamingSystem/passportNumNS-AFG "Pas: Afghánistán"
 * $uri#http://terminology.hl7.org/NamingSystem/passportNumNS-ALB "Pas: Albánie"
 * $uri#http://terminology.hl7.org/NamingSystem/passportNumNS-DZA "Pas: Alžírsko"

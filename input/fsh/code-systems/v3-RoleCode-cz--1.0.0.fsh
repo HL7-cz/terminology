@@ -9,13 +9,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 //* ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/fhir/CodeSystem/v3-role-code-cz"
 * ^version = "1.0.0"
-* ^versionAlgorithmString = "semver"
+//* ^versionAlgorithmString = "semver"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2025-02-09T10:38:00.271394Z"
 * ^publisher = "HL7 Czech Republic"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* ^effectivePeriod.start = "2025-01-05T00:00:00Z"
+//* ^effectivePeriod.start = "2025-01-05T00:00:00Z"
 * ^content = #supplement
 * ^supplements = $v3-RoleCode //"http://terminology.hl7.org/CodeSystem/v3-RoleCode"
 // * ^property[+].code = #v3-internal-id

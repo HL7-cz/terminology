@@ -9,12 +9,12 @@ Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 tabl
 //* ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/fhir/CodeSystem/v2-0131-cz--1.0.0"
 * ^version = "1.0.0"
-* ^versionAlgorithmString = "semver"
+//* ^versionAlgorithmString = "semver"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2025-03-03T10:36:45.465879Z"
 * ^publisher = "HL7 Czech Republic"
-* ^effectivePeriod.start = "2025-02-28T00:00:00Z"
+//* ^effectivePeriod.start = "2025-02-28T00:00:00Z"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^content = #supplement
 * ^supplements = $v2-0131  //"http://terminology.hl7.org/CodeSystem/v2-0131"
