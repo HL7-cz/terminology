@@ -25,3 +25,4 @@ Description: "Typ registrujícího lékaře. (Registering healthcare provider se
 * include $sct#310060005 "gynekologické a porodnické služby"
 * include $sct#700232004 "všeobecné lékařské služby"
 * include $sct#722176000 "stomatologické služby"
+* include $sct#67324005
