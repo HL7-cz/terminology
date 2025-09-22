@@ -18,6 +18,7 @@ Description: "Typ registrujícího lékaře. (Registering healthcare provider se
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.10"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
+* ^language = #cs
 
 * insert SetFmmandStatusRule(2, trial-use)
 * insert SNOMEDCopyrightForVS
