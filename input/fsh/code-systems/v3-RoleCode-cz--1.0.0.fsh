@@ -3,11 +3,7 @@ Id: v3-RoleCode-cz
 Title: "RoleCode (CZ Supplement)"
 Description: "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."
 * ^language = #cs
-//* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-//* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v3-RoleCode-cz"
-//* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
-//* ^extension[=].valueCode = #executable
-* ^url = "https://hl7.cz/fhir/CodeSystem/v3-role-code-cz"
+* ^url = "https://terminology.hl7cr.eu/CodeSystem/v3-RoleCode-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft
@@ -18,6 +14,7 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 //* ^effectivePeriod.start = "2025-01-05T00:00:00Z"
 * ^content = #supplement
 * ^supplements = $v3-RoleCode //"http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+
 // * ^property[+].code = #v3-internal-id
 // * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"
 // * ^property[=].description = "The internal identifier for the concept in the HL7 Access database repository."

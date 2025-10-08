@@ -1,0 +1,421 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="CodeSystem-nrzp-povolani-cs" original="Resource CodeSystem-nrzp-povolani-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>NRZP_PovolaniCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>NRZP - Czech health professional occupation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Czech national code system for health professional occupation used in the national registry of healthcare practicioners.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékař po absolvování odborné způsobilosti (L1)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékař po absolvování základního kmene (L2)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékař po absolvování specializačního vzdělání (L3)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zubní lékař</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Farmaceut</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Všeobecná sestra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětská sestra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Porodní asistentka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ergoterapeut</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Radiologický asistent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotní laborant</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotně-sociální pracovník</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Optometrista</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ortoptista</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Asistent ochrany a podpory veřejného zdraví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ortotik-protetik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Nutriční terapeut</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zubní technik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dentální hygienistka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotnický záchranář</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Farmaceutický asistent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Biomedicínský technik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Radiologický fyzik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Adiktolog</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psycholog ve zdravotnictví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Logoped ve zdravotnictví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zrakový terapeut</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Fyzioterapeut</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Radiologický technik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Odborný pracovník v laboratorních metodách a v přípravě léčivých přípravků</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Biomedicínský inženýr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Odborný pracovník v ochraně a podpoře veřejného zdraví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Praktická sestra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Behaviorální analytik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Specialista tradiční čínské medicíny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Terapeut tradiční čínské medicíny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Asistent behaviorálního analytika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Behaviorální technik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Laboratorní asistent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ortoticko-protetický technik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Nutriční asistent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Asistent zubního technika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Řidič vozidla zdravotnické záchranné služby</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ošetřovatel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Masér ve zdravotnictví, nevidomý a slabozraký masér ve zdravotnictví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zubní instrumentářka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Řidič zdravotnické dopravní služby</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Autoptický laborant</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sanitář</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékař</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékař po absolvování studijního oboru v anglickém jazyce</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Farmaceut po absolvování studijního oboru v anglickém jazyce</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-nrzp-povolani-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zubní lékař po absolvování studijního oboru v anglickém jazyce</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

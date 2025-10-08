@@ -1,0 +1,1723 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="CodeSystem-v3-RoleCode-cz" original="Resource CodeSystem-v3-RoleCode-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>RoleCodeCz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>RoleCode (CZ Supplement)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>Not Selectable</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>The concept code of a parent concept</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>An additional concept code that was also attributed to a concept</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>teta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Sestra matky nebo otce dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a sister of the scoping person's mother or father.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aunt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bratr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a male sharing one or both parents in common with the scoping entity.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>brother</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>švagr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is: (1) a brother of the scoping person's spouse, or (2) the husband of the scoping person's sister, or (3) the husband of a sister of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>brother-in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dítě</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dítě dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child of the scoping entity.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>child</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>osvojené dítě</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>adopted child</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dítě v náhradní péči (kromě osvojení)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>foster child</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zeť/snacha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Manžel nebo manželka dítěte dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the spouse of scoping person's child.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>child-in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sestřenice/bratranec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a relative of the scoping person descended from a common ancestor, such as a grandparent, by two or more steps in a diverging line.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cousin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vlastní dcera</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Ženský potomek dotčené entity (rodiče).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a female offspring of the scoping entity (parent).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>natural daughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>osvojená dcera</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a female child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>adopted daughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dcera</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>**Description:** The player of the role is a female child (of any type) of scoping entity (parent)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>daughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dcera v náhradní péči (kromě osvojení)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>foster daughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>snacha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Manželka syna dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the wife of scoping person's son.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>daughter in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>druh/družka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role cohabits with the scoping person but is not the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>domestic partner</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>člen širší rodiny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>extended family member</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rodinný příslušník</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Vztah mezi dvěma osobami, který je charakterizován jako vztah \&quot;rodinný\&quot;.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>A relationship between two people characterizing their &quot;familial&quot; relationship</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>family member</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>přítel/přítelkyně</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a person who is known, liked, and trusted by the scoping person.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>unrelated friend</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>otec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>father</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tchán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který je otcem manžela nebo manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the father of the scoping person's husband or wife.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>father-in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pradědeček</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který je otcem prarodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the father of the scoping person's grandparent.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>great grandfather</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>prababička</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která je matkou prarodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the mother of the scoping person's grandparent.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>great grandmother</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>praprarodič</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je rodičem prarodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a parent of the scoping person's grandparent.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>great grandparent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dědeček</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který je otcem rodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the father of the scoping person's mother or father.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>grandfather</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>babička</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která je matkou rodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the mother of the scoping person's mother or father.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>grandmother</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vnouče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Potomek, který je dítětem syna nebo dcery dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child of the scoping person's son or daughter.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>grandchild</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vnučka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dcera syna nebo dcery dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a daughter of the scoping person's son or daughter.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>granddaughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vnuk</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Syn syna nebo dcery dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a son of the scoping person's son or daughter.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>grandson</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>prarodič</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je rodičem rodiče dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a parent of the scoping person's mother or father.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>grandparent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>manžel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Muž, který je spojen s dotčenou ženou v manželství.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a man joined to a woman (scoping person) in marriage.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>husband</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>příbuzní ze strany manžela/manželky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>A relationship between an individual and a member of their spousal partner's immediate family.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>inlaw</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>matka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mother</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tchýně</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která je matkou manžela nebo manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the mother of the scoping person's husband or wife.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mother-in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>soused/sousedka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která žije v blízkosti nebo vedle dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role lives near or next to the scoping person.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>neighbor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>potomek</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Potomek dotčené entity (rodiče).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is an offspring of the scoping entity as determined by birth.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>natural child</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>synovec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Syn bratra nebo sestry dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>nephew</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>neteř</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dcera bratra nebo sestry dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>niece</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>neteř/synovec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>niece/nephew</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>příbuzný</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Nejbližší příbuzný dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Played by an individual who is designated as the next of kin for another individual which scopes the role.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>next of kin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rodič</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>parent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tchyně/tchán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Rodič manžela nebo manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the parent of scoping person's husband or wife.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>parent in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>spolubydlící</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která sdílí obytné prostory s dotčenou osobou.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>One who shares living quarters with the subject.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Roommate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sourozenec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role shares one or both parents in common with the scoping entity.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sibling</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>švagr/švagrová</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sibling in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>osoba blízká</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>significant other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sestra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a female sharing one or both parents in common with the scoping entity.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sister</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>švagrová</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sister-in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vlastní syn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Mužský potomek dotčené entity (rodiče).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a male offspring of the scoping entity (parent).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>natural son</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>osvojený syn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>adopted son</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>syn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>**Description:** The player of the role is a male child (of any type) of scoping entity (parent)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>son</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>syn v náhradní péči (kromě osvojení)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>foster son</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zeť</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Manžel dcery dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is the husband of scoping person's daughter.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>son in-law</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>manžel/maželka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Osoba, která je manželským partnerem dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a marriage partner of the scoping person.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>spouse</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>nevlastní dítě</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Dítě manžela/manželky dotčené osoby z předchozího manželství.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a child of the scoping person's spouse by a previous union.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>step child</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>nevlastní dcera</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Ženský potomek manžela/manželky dotčené osoby z předchozího manželství.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a daughter of the scoping person's spouse by a previous union.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>stepdaughter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>nevlastní syn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Mužský potomek manžela/manželky dotčené osoby z předchozího manželství.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a son of the scoping person's spouse by a previous union.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>stepson</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>strýc</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Bratr matky nebo otce dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a brother of the scoping person's mother or father.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>uncle</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>manželka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Žena, která je manželským partnerem dotčené osoby.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>The player of the role is a woman joined to a man (scoping person) in marriage.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>wife</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ContactRoleType</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Typy kontaktů pro kód role \&quot;CON\“</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Types of contact for Role code &quot;CON&quot;</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ContactRoleType</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>PersonalRelationshipRoleType</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.</note>
+             </notes>
+        <source>Typy osobních vztahů pro kód role \&quot;PRN\“</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>PersonalRelationshipRoleType</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

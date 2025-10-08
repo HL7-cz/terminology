@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cz.terminology
-canonical: https://hl7.cz/fhir/terminology
+id: hl7.cz.terminology
+canonical: https://terminology.hl7cr.eu
 name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
@@ -88,22 +88,22 @@ pages:
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   special-url:
 # HL7 Code systems
-    - https://hl7.cz/fhir/CodeSystem/v2-0131-cz--1.0.0
-    - https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0
-    - https://hl7.cz/fhir/CodeSystem/v3-role-code-cz
+    # - https://terminology.hl7cr.eu/CodeSystem/v2-0131-cz--1.0.0
+    # - https://terminology.hl7cr.eu/CodeSystem/administrative-gender-cz--1.0.0
+    # - https://terminology.hl7cr.eu/CodeSystem/v3-role-code-cz
 
 # NCEZ Code systems
 #    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
     - https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar
     - https://ncez.mzcr.cz/fhir/CodeSystem/nrzp-povolani
     - https://ncez.mzcr.cz/fhir/CodeSystem/registering-provider-service-type-cz-cs
-#    - https://ncez.mzcr.cz/CodeSystem/atc-cz
+    - https://ncez.mzcr.cz/CodeSystem/dlp-atc
 
 # HL7 Valuesets
-    - https://hl7.cz/fhir/ValueSet/administrative-gender-cz
-    - https://hl7.cz/fhir/ValueSet/personal-relationship
-    - https://hl7.cz/fhir/ValueSet/hl7vs-contact-and-relationship-cz
-    - https://hl7.cz/fhir/ValueSet/contactrole-cz
+    # - https://terminology.hl7cr.eu/ValueSet/administrative-gender-cz
+    # - https://terminology.hl7cr.eu/ValueSet/personal-relationship
+    # - https://terminology.hl7cr.eu/ValueSet/hl7vs-contact-and-relationship-cz
+    # - https://terminology.hl7cr.eu/ValueSet/contactrole-cz
 
 # NCEZ valuesets
     - https://ncez.mzcr.cz/fhir/ValueSet/nrzp-povolani-vs
@@ -112,8 +112,8 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://ncez.mzcr.cz/fhir/ValueSet/cz-drzar-vs
 
   # special-url-base:
-    #- https://hl7.cz/fhir/CodeSystem
-    #- https://hl7.cz/fhir/ValueSet
+    #- https://terminology.hl7cr.eu/CodeSystem
+    #- https://terminology.hl7cr.eu/ValueSet
 
 #  generate-version:
 #    - r4
@@ -143,6 +143,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
   apply-version: true
   show-inherited-invariants: true
   usage-stats-opt-out: true
+  i18n-default-lang: cs
   # excludexml: false
   # excludejson: false
   # excludettl: true

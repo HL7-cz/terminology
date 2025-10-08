@@ -1,0 +1,1226 @@
+
+# A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ValueSet.name
+msgid "PassportNSVS"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the value set.
+#: ValueSet.title
+msgid "Standard namespaces for passports"
+msgstr ""
+
+# The name of the organization or individual that published the value set.
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+#: ValueSet.description
+msgid "Číselník jmenných prostorů pro pasy. (Passport namespaces.)"
+msgstr ""
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Afghánistán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Albánie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Alžírsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Americká Samoa"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Andorra"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Angola"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Anguilla"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Antarktida"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Antigua a Barbuda"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Argentina"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Arménie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Aruba"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Austrálie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Rakousko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Ázerbájdžán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bahamy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bahrajn"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bangladéš"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Barbados"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bělorusko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Belgie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Belize"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Benin"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bermudy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bhútán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bolívie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bonaire, Svatý Eustach a Saba"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bosna a Hercegovina"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Botswana"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bouvetův ostrov"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Brazílie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Britské indickooceánské území"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Brunej"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Bulharsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Burkina Faso"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Burundi"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kambodža"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kamerun"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kanada"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kajmanské ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Středoafrická republika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Čad"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Chile"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Čína"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Vánoční ostrov"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kokosové (Keelingovy) ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kolumbie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Komory"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Konžská republika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Cookovy ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kostarika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Chorvatsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kuba"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Curaçao"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kypr"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Česko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Pobřeží slonoviny"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Dánsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Džibutsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Dominika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Dominikánská republika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Ekvádor"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Egypt"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Salvador"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Rovníková Guinea"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Eritrea"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Estonsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Etiopie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Falklandy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Faerské ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Fidži"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Finsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Francie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Francouzská Guyana"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Francouzská Polynésie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Francouzská jižní a antarktická území"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Gabon"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Gambie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Gruzie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Německo"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Ghana"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Gibraltar"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Řecko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Grónsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Grenada"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guadeloupe"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guam"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guatemala"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guernsey"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guinea"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guinea-Bissau"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Guyana"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Haiti"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Heardův ostrov a MacDonaldovy ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Vatikán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Honduras"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Hongkong"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Maďarsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Island"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Indie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Indonésie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Írán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Irák"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Irsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Man"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Izrael"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Itálie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jamajka"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Japonsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jersey"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jordánsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kazachstán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Keňa"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kiribati"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Korejská lidově demokratická republika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kuvajt"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Kyrgyzstán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Laos"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Lotyšsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Libanon"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Lesotho"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Libérie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Libye"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Lichtenštejnsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Litva"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Lucembursko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Macao"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Madagaskar"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Malawi"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Malajsie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Maledivy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mali"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Malta"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Marshallovy ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Martinik"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mauritánie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mauricius"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mayotte"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mexiko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mikronésie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Monako"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mongolsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Černá Hora"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Montserrat"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Maroko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Mosambik"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Myanmar"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Namibie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nauru"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nepál"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nizozemsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nová Kaledonie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nový Zéland"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nikaragua"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Niger"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Nigérie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Niue"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Norfolk"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Severní Mariany"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Norsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Omán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Pákistán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Palau"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Palestina"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Panama"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Papua Nová Guinea"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Paraguay"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Peru"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Filipíny"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Pitcairn"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Polsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Portugalsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Portoriko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Katar"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Rumunsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Rusko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Rwanda"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Réunion"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Bartoloměj"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatá Helena"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Kryštof a Nevis"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatá Lucie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Martin (FR)"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Saint Pierre a Miquelon"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Vincenc a Grenadiny"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Samoa"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: San Marino"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Tomáš a Princův ostrov"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Saúdská Arábie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Senegal"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Srbsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Seychely"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Sierra Leone"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Singapur"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Svatý Martin (NL)"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Slovensko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Slovinsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Šalomounovy ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Somálsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jižní Afrika"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jižní Georgie a Jižní Sandwichovy ostrovy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jižní Súdán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Španělsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Šrí Lanka"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Súdán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Surinam"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Špicberky a Jan Mayen"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Švédsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Švýcarsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Sýrie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Tádžikistán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Thajsko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Východní Timor"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Togo"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Tokelau"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Tonga"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Trinidad a Tobago"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Tunisko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Turkmenistán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Turks a Caicos"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Tuvalu"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Turecko"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Uganda"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Ukrajina"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Spojené arabské emiráty"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Velká Británie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Menší odlehlé ostrovy USA"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Spojené státy"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Uruguay"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Uzbekistán"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Vanuatu"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Venezuela"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Vietnam"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Wallis a Futuna"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Západní Sahara"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Jemen"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Zambie"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Zimbabwe"
+msgstr ""
+
+# The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+#: ValueSet.compose.include.concept.display
+msgid "Pas: Alandy"
+msgstr ""
+

@@ -1,0 +1,59 @@
+{
+  "id" : "ValueSet-hl7vs-contactrole-cz--1.0.0",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "cs",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "Hl7vs_contactrole_cz",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "A short, descriptive, user-friendly title for the value set.",
+          "source" : "Contact Role (CZ)",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "The name of the organization or individual that published the value set.",
+          "source" : "HL7 Czech Republic",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "The name of an individual to contact.",
+          "source" : "HL7 Czech Republic",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.",
+          "source" : "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "Czechia",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.copyright",
+          "context" : "A copyright statement relating to the value set and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the value set.",
+          "source" : "HL7 International",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.version",
+          "context" : "The version of the code system that the codes are selected from, or the special version '*' for all versions.",
+          "source" : "2.0.0",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

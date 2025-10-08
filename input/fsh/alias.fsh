@@ -2,7 +2,7 @@
 // Code systems
 Alias: $sct =  http://snomed.info/sct
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0
-Alias: $v2-0131-CZ = https://hl7.cz/fhir/CodeSystem/v2-0131-cz--1.0.0
+Alias: $v2-0131-CZ = https://terminology.hl7cr.eu/CodeSystem/v2-0131-cz--1.0.0
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0
 Alias: $drzar = https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar
@@ -17,9 +17,9 @@ Alias: $designation-usage = http://terminology.hl7.org/CodeSystem/designation-us
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // Valuesets:
-//Alias: $CZ_AdministrativegenderVS = https://hl7.cz/fhir/ValueSet/cz-administrative-gender-vs
-Alias: $hl7vs-contactrole-cz = https://hl7.cz/fhir/ValueSet/contactrole-cz
-Alias: $personal-relationship = https://hl7.cz/fhir/ValueSet/personal-relationship
+//Alias: $CZ_AdministrativegenderVS = https://terminology.hl7cr.eu/ValueSet/cz-administrative-gender-vs
+Alias: $hl7vs-contactrole-cz = https://terminology.hl7cr.eu/ValueSet/contactrole-cz
+Alias: $personal-relationship = https://terminology.hl7cr.eu/ValueSet/personal-relationship-cz
 Alias: $MedicalDevicesSnomedAbsentUnknownUvIps = http://hl7.org/fhir/uv/ips/ValueSet/medical-devices-snomed-absent-unknown-uv-ips
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 

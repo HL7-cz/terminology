@@ -1,0 +1,3837 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="CodeSystem-dlp-atc" original="Resource CodeSystem-dlp-atc" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>DLP_ATC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>ATC CZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>N-podle ATC-WHO, C-podle SÚKL</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>TRÁVICÍ TRAKT A METABOLISMUS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ALIMENTARY TRACT AND METABOLISM</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>STOMATOLOGICKÉ PŘÍPRAVKY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>STOMATOLOGICAL PREPARATIONS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Látky k prevenci zubního kazu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Caries prophylactic agents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fluorid sodný</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sodium fluoride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>monofluorofosforečnan sodný</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sodium monofluorophosphate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>olaflur</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>olaflur</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fluorid cínatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>stannous fluoride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>látky k prevenci zubního kazu, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fluorid sodný, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sodium fluoride, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antiinfektiva a antiseptika pro lokální léčbu v dutině ústní</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antiinfectives and antiseptics for local oral treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>peroxid vodíku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hydrogen peroxide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>chlorhexidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>chlorhexidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>amfotericin B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>amphotericin B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>polynoxylin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>polynoxylin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>domifen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>domiphen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxychinolin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxyquinoline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>neomycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>neomycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>mikonazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>miconazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>natamycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>natamycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>různá jiná antiinfektiva a antiseptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>various</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hexetidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hexetidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tetracyklin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tetracycline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>benzoxonium-chlorid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>benzoxonium chloride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tibezonium-jodid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tibezonium iodide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>mepartricin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mepartricin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>klotrimazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>clotrimazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>peroxoboritan sodný</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sodium perborate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>chlortetracyklin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>chlortetracycline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>doxycyklin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>doxycycline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>minocyklin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>minocycline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oktenidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>octenidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxytetracyklin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxytetracycline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>chlorhexidin a cetylpyridinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>chlorhexidine and cetylpyridinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Kortikosteroidy pro lokální léčbu v dutině ústní</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Corticosteroids for local oral treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>triamcinolon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>triamcinolone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dexamethason</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dexamethasone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hydrokortison</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hydrocortisone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>prednisolon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>prednisolone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>prednisolon, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>prednisolone, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Jiná léčiva pro lokální léčbu v dutině ústní</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Other agents for local oral treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>epinefrin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>epinephrine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>benzydamin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>benzydamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kyselina acetylsalicylová</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>acetylsalicylic acid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>adrenalon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>adrenalone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>amlexanox</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>amlexanox</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bekaplermin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>becaplermin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>různá jiná léčiva pro lokální léčbu v dutině ústní</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>DRUGS FOR ACID RELATED DISORDERS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ANTACIDA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ANTACIDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sloučeniny hořčíku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Magnesium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>uhličitan hořečnatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magnesium carbonate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxid hořečnatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magnesium oxide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>peroxid hořečnatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magnesium peroxide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hydroxid hořečnatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magnesium hydroxide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>křemičitan hořečnatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magnesium silicate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sloučeniny hořčíku, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sloučeniny hliníku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Aluminium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hydroxid hlinitý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aluminium hydroxide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>algeldrát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>algeldrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fosforečnan hlinitý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aluminium phosphate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>uhličitan dihydroxyhlinito-sodný</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dihydroxialumini sodium carbonate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>aluminium-acetylacetonát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aluminium acetoacetate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>aloglutamol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aloglutamol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dihydroxyaluminium-glycinát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>aluminium glycinate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sloučeniny hliníku, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sloučeniny vápníku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Calcium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>uhličitan vápenatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>calcium carbonate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>křemičitan vápenatý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>calcium silicate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sloučeniny vápníku, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Kombinace a komplexy sloučenin hliníku, vápníku a hořčíku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Combinations and complexes of aluminium, calcium and magnesium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kombinace běžných solí</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ordinary salt combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>magaldrát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magaldrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>almagát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>almagate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hydrotalcit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hydrotalcite</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>almasilát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>almasilate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antacida s antiflatulencii</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antacids with antiflatulents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>magaldrát a antiflatulencia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>magaldrate and antiflatulents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kombinace běžných solí s antiflatulencii</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ordinary salt combinations and antiflatulents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antacida se spazmolytiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antacids with antispasmodics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antacida s uhličitanem sodným</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antacids with sodium bicarbonate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antacida, jiné kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antacids, other combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>LÉČIVA K TERAPII PEPTICKÉHO VŘEDU A REFLUXNÍ CHOROBY JÍCNU</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antagonisté H2-receptorů</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>H2-receptor antagonists</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cimetidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cimetidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ranitidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ranitidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>famotidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>famotidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>nizatidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>nizatidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>niperotidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>niperotidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>roxatidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>roxatidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ranitidin-bismut-citrát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ranitidine bismuth citrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lafutidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lafutidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cimetidin, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cimetidine, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>famotidin, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>famotidine, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Prostaglandiny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Prostaglandins</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>misoprostol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>misoprostol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>enprostil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>enprostil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Inhibitory protonové pumpy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Proton pump inhibitors</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>omeprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>omeprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pantoprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pantoprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rabeprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rabeprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>esomeprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>esomeprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dexlansoprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dexlansoprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dexrabeprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dexrabeprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vonoprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>vonoprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tegoprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tegoprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fexuprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>fexuprazan</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ilaprazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ilaprazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>omeprazol, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>omeprazole, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rabeprazol, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rabeprazole, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Kombinace k eradikaci helicobacter pylori</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Combinations for eradication of Helicobacter pylori</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>omeprazol, amoxicilin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>omeprazole, amoxicillin and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, tetracyklin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, tetracycline and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, amoxicilin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, amoxicillin and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pantoprazol, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pantoprazole, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>omeprazol, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>omeprazole, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>esomeprazol, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>esomeprazole, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zásaditý citronan bismutitý, tetracyklin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bismuth subcitrate, tetracycline and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, klarithromycin a tinidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, clarithromycin and tinidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>lansoprazol, amoxicilin a levofloxacin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>lansoprazole, amoxicillin and levofloxacin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pantoprazol, amoxicilin, klarithromycin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pantoprazole, amoxicillin, clarithromycin and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rabeprazol, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rabeprazole, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rabeprazol, amoxicilin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rabeprazole, amoxicillin and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vonoprazan, amoxicilin a klarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>vonoprazan, amoxicillin and clarithromycin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vonoprazan, amoxicilin a metronidazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>vonoprazan, amoxicillin and metronidazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>omeprazol, amoxicilin a rifabutin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>omeprazole, amoxicillin and rifabutin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>vonoprazan a amoxicilin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>vonoprazan and amoxicillin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Jiná léčiva k terapii peptického vředu a refluxní choroby jícnu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>karbenoxolon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>carbenoxolone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sukralfát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sucralfate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pirenzepin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pirenzepine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>methiosulfonium-chlorid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>methiosulfonium chloride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zásaditý bismutum(III)-citrát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bismuth subcitrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>proglumid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>proglumide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>gefarnát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>gefarnate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>sulglikotid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>sulglicotide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>acetoxolon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>acetoxolone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zolimidin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>zolimidine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>troxipid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>troxipide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>zásaditý dusičnan bismutitý</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bismuth subnitrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kyselina alginová</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>alginic acid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rebamipid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rebamipide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>teprenon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>teprenone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>irsogladin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>irsogladine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>karbenoxolon, kombinace kromě psycholeptik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>carbenoxolone, combinations excl. psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>karbenoxolon, kombinace s psycholeptiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>carbenoxolone, combinations with psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>gefarnát, kombinace s psycholeptiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>gefarnate, combinations with psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>JINÁ LÉČIVA K TERAPII ONEMOCNĚNÍ SPOJENÝCH S PORUCHOU ACIDITY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>OTHER DRUGS FOR ACID RELATED DISORDERS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>LÉČIVA K TERAPII FUNKČNÍCH PORUCH GASTROINTESTINÁLNÍHO TRAKTU</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Syntetická anticholinergika, estery s terciární aminoskupinou</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Synthetic anticholinergics, esters with tertiary amino group</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxyfencyklimin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxyphencyclimine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kamylofin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>camylofin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>mebeverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mebeverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>trimebutin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>trimebutine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>rociverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>rociverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dicykloverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dicycloverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dihexyverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dihexyverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>difemerin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>difemerine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>piperidolát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>piperidolate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Syntetická anticholinergika, kvarterní amoniové sloučeniny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Synthetic anticholinergics, quaternary ammonium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>benzilonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>benzilone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>glykopyrronium-bromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>glycopyrronium bromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxyfenonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxyphenonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>penthienacium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>penthienate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>propanthelinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>propantheline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>otilonium-bromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>otilonium bromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>methanthelinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>methantheline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tridihexethylium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tridihexethyl</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>isopropamid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>isopropamide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hexocyklium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hexocyclium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>poldinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>poldine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>mepenzolacium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mepenzolate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bevonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bevonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pipenzolacium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pipenzolate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>difemanilium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>diphemanil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>difenhydramin-jodid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>(2-benzhydryloxyethyl)diethyl-methylammonium iodide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tiemonium-jodid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tiemonium iodide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>prifinium-bromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>prifinium bromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>timepidium-bromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>timepidium bromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fenpiverinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>fenpiverinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxyfenonium, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxyphenonium, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Syntetická spazmolytika, amidy s terciárními aminy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Synthetic antispasmodics, amides with tertiary amines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>dimethylaminopropionylfenothiazin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>dimethylaminopropionylphenothiazine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>nikofetamid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>nicofetamide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tiropramid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tiropramide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Papaverin a deriváty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Papaverine and derivatives</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>papaverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>papaverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>drotaverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>drotaverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>moxaverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>moxaverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Antagonisté serotoninových receptorů</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Serotonin receptor antagonists</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>alosetron</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>alosetron</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cilansetron</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cilansetron</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Jiná léčiva k terapii funkčních poruch gastrointestinálního traktu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Other drugs for functional gastrointestinal disorders</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fenpipran</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>fenpiprane</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>diisopromin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>diisopromine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>chlorbenzoxamin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>chlorbenzoxamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pinaverium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pinaverium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fenoverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>fenoverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>idanpramin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>idanpramine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>proxazol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>proxazole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>alverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>alverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>trepibuton</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>trepibutone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>isomethepten</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>isometheptene</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>karoverin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>caroverine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>floroglucinol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>phloroglucinol</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>silikony</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>silicones</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>valethamát</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>valethamate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>silice máty peprné</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>menthae piperitae aetheroleum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>trimethyldifenylpropylamin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>trimethyldiphenylpropylamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>alverin, kombinace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>alverine, combinations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ALKALOIDY RULÍKU A DERIVÁTY, SAMOTNÉ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>BELLADONNA AND DERIVATIVES, PLAIN</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Alkaloidy rulíku, terciární aminy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Belladonna alkaloids, tertiary amines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>atropin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>atropine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hyoscyamin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hyoscyamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>všechny alkaloidy rulíku</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>belladonna total alkaloids</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Alkaloidy rulíku, semisyntetické kvarterní amoniové sloučeniny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Belladonna alkaloids, semisynthetic, quaternary ammonium compounds</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>butylskopolaminium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>butylscopolamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>methylatropinium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>methylatropine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>methylskopolaminium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>methylscopolamine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>fentonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>fentonium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cimetropium-bromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cimetropium bromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>homatropin-methylbromid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>homatropine methylbromide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>SPAZMOLYTIKA V KOMBINACI S PSYCHOLEPTIKY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ANTISPASMODICS IN COMBINATION WITH PSYCHOLEPTICS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Syntetická anticholinergika v kombinaci s psycholeptiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Synthetic anticholinergic agents in combination with psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>isopropamid a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>isopropamide and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>klidinium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>clidinium and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>oxyfencyklimin a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>oxyphencyclimine and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>otilonium-bromid a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>otilonium bromide and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>glykopyrronium-bromid a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>glycopyrronium bromide and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bevonium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bevonium and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ambutonium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ambutonium and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>difemanilium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>diphemanil and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pipenzolacium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pipenzolate and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>emepronium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>emepronium and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>propanthelinium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>propantheline and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Alkaloidy rulíku a deriváty v kombinaci s psycholeptiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Belladonna and derivatives in combination with psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>methylskopolaminium a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>methylscopolamine and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>všechny alkaloidy rulíku a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>belladonna total alkaloids and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>atropin a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>atropine and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>homatropin-methylbromid a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>homatropine methylbromide and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>hyoscyamin a psycholeptika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>hyoscyamine and psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Jiná spazmolytika v kombinaci s psycholeptiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Other antispasmodics in combination with psycholeptics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>SPAZMOLYTIKA V KOMBINACI S ANALGETIKY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ANTISPASMODICS IN COMBINATION WITH ANALGESICS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Syntetická anticholinergika v kombinaci s analgetiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Synthetic anticholinergic agents in combination with analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tropenzilinium a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tropenzilone and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>pitofenon a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>pitofenone and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bevonium a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bevonium and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>ciklonium a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ciclonium and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kamylofin a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>camylofin and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>trospium a anagetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>trospium and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>tiemonium-jodid a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>tiemonium iodide and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Alkaloidy rulíku a deriváty v kombinaci s analgetiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Belladonna and derivatives in combination with analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>butylskopolaminium a analgetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>butylscopolamine and analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Jiná spazmolytika v kombinaci s analgetiky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Other antispasmodics in combination with analgesics</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>SPAZMOLYTIKA A ANTICHOLINERGIKA V KOMBINACI S DALŠÍMI LÉČIVY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>ANTISPASMODICS AND ANTICHOLINERGICS IN COMBINATION WITH OTHER DRUGS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Spazmolytika, psycholeptika a analgetika v kombinaci</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antispasmodics, psycholeptics and analgesics in combination</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Spazmolytika v kombinaci s jinými léčivy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Antispasmodics in combination with other drugs</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>PROKINETIKA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>PROPULSIVES</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Prokinetika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>Propulsives</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>metoklopramid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>metoclopramide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cisaprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cisapride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>domperidon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>domperidone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>bromoprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>bromopride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>alizaprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>alizapride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>kleboprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>clebopride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>itoprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>itopride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>cinitaprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>cinitapride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>mosaprid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>mosapride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>akotiamid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">The text value for this designation.</note>
+             </notes>
+        <source>acotiamide</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

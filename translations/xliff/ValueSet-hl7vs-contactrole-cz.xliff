@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="ValueSet-hl7vs-contactrole-cz" original="Resource ValueSet-hl7vs-contactrole-cz" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.name">
+             <notes>
+               <note id="n1">A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>Hl7vs_contactrole_cz</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the value set.</note>
+             </notes>
+        <source>Contact Role (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the value set.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.description">
+             <notes>
+               <note id="n1">A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.</note>
+             </notes>
+        <source>Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.copyright">
+             <notes>
+               <note id="n1">A copyright statement relating to the value set and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the value set.</note>
+             </notes>
+        <source>HL7 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-hl7vs-contactrole-cz" resname="ValueSet.compose.include.version">
+             <notes>
+               <note id="n1">The version of the code system that the codes are selected from, or the special version '*' for all versions.</note>
+             </notes>
+        <source>2.0.0</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

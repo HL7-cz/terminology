@@ -1,0 +1,1723 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="ValueSet-passport-NS-VS" original="Resource ValueSet-passport-NS-VS" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.name">
+             <notes>
+               <note id="n1">A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>PassportNSVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the value set.</note>
+             </notes>
+        <source>Standard namespaces for passports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the value set.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.description">
+             <notes>
+               <note id="n1">A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.</note>
+             </notes>
+        <source>Číselník jmenných prostorů pro pasy. (Passport namespaces.)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Afghánistán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Albánie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Alžírsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Americká Samoa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Andorra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Angola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Anguilla</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Antarktida</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Antigua a Barbuda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Argentina</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Arménie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Aruba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Austrálie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Rakousko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Ázerbájdžán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bahamy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bahrajn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bangladéš</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Barbados</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bělorusko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Belgie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Belize</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Benin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bermudy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bhútán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bolívie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bonaire, Svatý Eustach a Saba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bosna a Hercegovina</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Botswana</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bouvetův ostrov</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Brazílie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Britské indickooceánské území</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Brunej</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Bulharsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Burkina Faso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Burundi</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kambodža</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kamerun</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kanada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kajmanské ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Středoafrická republika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Čad</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Chile</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Čína</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Vánoční ostrov</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kokosové (Keelingovy) ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kolumbie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Komory</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Konžská republika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Cookovy ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kostarika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Chorvatsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kuba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Curaçao</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kypr</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Česko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Pobřeží slonoviny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Dánsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Džibutsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Dominika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Dominikánská republika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Ekvádor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Egypt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Salvador</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Rovníková Guinea</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Eritrea</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Estonsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Etiopie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Falklandy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Faerské ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Fidži</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Finsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Francie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Francouzská Guyana</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Francouzská Polynésie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Francouzská jižní a antarktická území</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Gabon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Gambie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Gruzie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Německo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Ghana</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Gibraltar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Řecko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Grónsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Grenada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guadeloupe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guam</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guatemala</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guernsey</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guinea</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guinea-Bissau</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Guyana</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Haiti</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Heardův ostrov a MacDonaldovy ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Vatikán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Honduras</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Hongkong</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Maďarsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Island</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Indie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Indonésie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Írán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Irák</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Irsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Man</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Izrael</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Itálie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jamajka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Japonsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jersey</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jordánsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kazachstán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Keňa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kiribati</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Korejská lidově demokratická republika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kuvajt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Kyrgyzstán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Laos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Lotyšsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Libanon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Lesotho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Libérie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Libye</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Lichtenštejnsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Litva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Lucembursko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Macao</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Madagaskar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Malawi</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Malajsie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Maledivy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mali</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Malta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Marshallovy ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Martinik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mauritánie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mauricius</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mayotte</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mexiko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mikronésie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Monako</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mongolsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Černá Hora</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Montserrat</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Maroko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Mosambik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Myanmar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Namibie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nauru</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nepál</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nizozemsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nová Kaledonie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nový Zéland</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nikaragua</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Niger</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Nigérie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Niue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Norfolk</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Severní Mariany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Norsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Omán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Pákistán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Palau</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Palestina</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Panama</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Papua Nová Guinea</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Paraguay</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Peru</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Filipíny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Pitcairn</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Polsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Portugalsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Portoriko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Katar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Rumunsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Rusko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Rwanda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Réunion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Bartoloměj</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatá Helena</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Kryštof a Nevis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatá Lucie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Martin (FR)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Saint Pierre a Miquelon</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Vincenc a Grenadiny</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Samoa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: San Marino</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Tomáš a Princův ostrov</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Saúdská Arábie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Senegal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Srbsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Seychely</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Sierra Leone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Singapur</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Svatý Martin (NL)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Slovensko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Slovinsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Šalomounovy ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Somálsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jižní Afrika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jižní Georgie a Jižní Sandwichovy ostrovy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jižní Súdán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Španělsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Šrí Lanka</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Súdán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Surinam</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Špicberky a Jan Mayen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Švédsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Švýcarsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Sýrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Tádžikistán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Thajsko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Východní Timor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Togo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Tokelau</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Tonga</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Trinidad a Tobago</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Tunisko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Turkmenistán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Turks a Caicos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Tuvalu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Turecko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Uganda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Ukrajina</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Spojené arabské emiráty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Velká Británie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Menší odlehlé ostrovy USA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Spojené státy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Uruguay</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Uzbekistán</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Vanuatu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Venezuela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Vietnam</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Wallis a Futuna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Západní Sahara</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Jemen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Zambie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Zimbabwe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-passport-NS-VS" resname="ValueSet.compose.include.concept.display">
+             <notes>
+               <note id="n1">The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.</note>
+             </notes>
+        <source>Pas: Alandy</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

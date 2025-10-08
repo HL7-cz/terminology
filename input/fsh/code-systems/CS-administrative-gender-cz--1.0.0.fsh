@@ -1,12 +1,12 @@
-CodeSystem: AdministrativeGenderCz100
-Id: administrative-gender-cz--1.0.0
+CodeSystem: AdministrativeGenderCz
+Id: administrative-gender-cz
 Title: "Administrative Gender (CZ supplement)"
 Description: "Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes."
 //* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/administrative-gender-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 //* ^extension[=].valueCode = #executable
-* ^url = "https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0"
+* ^url = "https://terminology.hl7cr.eu/CodeSystem/administrative-gender-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft

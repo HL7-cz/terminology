@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="cs" id="CodeSystem-drzar" original="Resource CodeSystem-drzar" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>DrzarCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the code system.</note>
+             </notes>
+        <source>Type of healthcare facility</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the code system.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>HL7 Czech Republic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">A free text natural language description of the code system from a consumer's perspective.</note>
+             </notes>
+        <source>Czech national code system for type of healthcare facility.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="Coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sdružení zdravotnických zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Fakultní nemocnice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Nemocnice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Specializovaná nemocnice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psychiatrická nemocnice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Nemocnice následné péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Porodnice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Léčebna pro dlouhodobě nemocné (LDN)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Léčebna tuberkul.a respir.nemocí (TRN)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psychiatrická léčebna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Rehabilitační ústav</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní odborné léčebné ústavy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětská psychiatrická léčebna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní dětské odborné léčebné ústavy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lázeňská léčebna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětská ozdravovna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Hospic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Další lůžkové zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sdružení ambulantních zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Poskytovatel amb. služeb (nad 5 oborů)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Poskytovatel amb. služeb (do 5 oborů)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotnické středisko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zařízení závodní preventivní péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samost. ordinace všeob. prakt. lékaře</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sam.ord.prakt.lékaře pro děti a dorost</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná ordinace PL - stomatologa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná ordinace PL - gynekologa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná ordinace lékaře specialisty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatné zařízení psychologa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatné zařízení logopeda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Domácí zdravotní péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatné zařízení fyzioterapeuta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotní péče v ústavech sociální p.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatné zařízení nelékaře - jiné</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná stomatologická laboratoř</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná odborná laboratoř</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Odběrová místnost</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Samostatná transfuzní stanice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zařízení LPS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Koroner</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Hemodialyzační středisko</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zařízení pro léčbu závislostí</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní ambulantní zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sdružení dětských zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětský domov pro děti do 3 let</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětské centrum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Dětský stacionář</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Stacionář</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Psychoterapeutický stacionář</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Krizové centrum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Centrum duševního zdraví</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Záchytná stanice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotnická dopravní služba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotnická zachranná služba</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Výjezdová skupina záchranné služby</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Další zařízení záchranné služby</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Přeprava pacientů neodkladné péče</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní zvláštní zdravotnická zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Sdružení lékáren</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lékárna</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Oční optika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Státní ústav pro kontrolu léčiv</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Státní zdravotní ústav</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Krajská hygienická stanice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotní ústav</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Další zařízení hygienické služby</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>IPVZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>NCONZO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní organizace MZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Ostatní zdravotnická zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Lázeňský dům (jen ubyt. hotel. typu)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Zdravotnické zařízení v likvidaci</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Hospodářská org. neposkyt. zdrav. péči</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Servisní organizace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>COVID zařízení</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Centrum očkování COVID</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-drzar" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>
+             </notes>
+        <source>Odběr krevní plasmy</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

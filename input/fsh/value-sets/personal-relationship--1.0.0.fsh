@@ -1,9 +1,9 @@
 ValueSet: PersonalRelationshipCzVS
-Id: personal-relationship-cz-vs--1.0.0
+Id: personal-relationship-cz
 Title: "Role code (CZ)"
 Description: "Vztah kontaktní osoby k subjektu. (Relationship between subject and contact person.)"
 * ^language = #cs
-* ^url = "https://hl7.cz/fhir/ValueSet/personal-relationship"
+* ^url = "https://terminology.hl7cr.eu/ValueSet/personal-relationship-cz"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.1.8"
 * ^version = "1.0.0"
@@ -20,9 +20,9 @@ Description: "Vztah kontaktní osoby k subjektu. (Relationship between subject a
 //* ^compose.property[+] = "deprecated"
 //* ^compose.property[+] = "notSelectable"
 
-* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/v3-role-code-cz")
+* insert ValueSetSupplementRule("https://terminology.hl7cr.eu/CodeSystem/v3-RoleCode-cz")
 
-//* include codes from system https://hl7.cz/fhir/CodeSystem/v3-role-code-cz|1.0.0
+//* include codes from system https://terminology.hl7cr.eu/CodeSystem/v3-role-code-cz|1.0.0
 //* include codes from system $v3-RoleCode where concept is-a #_PersonalRelationshipRoleType
 //* include $v3-RoleCode#NOK
 //* exclude $v3-RoleCode#_PersonalRelationshipRoleType

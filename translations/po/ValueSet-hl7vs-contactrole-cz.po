@@ -1,0 +1,41 @@
+
+# A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ValueSet.name
+msgid "Hl7vs_contactrole_cz"
+msgstr ""
+
+# A short, descriptive, user-friendly title for the value set.
+#: ValueSet.title
+msgid "Contact Role (CZ)"
+msgstr ""
+
+# The name of the organization or individual that published the value set.
+#: ValueSet.publisher
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "HL7 Czech Republic"
+msgstr ""
+
+# A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+#: ValueSet.description
+msgid "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"
+msgstr ""
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Czechia"
+msgstr ""
+
+# A copyright statement relating to the value set and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the value set.
+#: ValueSet.copyright
+msgid "HL7 International"
+msgstr ""
+
+# The version of the code system that the codes are selected from, or the special version '*' for all versions.
+#: ValueSet.compose.include.version
+msgid "2.0.0"
+msgstr ""
+

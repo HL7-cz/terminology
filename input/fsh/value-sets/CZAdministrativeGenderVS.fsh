@@ -4,7 +4,7 @@ Title: "Administrative  Gender (CZ)"
 Description: "Pohlaví pro administrativní účely. (Gender for administrative purposes)"
 //* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Gender for administrative purposes"
-* ^url = "https://hl7.cz/fhir/ValueSet/administrative-gender-cz"
+* ^url = "https://terminology.hl7cr.eu/ValueSet/administrative-gender-cz"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
@@ -16,7 +16,7 @@ Description: "Pohlaví pro administrativní účely. (Gender for administrative 
 //* ^compose.property[0] = "display"
 //* ^compose.property[+] = "definition"
 
-* insert ValueSetSupplementRule("https://hl7.cz/fhir/CodeSystem/administrative-gender-cz--1.0.0")
+* insert ValueSetSupplementRule("https://terminology.hl7cr.eu/CodeSystem/administrative-gender-cz")
 
 
 * include codes from system $administrative-gender

@@ -1,0 +1,1481 @@
+{
+  "id" : "ValueSet-passport-NS-VS",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "cs",
+      "entries" : [
+        {
+          "id" : "ValueSet.name",
+          "context" : "A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "PassportNSVS",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.title",
+          "context" : "A short, descriptive, user-friendly title for the value set.",
+          "source" : "Standard namespaces for passports",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.publisher",
+          "context" : "The name of the organization or individual that published the value set.",
+          "source" : "HL7 Czech Republic",
+          "target" : null
+        },
+        {
+          "id" : "ContactDetail.name",
+          "context" : "The name of an individual to contact.",
+          "source" : "HL7 Czech Republic",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.description",
+          "context" : "A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.",
+          "source" : "Číselník jmenných prostorů pro pasy. (Passport namespaces.)",
+          "target" : null
+        },
+        {
+          "id" : "Coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "Czechia",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Afghánistán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Albánie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Alžírsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Americká Samoa",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Andorra",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Angola",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Anguilla",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Antarktida",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Antigua a Barbuda",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Argentina",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Arménie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Aruba",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Austrálie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Rakousko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Ázerbájdžán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bahamy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bahrajn",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bangladéš",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Barbados",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bělorusko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Belgie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Belize",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Benin",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bermudy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bhútán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bolívie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bonaire, Svatý Eustach a Saba",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bosna a Hercegovina",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Botswana",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bouvetův ostrov",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Brazílie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Britské indickooceánské území",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Brunej",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Bulharsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Burkina Faso",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Burundi",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kambodža",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kamerun",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kanada",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kajmanské ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Středoafrická republika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Čad",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Chile",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Čína",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Vánoční ostrov",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kokosové (Keelingovy) ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kolumbie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Komory",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Konžská republika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Cookovy ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kostarika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Chorvatsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kuba",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Curaçao",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kypr",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Česko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Pobřeží slonoviny",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Dánsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Džibutsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Dominika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Dominikánská republika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Ekvádor",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Egypt",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Salvador",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Rovníková Guinea",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Eritrea",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Estonsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Etiopie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Falklandy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Faerské ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Fidži",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Finsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Francie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Francouzská Guyana",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Francouzská Polynésie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Francouzská jižní a antarktická území",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Gabon",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Gambie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Gruzie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Německo",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Ghana",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Gibraltar",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Řecko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Grónsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Grenada",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guadeloupe",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guam",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guatemala",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guernsey",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guinea",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guinea-Bissau",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Guyana",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Haiti",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Heardův ostrov a MacDonaldovy ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Vatikán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Honduras",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Hongkong",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Maďarsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Island",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Indie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Indonésie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Írán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Irák",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Irsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Man",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Izrael",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Itálie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jamajka",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Japonsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jersey",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jordánsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kazachstán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Keňa",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kiribati",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Korejská lidově demokratická republika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kuvajt",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Kyrgyzstán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Laos",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Lotyšsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Libanon",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Lesotho",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Libérie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Libye",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Lichtenštejnsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Litva",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Lucembursko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Macao",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Madagaskar",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Malawi",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Malajsie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Maledivy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mali",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Malta",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Marshallovy ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Martinik",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mauritánie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mauricius",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mayotte",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mexiko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mikronésie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Monako",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mongolsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Černá Hora",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Montserrat",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Maroko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Mosambik",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Myanmar",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Namibie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nauru",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nepál",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nizozemsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nová Kaledonie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nový Zéland",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nikaragua",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Niger",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Nigérie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Niue",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Norfolk",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Severní Mariany",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Norsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Omán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Pákistán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Palau",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Palestina",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Panama",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Papua Nová Guinea",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Paraguay",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Peru",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Filipíny",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Pitcairn",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Polsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Portugalsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Portoriko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Katar",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Rumunsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Rusko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Rwanda",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Réunion",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Bartoloměj",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatá Helena",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Kryštof a Nevis",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatá Lucie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Martin (FR)",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Saint Pierre a Miquelon",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Vincenc a Grenadiny",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Samoa",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: San Marino",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Tomáš a Princův ostrov",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Saúdská Arábie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Senegal",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Srbsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Seychely",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Sierra Leone",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Singapur",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Svatý Martin (NL)",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Slovensko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Slovinsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Šalomounovy ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Somálsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jižní Afrika",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jižní Georgie a Jižní Sandwichovy ostrovy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jižní Súdán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Španělsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Šrí Lanka",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Súdán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Surinam",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Špicberky a Jan Mayen",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Švédsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Švýcarsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Sýrie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Tádžikistán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Thajsko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Východní Timor",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Togo",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Tokelau",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Tonga",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Trinidad a Tobago",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Tunisko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Turkmenistán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Turks a Caicos",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Tuvalu",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Turecko",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Uganda",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Ukrajina",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Spojené arabské emiráty",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Velká Británie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Menší odlehlé ostrovy USA",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Spojené státy",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Uruguay",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Uzbekistán",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Vanuatu",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Venezuela",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Vietnam",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Wallis a Futuna",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Západní Sahara",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Jemen",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Zambie",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Zimbabwe",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "Pas: Alandy",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}
