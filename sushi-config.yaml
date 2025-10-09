@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.cz.terminology
+id: hl7.fhir.cz.terminology
 canonical: https://terminology.hl7cr.eu
 name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
