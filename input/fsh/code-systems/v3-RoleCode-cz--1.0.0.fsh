@@ -19,10 +19,12 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"
 // * ^property[=].description = "The internal identifier for the concept in the HL7 Access database repository."
 // * ^property[=].type = #code
+/*
 * ^property[+].code = #notSelectable
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
 * ^property[=].description = "Not Selectable"
 * ^property[=].type = #boolean
+ */
 * ^property[+].code = #rim-ClassifiesClassCode
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode"
 * ^property[=].description = "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values."
@@ -792,8 +794,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #_ContactRoleType ^designation[=].value = "ContactRoleType"
 //* #_ContactRoleType ^property[0].code = #internalId
 //* #_ContactRoleType ^property[=].valueCode = #21122
-* #_ContactRoleType ^property[+].code = #notSelectable
-* #_ContactRoleType ^property[=].valueBoolean = true
+//* #_ContactRoleType ^property[+].code = #notSelectable
+//* #_ContactRoleType ^property[=].valueBoolean = true
 
 * #_PersonalRelationshipRoleType "PersonalRelationshipRoleType"
 * #_PersonalRelationshipRoleType ^definition = """Typy osobních vztahů pro kód role \"PRN\“"""
@@ -802,5 +804,5 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #_PersonalRelationshipRoleType ^designation[=].value = "PersonalRelationshipRoleType"
 //* #_PersonalRelationshipRoleType ^property[0].code = #internalId
 //* #_PersonalRelationshipRoleType ^property[=].valueCode = #21131
-* #_PersonalRelationshipRoleType ^property[+].code = #notSelectable
-* #_PersonalRelationshipRoleType ^property[=].valueBoolean = true
+//* #_PersonalRelationshipRoleType ^property[+].code = #notSelectable
+//* #_PersonalRelationshipRoleType ^property[=].valueBoolean = true

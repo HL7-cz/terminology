@@ -23,10 +23,12 @@ Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 tabl
 //* ^property[=].description = "Version of HL7 in which the code was deprecated"
 //* ^property[=].type = #code
 
+/*
 * ^property[+].code = #notSelectable
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
 * ^property[=].description = "Not Selectable"
 * ^property[=].type = #boolean
+*/
 //* ^property[+].code = #preferredForLanguage
 //* ^property[=].type = #string
 * #C "emergentní kontakt"
@@ -53,8 +55,8 @@ Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 tabl
 * #F ^designation[+].language = #en
 * #F ^designation[=].use.code = #display
 * #F ^designation[=].value = "Federal Agency"
-* #F ^property[0].code = #notSelectable
-* #F ^property[=].valueBoolean = true
+//* #F ^property[0].code = #notSelectable
+//* #F ^property[=].valueBoolean = true
 * #I "pojišťovna"
 * #I ^definition = "Pojišťovna"
 * #I ^designation[0].language = #en
