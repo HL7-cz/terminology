@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cz.terminology
-canonical: https://terminology.hl7cr.eu
+canonical: https://terminology.hl7.cz
 name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
@@ -14,8 +14,8 @@ fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-#jurisdiction: urn:iso:std:iso:3166#CZ "Czechia" # https://www.hl7.org/fhir/valueset-jurisdiction.html
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#203 "Czechia"
+jurisdiction: urn:iso:std:iso:3166#CZ "Czechia" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+#jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#203 "Czechia"
 publisher:
   name: HL7 Czech Republic
   url: https://www.hl7.cz/
@@ -90,9 +90,9 @@ pages:
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   special-url:
 # HL7 Code systems
-    # - https://terminology.hl7cr.eu/CodeSystem/v2-0131-cz--1.0.0
-    # - https://terminology.hl7cr.eu/CodeSystem/administrative-gender-cz--1.0.0
-    # - https://terminology.hl7cr.eu/CodeSystem/v3-role-code-cz
+    # - https://terminology.hl7.cz/CodeSystem/v2-0131-cz--1.0.0
+    # - https://terminology.hl7.cz/CodeSystem/administrative-gender-cz--1.0.0
+    # - https://terminology.hl7.cz/CodeSystem/v3-role-code-cz
 
 # NCEZ Code systems
 #    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
@@ -102,10 +102,10 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://ncez.mzcr.cz/CodeSystem/dlp-atc
 
 # HL7 Valuesets
-    # - https://terminology.hl7cr.eu/ValueSet/administrative-gender-cz
-    # - https://terminology.hl7cr.eu/ValueSet/personal-relationship
-    # - https://terminology.hl7cr.eu/ValueSet/hl7vs-contact-and-relationship-cz
-    # - https://terminology.hl7cr.eu/ValueSet/contactrole-cz
+    # - https://terminology.hl7.cz/ValueSet/administrative-gender-cz
+    # - https://terminology.hl7.cz/ValueSet/personal-relationship
+    # - https://terminology.hl7.cz/ValueSet/hl7vs-contact-and-relationship-cz
+    # - https://terminology.hl7.cz/ValueSet/contactrole-cz
 
 # NCEZ valuesets
     - https://ncez.mzcr.cz/fhir/ValueSet/nrzp-povolani-vs
@@ -114,8 +114,8 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://ncez.mzcr.cz/fhir/ValueSet/cz-drzar-vs
 
   # special-url-base:
-    #- https://terminology.hl7cr.eu/CodeSystem
-    #- https://terminology.hl7cr.eu/ValueSet
+    #- https://terminology.hl7.cz/CodeSystem
+    #- https://terminology.hl7.cz/ValueSet
 
 #  generate-version:
 #    - r4
