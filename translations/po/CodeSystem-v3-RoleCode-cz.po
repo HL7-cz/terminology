@@ -31,11 +31,6 @@ msgstr ""
 
 # A description of the property- why it is defined, and how its value might be used.
 #: CodeSystem.property.description
-msgid "Not Selectable"
-msgstr ""
-
-# A description of the property- why it is defined, and how its value might be used.
-#: CodeSystem.property.description
 msgid "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values."
 msgstr ""
 

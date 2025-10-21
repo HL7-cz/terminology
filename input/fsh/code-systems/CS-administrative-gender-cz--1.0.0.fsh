@@ -6,7 +6,7 @@ Description: "Pohlaví osoby používané pro administrativní účely. The gend
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/administrative-gender-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 //* ^extension[=].valueCode = #executable
-* ^url = "https://terminology.hl7cr.eu/CodeSystem/administrative-gender-cz"
+* ^url = "https://terminology.hl7.cz/CodeSystem/administrative-gender-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft

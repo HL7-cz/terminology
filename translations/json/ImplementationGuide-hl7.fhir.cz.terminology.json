@@ -56,6 +56,30 @@
         {
           "id" : "ImplementationGuide.definition.resource.name",
           "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "ATC CZ",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Contact and Relationship (CZ)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
           "source" : "Contact Role (CZ supplement)",
           "target" : null
         },
@@ -75,18 +99,6 @@
           "id" : "ImplementationGuide.definition.resource.description",
           "context" : "A description of the reason that a resource has been included in the implementation guide.",
           "source" : "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)",
-          "target" : null
-        },
-        {
-          "id" : "ImplementationGuide.definition.resource.name",
-          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
-          "source" : "Contatct and Relationship (CZ)",
-          "target" : null
-        },
-        {
-          "id" : "ImplementationGuide.definition.resource.description",
-          "context" : "A description of the reason that a resource has been included in the implementation guide.",
-          "source" : "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.",
           "target" : null
         },
         {

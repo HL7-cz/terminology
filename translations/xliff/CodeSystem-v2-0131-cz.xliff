@@ -45,13 +45,6 @@
         <source>Czechia</source>
         <target></target>
       </trans-unit>
-      <trans-unit id="CodeSystem-v2-0131-cz" resname="CodeSystem.property.description">
-             <notes>
-               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
-             </notes>
-        <source>Not Selectable</source>
-        <target></target>
-      </trans-unit>
       <trans-unit id="CodeSystem-v2-0131-cz" resname="CodeSystem.concept.display">
              <notes>
                <note id="n1">A human readable string that is the recommended default way to present this concept to a user.</note>

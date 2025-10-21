@@ -3,7 +3,7 @@ Id: contact-and-relationship-cz
 Title: "Contact and Relationship (CZ)"
 Description: "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."
 * ^language = #cs
-* ^url = "https://terminology.hl7cr.eu/ValueSet/contact-and-relationship-cz"
+* ^url = "https://terminology.hl7.cz/ValueSet/contact-and-relationship-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #active

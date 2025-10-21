@@ -41,6 +41,26 @@ msgstr ""
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
+msgid "ATC CZ"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Contact and Relationship (CZ)"
+msgstr ""
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."
+msgstr ""
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
 msgid "Contact Role (CZ supplement)"
 msgstr ""
 
@@ -57,16 +77,6 @@ msgstr ""
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"
-msgstr ""
-
-# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
-#: ImplementationGuide.definition.resource.name
-msgid "Contatct and Relationship (CZ)"
-msgstr ""
-
-# A description of the reason that a resource has been included in the implementation guide.
-#: ImplementationGuide.definition.resource.description
-msgid "Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role."
 msgstr ""
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).

@@ -29,11 +29,6 @@ msgstr ""
 msgid "Czechia"
 msgstr ""
 
-# A description of the property- why it is defined, and how its value might be used.
-#: CodeSystem.property.description
-msgid "Not Selectable"
-msgstr ""
-
 # A human readable string that is the recommended default way to present this concept to a user.
 #: CodeSystem.concept.display
 msgid "emergentní kontakt"

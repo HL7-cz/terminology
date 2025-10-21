@@ -7,7 +7,7 @@ Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 tabl
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 //* ^extension[=].valueCode = #executable
-* ^url = "https://terminology.hl7cr.eu/CodeSystem/v2-0131-cz"
+* ^url = "https://terminology.hl7.cz/CodeSystem/v2-0131-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft

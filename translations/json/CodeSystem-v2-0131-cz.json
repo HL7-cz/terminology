@@ -42,12 +42,6 @@
           "target" : null
         },
         {
-          "id" : "CodeSystem.property.description",
-          "context" : "A description of the property- why it is defined, and how its value might be used.",
-          "source" : "Not Selectable",
-          "target" : null
-        },
-        {
           "id" : "CodeSystem.concept.display",
           "context" : "A human readable string that is the recommended default way to present this concept to a user.",
           "source" : "emergentní kontakt",

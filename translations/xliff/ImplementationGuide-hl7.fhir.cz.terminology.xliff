@@ -63,6 +63,34 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>ATC CZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Czech national version of the Anatomical Therapeutical Chemical (ATC) code system.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Contact and Relationship (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Contact Role (CZ supplement)</source>
         <target></target>
       </trans-unit>
@@ -85,20 +113,6 @@
                <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
              </notes>
         <source>Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)</source>
-        <target></target>
-      </trans-unit>
-      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
-             <notes>
-               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
-             </notes>
-        <source>Contatct and Relationship (CZ)</source>
-        <target></target>
-      </trans-unit>
-      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
-             <notes>
-               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
-             </notes>
-        <source>Číselník vztahů a rolí kontaktních osob k pacientovi. Číselník zahrnuje dva samostatné číselníky: relationship a contact role.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
