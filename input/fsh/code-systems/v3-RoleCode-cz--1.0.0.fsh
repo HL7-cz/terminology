@@ -15,16 +15,16 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * ^content = #supplement
 * ^supplements = $v3-RoleCode //"http://terminology.hl7.org/CodeSystem/v3-RoleCode"
 
-// * ^property[+].code = #v3-internal-id
+//* ^property[+].code = #internalId
 // * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"
 // * ^property[=].description = "The internal identifier for the concept in the HL7 Access database repository."
 // * ^property[=].type = #code
-/*
+
 * ^property[+].code = #notSelectable
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
 * ^property[=].description = "Not Selectable"
 * ^property[=].type = #boolean
- */
+
 * ^property[+].code = #rim-ClassifiesClassCode
 * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode"
 * ^property[=].description = "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values."
@@ -46,8 +46,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #AUNT ^designation[+].language = #en
 * #AUNT ^designation[=].use.code = #display
 * #AUNT ^designation[=].value = "aunt"
-// * #AUNT ^property[0].code = #v3-internal-id
-// * #AUNT ^property[=].valueCode = #19748
+//* #AUNT ^property[0].code = #v3-internal-id
+//* #AUNT ^property[=].valueCode = #19748
 * #AUNT ^property[+].code = #subsumedBy
 * #AUNT ^property[=].valueCode = #EXT
 
@@ -59,8 +59,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #BRO ^designation[+].language = #en
 * #BRO ^designation[=].use.code = #display
 * #BRO ^designation[=].value = "brother"
-// * #BRO ^property[0].code = #internalId
-// * #BRO ^property[=].valueCode = #16359
+//* #BRO ^property[0].code = #internalId
+//* #BRO ^property[=].valueCode = #16359
 * #BRO ^property[+].code = #subsumedBy
 * #BRO ^property[=].valueCode = #SIB
 
@@ -72,8 +72,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #BROINLAW ^designation[+].language = #en
 * #BROINLAW ^designation[=].use.code = #display
 * #BROINLAW ^designation[=].value = "brother-in-law"
-// * #BROINLAW ^property[0].code = #internalId
-// * #BROINLAW ^property[=].valueCode = #19783
+//* #BROINLAW ^property[0].code = #internalId
+//* #BROINLAW ^property[=].valueCode = #19783
 * #BROINLAW ^property[+].code = #subsumedBy
 * #BROINLAW ^property[=].valueCode = #SIBINLAW
 
@@ -85,8 +85,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #CHILD ^designation[+].language = #en
 * #CHILD ^designation[=].use.code = #display
 * #CHILD ^designation[=].value = "child"
-// * #CHILD ^property[0].code = #internalId
-// * #CHILD ^property[=].valueCode = #16360
+//* #CHILD ^property[0].code = #internalId
+//* #CHILD ^property[=].valueCode = #16360
 * #CHILD ^property[+].code = #subsumedBy
 * #CHILD ^property[=].valueCode = #FAMMEMB
 
@@ -98,8 +98,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #CHLDADOPT ^designation[+].language = #en
 * #CHLDADOPT ^designation[=].use.code = #display
 * #CHLDADOPT ^designation[=].value = "adopted child"
-// * #CHLDADOPT ^property[0].code = #internalId
-// * #CHLDADOPT ^property[=].valueCode = #11564
+//* #CHLDADOPT ^property[0].code = #internalId
+//* #CHLDADOPT ^property[=].valueCode = #11564
 * #CHLDADOPT ^property[+].code = #subsumedBy
 * #CHLDADOPT ^property[=].valueCode = #CHILD
 
@@ -111,8 +111,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #CHLDFOST ^designation[+].language = #en
 * #CHLDFOST ^designation[=].use.code = #display
 * #CHLDFOST ^designation[=].value = "foster child"
-// * #CHLDFOST ^property[0].code = #internalId
-// * #CHLDFOST ^property[=].valueCode = #11565
+//* #CHLDFOST ^property[0].code = #internalId
+//* #CHLDFOST ^property[=].valueCode = #11565
 * #CHLDFOST ^property[+].code = #subsumedBy
 * #CHLDFOST ^property[=].valueCode = #CHILD
 * #CHLDINLAW "zeť/snacha"
@@ -123,8 +123,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #CHLDINLAW ^designation[+].language = #en
 * #CHLDINLAW ^designation[=].use.code = #display
 * #CHLDINLAW ^designation[=].value = "child-in-law"
-// * #CHLDINLAW ^property[0].code = #internalId
-// * #CHLDINLAW ^property[=].valueCode = #11563
+//* #CHLDINLAW ^property[0].code = #internalId
+//* #CHLDINLAW ^property[=].valueCode = #11563
 * #CHLDINLAW ^property[+].code = #subsumedBy
 * #CHLDINLAW ^property[=].valueCode = #INLAW
 * #COUSN "sestřenice/bratranec"
@@ -135,8 +135,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #COUSN ^designation[+].language = #en
 * #COUSN ^designation[=].use.code = #display
 * #COUSN ^designation[=].value = "cousin"
-// * #COUSN ^property[0].code = #internalId
-// * #COUSN ^property[=].valueCode = #19749
+//* #COUSN ^property[0].code = #internalId
+//* #COUSN ^property[=].valueCode = #19749
 * #COUSN ^property[+].code = #subsumedBy
 * #COUSN ^property[=].valueCode = #EXT
 * #DAU "vlastní dcera"
@@ -147,8 +147,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DAU ^designation[+].language = #en
 * #DAU ^designation[=].use.code = #display
 * #DAU ^designation[=].value = "natural daughter"
-// * #DAU ^property[0].code = #internalId
-// * #DAU ^property[=].valueCode = #16361
+//* #DAU ^property[0].code = #internalId
+//* #DAU ^property[=].valueCode = #16361
 * #DAU ^property[+].code = #subsumedBy
 * #DAU ^property[=].valueCode = #DAUC
 * #DAU ^property[+].code = #subsumedBy
@@ -161,8 +161,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DAUADOPT ^designation[+].language = #en
 * #DAUADOPT ^designation[=].use.code = #display
 * #DAUADOPT ^designation[=].value = "adopted daughter"
-// * #DAUADOPT ^property[0].code = #internalId
-// * #DAUADOPT ^property[=].valueCode = #19756
+//* #DAUADOPT ^property[0].code = #internalId
+//* #DAUADOPT ^property[=].valueCode = #19756
 * #DAUADOPT ^property[+].code = #subsumedBy
 * #DAUADOPT ^property[=].valueCode = #CHLDADOPT
 * #DAUADOPT ^property[+].code = #subsumedBy
@@ -175,8 +175,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DAUC ^designation[+].language = #en
 * #DAUC ^designation[=].use.code = #display
 * #DAUC ^designation[=].value = "daughter"
-// * #DAUC ^property[0].code = #internalId
-// * #DAUC ^property[=].valueCode = #22915
+//* #DAUC ^property[0].code = #internalId
+//* #DAUC ^property[=].valueCode = #22915
 * #DAUC ^property[+].code = #subsumedBy
 * #DAUC ^property[=].valueCode = #CHILD
 * #DAUFOST "dcera v náhradní péči (kromě osvojení)"
@@ -187,8 +187,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DAUFOST ^designation[+].language = #en
 * #DAUFOST ^designation[=].use.code = #display
 * #DAUFOST ^designation[=].value = "foster daughter"
-// * #DAUFOST ^property[0].code = #internalId
-// * #DAUFOST ^property[=].valueCode = #19758
+//* #DAUFOST ^property[0].code = #internalId
+//* #DAUFOST ^property[=].valueCode = #19758
 * #DAUFOST ^property[+].code = #subsumedBy
 * #DAUFOST ^property[=].valueCode = #CHLDFOST
 * #DAUFOST ^property[+].code = #subsumedBy
@@ -201,8 +201,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DAUINLAW ^designation[+].language = #en
 * #DAUINLAW ^designation[=].use.code = #display
 * #DAUINLAW ^designation[=].value = "daughter in-law"
-// * #DAUINLAW ^property[0].code = #internalId
-// * #DAUINLAW ^property[=].valueCode = #19760
+//* #DAUINLAW ^property[0].code = #internalId
+//* #DAUINLAW ^property[=].valueCode = #19760
 * #DAUINLAW ^property[+].code = #subsumedBy
 * #DAUINLAW ^property[=].valueCode = #CHLDINLAW
 * #DOMPART "druh/družka"
@@ -213,8 +213,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #DOMPART ^designation[+].language = #en
 * #DOMPART ^designation[=].use.code = #display
 * #DOMPART ^designation[=].value = "domestic partner"
-// * #DOMPART ^property[0].code = #internalId
-// * #DOMPART ^property[=].valueCode = #19754
+//* #DOMPART ^property[0].code = #internalId
+//* #DOMPART ^property[=].valueCode = #19754
 * #DOMPART ^property[+].code = #subsumedBy
 * #DOMPART ^property[=].valueCode = #SIGOTHR
 
@@ -226,8 +226,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #EXT ^designation[+].language = #en
 * #EXT ^designation[=].use.code = #display
 * #EXT ^designation[=].value = "extended family member"
-// * #EXT ^property[0].code = #internalId
-// * #EXT ^property[=].valueCode = #22916
+//* #EXT ^property[0].code = #internalId
+//* #EXT ^property[=].valueCode = #22916
 * #EXT ^property[+].code = #subsumedBy
 * #EXT ^property[=].valueCode = #FAMMEMB
 
@@ -239,8 +239,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #FAMMEMB ^designation[+].language = #en
 * #FAMMEMB ^designation[=].use.code = #display
 * #FAMMEMB ^designation[=].value = "family member"
-// * #FAMMEMB ^property[0].code = #internalId
-// * #FAMMEMB ^property[=].valueCode = #17926
+//* #FAMMEMB ^property[0].code = #internalId
+//* #FAMMEMB ^property[=].valueCode = #17926
 * #FAMMEMB ^property[+].code = #subsumedBy
 * #FAMMEMB ^property[=].valueCode = #_PersonalRelationshipRoleType
 
@@ -252,8 +252,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #FRND ^designation[+].language = #en
 * #FRND ^designation[=].use.code = #display
 * #FRND ^designation[=].value = "unrelated friend"
-// * #FRND ^property[0].code = #internalId
-// * #FRND ^property[=].valueCode = #19737
+//* #FRND ^property[0].code = #internalId
+//* #FRND ^property[=].valueCode = #19737
 * #FRND ^property[+].code = #subsumedBy
 * #FRND ^property[=].valueCode = #_PersonalRelationshipRoleType
 * #FTH "otec"
@@ -264,8 +264,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #FTH ^designation[+].language = #en
 * #FTH ^designation[=].use.code = #display
 * #FTH ^designation[=].value = "father"
-// * #FTH ^property[0].code = #internalId
-// * #FTH ^property[=].valueCode = #16348
+//* #FTH ^property[0].code = #internalId
+//* #FTH ^property[=].valueCode = #16348
 * #FTH ^property[+].code = #subsumedBy
 * #FTH ^property[=].valueCode = #PRN
 * #FTHINLAW "tchán"
@@ -276,8 +276,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #FTHINLAW ^designation[+].language = #en
 * #FTHINLAW ^designation[=].use.code = #display
 * #FTHINLAW ^designation[=].value = "father-in-law"
-// * #FTHINLAW ^property[0].code = #internalId
-// * #FTHINLAW ^property[=].valueCode = #19771
+//* #FTHINLAW ^property[0].code = #internalId
+//* #FTHINLAW ^property[=].valueCode = #19771
 * #FTHINLAW ^property[+].code = #subsumedBy
 * #FTHINLAW ^property[=].valueCode = #PRNINLAW
 * #GGRFTH "pradědeček"
@@ -288,8 +288,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GGRFTH ^designation[+].language = #en
 * #GGRFTH ^designation[=].use.code = #display
 * #GGRFTH ^designation[=].value = "great grandfather"
-// * #GGRFTH ^property[0].code = #internalId
-// * #GGRFTH ^property[=].valueCode = #19740
+//* #GGRFTH ^property[0].code = #internalId
+//* #GGRFTH ^property[=].valueCode = #19740
 * #GGRFTH ^property[+].code = #subsumedBy
 * #GGRFTH ^property[=].valueCode = #GGRPRN
 * #GGRMTH "prababička"
@@ -300,8 +300,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GGRMTH ^designation[+].language = #en
 * #GGRMTH ^designation[=].use.code = #display
 * #GGRMTH ^designation[=].value = "great grandmother"
-// * #GGRMTH ^property[0].code = #internalId
-// * #GGRMTH ^property[=].valueCode = #19741
+//* #GGRMTH ^property[0].code = #internalId
+//* #GGRMTH ^property[=].valueCode = #19741
 * #GGRMTH ^property[+].code = #subsumedBy
 * #GGRMTH ^property[=].valueCode = #GGRPRN
 * #GGRPRN "praprarodič"
@@ -312,8 +312,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GGRPRN ^designation[+].language = #en
 * #GGRPRN ^designation[=].use.code = #display
 * #GGRPRN ^designation[=].value = "great grandparent"
-// * #GGRPRN ^property[0].code = #internalId
-// * #GGRPRN ^property[=].valueCode = #19739
+//* #GGRPRN ^property[0].code = #internalId
+//* #GGRPRN ^property[=].valueCode = #19739
 * #GGRPRN ^property[+].code = #subsumedBy
 * #GGRPRN ^property[=].valueCode = #EXT
 * #GRFTH "dědeček"
@@ -324,8 +324,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRFTH ^designation[+].language = #en
 * #GRFTH ^designation[=].use.code = #display
 * #GRFTH ^designation[=].value = "grandfather"
-// * #GRFTH ^property[0].code = #internalId
-// * #GRFTH ^property[=].valueCode = #16351
+//* #GRFTH ^property[0].code = #internalId
+//* #GRFTH ^property[=].valueCode = #16351
 * #GRFTH ^property[+].code = #subsumedBy
 * #GRFTH ^property[=].valueCode = #GRPRN
 * #GRMTH "babička"
@@ -336,8 +336,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRMTH ^designation[+].language = #en
 * #GRMTH ^designation[=].use.code = #display
 * #GRMTH ^designation[=].value = "grandmother"
-// * #GRMTH ^property[0].code = #internalId
-// * #GRMTH ^property[=].valueCode = #16350
+//* #GRMTH ^property[0].code = #internalId
+//* #GRMTH ^property[=].valueCode = #16350
 * #GRMTH ^property[+].code = #subsumedBy
 * #GRMTH ^property[=].valueCode = #GRPRN
 * #GRNDCHILD "vnouče"
@@ -348,8 +348,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRNDCHILD ^designation[+].language = #en
 * #GRNDCHILD ^designation[=].use.code = #display
 * #GRNDCHILD ^designation[=].value = "grandchild"
-// * #GRNDCHILD ^property[0].code = #internalId
-// * #GRNDCHILD ^property[=].valueCode = #19745
+//* #GRNDCHILD ^property[0].code = #internalId
+//* #GRNDCHILD ^property[=].valueCode = #19745
 * #GRNDCHILD ^property[+].code = #subsumedBy
 * #GRNDCHILD ^property[=].valueCode = #EXT
 * #GRNDDAU "vnučka"
@@ -360,8 +360,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRNDDAU ^designation[+].language = #en
 * #GRNDDAU ^designation[=].use.code = #display
 * #GRNDDAU ^designation[=].value = "granddaughter"
-// * #GRNDDAU ^property[0].code = #internalId
-// * #GRNDDAU ^property[=].valueCode = #19746
+//* #GRNDDAU ^property[0].code = #internalId
+//* #GRNDDAU ^property[=].valueCode = #19746
 * #GRNDDAU ^property[+].code = #subsumedBy
 * #GRNDDAU ^property[=].valueCode = #GRNDCHILD
 * #GRNDSON "vnuk"
@@ -372,8 +372,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRNDSON ^designation[+].language = #en
 * #GRNDSON ^designation[=].use.code = #display
 * #GRNDSON ^designation[=].value = "grandson"
-// * #GRNDSON ^property[0].code = #internalId
-// * #GRNDSON ^property[=].valueCode = #19747
+//* #GRNDSON ^property[0].code = #internalId
+//* #GRNDSON ^property[=].valueCode = #19747
 * #GRNDSON ^property[+].code = #subsumedBy
 * #GRNDSON ^property[=].valueCode = #GRNDCHILD
 * #GRPRN "prarodič"
@@ -384,8 +384,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #GRPRN ^designation[+].language = #en
 * #GRPRN ^designation[=].use.code = #display
 * #GRPRN ^designation[=].value = "grandparent"
-// * #GRPRN ^property[0].code = #internalId
-// * #GRPRN ^property[=].valueCode = #16349
+//* #GRPRN ^property[0].code = #internalId
+//* #GRPRN ^property[=].valueCode = #16349
 * #GRPRN ^property[+].code = #subsumedBy
 * #GRPRN ^property[=].valueCode = #EXT
 * #HUSB "manžel"
@@ -396,8 +396,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #HUSB ^designation[+].language = #en
 * #HUSB ^designation[=].use.code = #display
 * #HUSB ^designation[=].value = "husband"
-// * #HUSB ^property[0].code = #internalId
-// * #HUSB ^property[=].valueCode = #19743
+//* #HUSB ^property[0].code = #internalId
+//* #HUSB ^property[=].valueCode = #19743
 * #HUSB ^property[+].code = #subsumedBy
 * #HUSB ^property[=].valueCode = #SPS
 
@@ -409,8 +409,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #INLAW ^designation[+].language = #en
 * #INLAW ^designation[=].use.code = #display
 * #INLAW ^designation[=].value = "inlaw"
-// * #INLAW ^property[0].code = #internalId
-// * #INLAW ^property[=].valueCode = #23601
+//* #INLAW ^property[0].code = #internalId
+//* #INLAW ^property[=].valueCode = #23601
 * #INLAW ^property[+].code = #subsumedBy
 * #INLAW ^property[=].valueCode = #EXT
 
@@ -422,8 +422,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #MTH ^designation[+].language = #en
 * #MTH ^designation[=].use.code = #display
 * #MTH ^designation[=].value = "mother"
-// * #MTH ^property[0].code = #internalId
-// * #MTH ^property[=].valueCode = #16347
+//* #MTH ^property[0].code = #internalId
+//* #MTH ^property[=].valueCode = #16347
 * #MTH ^property[+].code = #subsumedBy
 * #MTH ^property[=].valueCode = #PRN
 * #MTHINLAW "tchýně"
@@ -434,8 +434,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #MTHINLAW ^designation[+].language = #en
 * #MTHINLAW ^designation[=].use.code = #display
 * #MTHINLAW ^designation[=].value = "mother-in-law"
-// * #MTHINLAW ^property[0].code = #internalId
-// * #MTHINLAW ^property[=].valueCode = #19772
+//* #MTHINLAW ^property[0].code = #internalId
+//* #MTHINLAW ^property[=].valueCode = #19772
 * #MTHINLAW ^property[+].code = #subsumedBy
 * #MTHINLAW ^property[=].valueCode = #PRNINLAW
 * #MTHINLAW ^property[+].code = #synonymCode
@@ -462,8 +462,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NBOR ^designation[+].language = #en
 * #NBOR ^designation[=].use.code = #display
 * #NBOR ^designation[=].value = "neighbor"
-// * #NBOR ^property[0].code = #internalId
-// * #NBOR ^property[=].valueCode = #19738
+//* #NBOR ^property[0].code = #internalId
+//* #NBOR ^property[=].valueCode = #19738
 * #NBOR ^property[+].code = #subsumedBy
 * #NBOR ^property[=].valueCode = #_PersonalRelationshipRoleType
 * #NCHILD "potomek"
@@ -474,8 +474,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NCHILD ^designation[+].language = #en
 * #NCHILD ^designation[=].use.code = #display
 * #NCHILD ^designation[=].value = "natural child"
-// * #NCHILD ^property[0].code = #internalId
-// * #NCHILD ^property[=].valueCode = #17930
+//* #NCHILD ^property[0].code = #internalId
+//* #NCHILD ^property[=].valueCode = #17930
 * #NCHILD ^property[+].code = #subsumedBy
 * #NCHILD ^property[=].valueCode = #CHILD
 * #NEPHEW "synovec"
@@ -486,8 +486,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NEPHEW ^designation[+].language = #en
 * #NEPHEW ^designation[=].use.code = #display
 * #NEPHEW ^designation[=].value = "nephew"
-// * #NEPHEW ^property[0].code = #internalId
-// * #NEPHEW ^property[=].valueCode = #19751
+//* #NEPHEW ^property[0].code = #internalId
+//* #NEPHEW ^property[=].valueCode = #19751
 * #NEPHEW ^property[+].code = #subsumedBy
 * #NEPHEW ^property[=].valueCode = #NIENEPH
 * #NIECE "neteř"
@@ -498,8 +498,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NIECE ^designation[+].language = #en
 * #NIECE ^designation[=].use.code = #display
 * #NIECE ^designation[=].value = "niece"
-// * #NIECE ^property[0].code = #internalId
-// * #NIECE ^property[=].valueCode = #19752
+//* #NIECE ^property[0].code = #internalId
+//* #NIECE ^property[=].valueCode = #19752
 * #NIECE ^property[+].code = #subsumedBy
 * #NIECE ^property[=].valueCode = #NIENEPH
 * #NIENEPH "neteř/synovec"
@@ -510,8 +510,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NIENEPH ^designation[+].language = #en
 * #NIENEPH ^designation[=].use.code = #display
 * #NIENEPH ^designation[=].value = "niece/nephew"
-// * #NIENEPH ^property[0].code = #internalId
-// * #NIENEPH ^property[=].valueCode = #19750
+//* #NIENEPH ^property[0].code = #internalId
+//* #NIENEPH ^property[=].valueCode = #19750
 * #NIENEPH ^property[+].code = #subsumedBy
 * #NIENEPH ^property[=].valueCode = #EXT
 * #NOK "příbuzný"
@@ -522,8 +522,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #NOK ^designation[+].language = #en
 * #NOK ^designation[=].use.code = #display
 * #NOK ^designation[=].value = "next of kin"
-// * #NOK ^property[0].code = #internalId
-// * #NOK ^property[=].valueCode = #12208
+//* #NOK ^property[0].code = #internalId
+//* #NOK ^property[=].valueCode = #12208
 * #NOK ^property[+].code = #subsumedBy
 * #NOK ^property[=].valueCode = #_ContactRoleType
 * #PRN "rodič"
@@ -534,8 +534,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #PRN ^designation[+].language = #en
 * #PRN ^designation[=].use.code = #display
 * #PRN ^designation[=].value = "parent"
-// * #PRN ^property[0].code = #internalId
-// * #PRN ^property[=].valueCode = #16346
+//* #PRN ^property[0].code = #internalId
+//* #PRN ^property[=].valueCode = #16346
 * #PRN ^property[+].code = #subsumedBy
 * #PRN ^property[=].valueCode = #FAMMEMB
 * #PRNINLAW "tchyně/tchán"
@@ -546,8 +546,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #PRNINLAW ^designation[+].language = #en
 * #PRNINLAW ^designation[=].use.code = #display
 * #PRNINLAW ^designation[=].value = "parent in-law"
-// * #PRNINLAW ^property[0].code = #internalId
-// * #PRNINLAW ^property[=].valueCode = #19770
+//* #PRNINLAW ^property[0].code = #internalId
+//* #PRNINLAW ^property[=].valueCode = #19770
 * #PRNINLAW ^property[+].code = #subsumedBy
 * #PRNINLAW ^property[=].valueCode = #INLAW
 * #ROOM "spolubydlící"
@@ -558,8 +558,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #ROOM ^designation[+].language = #en
 * #ROOM ^designation[=].use.code = #display
 * #ROOM ^designation[=].value = "Roommate"
-// * #ROOM ^property[0].code = #internalId
-// * #ROOM ^property[=].valueCode = #16364
+//* #ROOM ^property[0].code = #internalId
+//* #ROOM ^property[=].valueCode = #16364
 * #ROOM ^property[+].code = #subsumedBy
 * #ROOM ^property[=].valueCode = #_PersonalRelationshipRoleType
 
@@ -571,8 +571,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SIB ^designation[+].language = #en
 * #SIB ^designation[=].use.code = #display
 * #SIB ^designation[=].value = "sibling"
-// * #SIB ^property[0].code = #internalId
-// * #SIB ^property[=].valueCode = #11567
+//* #SIB ^property[0].code = #internalId
+//* #SIB ^property[=].valueCode = #11567
 * #SIB ^property[+].code = #subsumedBy
 * #SIB ^property[=].valueCode = #FAMMEMB
 
@@ -597,8 +597,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SIGOTHR ^designation[+].language = #en
 * #SIGOTHR ^designation[=].use.code = #display
 * #SIGOTHR ^designation[=].value = "significant other"
-// * #SIGOTHR ^property[0].code = #internalId
-// * #SIGOTHR ^property[=].valueCode = #19755
+//* #SIGOTHR ^property[0].code = #internalId
+//* #SIGOTHR ^property[=].valueCode = #19755
 * #SIGOTHR ^property[+].code = #subsumedBy
 * #SIGOTHR ^property[=].valueCode = #FAMMEMB
 * #SIS "sestra"
@@ -609,8 +609,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SIS ^designation[+].language = #en
 * #SIS ^designation[=].use.code = #display
 * #SIS ^designation[=].value = "sister"
-// * #SIS ^property[0].code = #internalId
-// * #SIS ^property[=].valueCode = #16358
+//* #SIS ^property[0].code = #internalId
+//* #SIS ^property[=].valueCode = #16358
 * #SIS ^property[+].code = #subsumedBy
 * #SIS ^property[=].valueCode = #SIB
 * #SISINLAW "švagrová"
@@ -621,8 +621,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SISINLAW ^designation[+].language = #en
 * #SISINLAW ^designation[=].use.code = #display
 * #SISINLAW ^designation[=].value = "sister-in-law"
-// * #SISINLAW ^property[0].code = #internalId
-// * #SISINLAW ^property[=].valueCode = #19784
+//* #SISINLAW ^property[0].code = #internalId
+//* #SISINLAW ^property[=].valueCode = #19784
 * #SISINLAW ^property[+].code = #subsumedBy
 * #SISINLAW ^property[=].valueCode = #SIBINLAW
 * #SISINLAW ^property[+].code = #synonymCode
@@ -649,8 +649,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SON ^designation[+].language = #en
 * #SON ^designation[=].use.code = #display
 * #SON ^designation[=].value = "natural son"
-// * #SON ^property[0].code = #internalId
-// * #SON ^property[=].valueCode = #16362
+//* #SON ^property[0].code = #internalId
+//* #SON ^property[=].valueCode = #16362
 * #SON ^property[+].code = #subsumedBy
 * #SON ^property[=].valueCode = #NCHILD
 * #SON ^property[+].code = #subsumedBy
@@ -663,8 +663,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SONADOPT ^designation[+].language = #en
 * #SONADOPT ^designation[=].use.code = #display
 * #SONADOPT ^designation[=].value = "adopted son"
-// * #SONADOPT ^property[0].code = #internalId
-// * #SONADOPT ^property[=].valueCode = #19757
+//* #SONADOPT ^property[0].code = #internalId
+//* #SONADOPT ^property[=].valueCode = #19757
 * #SONADOPT ^property[+].code = #subsumedBy
 * #SONADOPT ^property[=].valueCode = #CHLDADOPT
 * #SONADOPT ^property[+].code = #subsumedBy
@@ -677,8 +677,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SONC ^designation[+].language = #en
 * #SONC ^designation[=].use.code = #display
 * #SONC ^designation[=].value = "son"
-// * #SONC ^property[0].code = #internalId
-// * #SONC ^property[=].valueCode = #22914
+//* #SONC ^property[0].code = #internalId
+//* #SONC ^property[=].valueCode = #22914
 * #SONC ^property[+].code = #subsumedBy
 * #SONC ^property[=].valueCode = #CHILD
 * #SONFOST "syn v náhradní péči (kromě osvojení)"
@@ -689,8 +689,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SONFOST ^designation[+].language = #en
 * #SONFOST ^designation[=].use.code = #display
 * #SONFOST ^designation[=].value = "foster son"
-// * #SONFOST ^property[0].code = #internalId
-// * #SONFOST ^property[=].valueCode = #19759
+//* #SONFOST ^property[0].code = #internalId
+//* #SONFOST ^property[=].valueCode = #19759
 * #SONFOST ^property[+].code = #subsumedBy
 * #SONFOST ^property[=].valueCode = #CHLDFOST
 * #SONFOST ^property[+].code = #subsumedBy
@@ -703,8 +703,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SONINLAW ^designation[+].language = #en
 * #SONINLAW ^designation[=].use.code = #display
 * #SONINLAW ^designation[=].value = "son in-law"
-// * #SONINLAW ^property[0].code = #internalId
-// * #SONINLAW ^property[=].valueCode = #19761
+//* #SONINLAW ^property[0].code = #internalId
+//* #SONINLAW ^property[=].valueCode = #19761
 * #SONINLAW ^property[+].code = #subsumedBy
 * #SONINLAW ^property[=].valueCode = #CHLDINLAW
 * #SPS "manžel/maželka"
@@ -715,8 +715,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #SPS ^designation[+].language = #en
 * #SPS ^designation[=].use.code = #display
 * #SPS ^designation[=].value = "spouse"
-// * #SPS ^property[0].code = #internalId
-// * #SPS ^property[=].valueCode = #19742
+//* #SPS ^property[0].code = #internalId
+//* #SPS ^property[=].valueCode = #19742
 * #SPS ^property[+].code = #subsumedBy
 * #SPS ^property[=].valueCode = #SIGOTHR
 * #STPCHLD "nevlastní dítě"
@@ -727,8 +727,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #STPCHLD ^designation[+].language = #en
 * #STPCHLD ^designation[=].use.code = #display
 * #STPCHLD ^designation[=].value = "step child"
-// * #STPCHLD ^property[0].code = #internalId
-// * #STPCHLD ^property[=].valueCode = #11562
+//* #STPCHLD ^property[0].code = #internalId
+//* #STPCHLD ^property[=].valueCode = #11562
 * #STPCHLD ^property[+].code = #subsumedBy
 * #STPCHLD ^property[=].valueCode = #CHILD
 * #STPDAU "nevlastní dcera"
@@ -739,8 +739,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #STPDAU ^designation[+].language = #en
 * #STPDAU ^designation[=].use.code = #display
 * #STPDAU ^designation[=].value = "stepdaughter"
-// * #STPDAU ^property[0].code = #internalId
-// * #STPDAU ^property[=].valueCode = #19762
+//* #STPDAU ^property[0].code = #internalId
+//* #STPDAU ^property[=].valueCode = #19762
 * #STPDAU ^property[+].code = #subsumedBy
 * #STPDAU ^property[=].valueCode = #DAUC
 * #STPDAU ^property[+].code = #subsumedBy
@@ -753,8 +753,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #STPSON ^designation[+].language = #en
 * #STPSON ^designation[=].use.code = #display
 * #STPSON ^designation[=].value = "stepson"
-// * #STPSON ^property[0].code = #internalId
-// * #STPSON ^property[=].valueCode = #19763
+//* #STPSON ^property[0].code = #internalId
+//* #STPSON ^property[=].valueCode = #19763
 * #STPSON ^property[+].code = #subsumedBy
 * #STPSON ^property[=].valueCode = #SONC
 * #STPSON ^property[+].code = #subsumedBy
@@ -767,8 +767,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #UNCLE ^designation[+].language = #en
 * #UNCLE ^designation[=].use.code = #display
 * #UNCLE ^designation[=].value = "uncle"
-// * #UNCLE ^property[0].code = #internalId
-// * #UNCLE ^property[=].valueCode = #19753
+//* #UNCLE ^property[0].code = #internalId
+//* #UNCLE ^property[=].valueCode = #19753
 * #UNCLE ^property[+].code = #subsumedBy
 * #UNCLE ^property[=].valueCode = #EXT
 * #WIFE "manželka"
@@ -779,8 +779,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #WIFE ^designation[+].language = #en
 * #WIFE ^designation[=].use.code = #display
 * #WIFE ^designation[=].value = "wife"
-// * #WIFE ^property[0].code = #internalId
-// * #WIFE ^property[=].valueCode = #19744
+//* #WIFE ^property[0].code = #internalId
+//* #WIFE ^property[=].valueCode = #19744
 * #WIFE ^property[+].code = #subsumedBy
 * #WIFE ^property[=].valueCode = #SPS
 
@@ -794,8 +794,8 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #_ContactRoleType ^designation[=].value = "ContactRoleType"
 //* #_ContactRoleType ^property[0].code = #internalId
 //* #_ContactRoleType ^property[=].valueCode = #21122
-//* #_ContactRoleType ^property[+].code = #notSelectable
-//* #_ContactRoleType ^property[=].valueBoolean = true
+* #_ContactRoleType ^property[+].code = #notSelectable
+* #_ContactRoleType ^property[=].valueBoolean = true
 
 * #_PersonalRelationshipRoleType "PersonalRelationshipRoleType"
 * #_PersonalRelationshipRoleType ^definition = """Typy osobních vztahů pro kód role \"PRN\“"""
@@ -804,5 +804,5 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * #_PersonalRelationshipRoleType ^designation[=].value = "PersonalRelationshipRoleType"
 //* #_PersonalRelationshipRoleType ^property[0].code = #internalId
 //* #_PersonalRelationshipRoleType ^property[=].valueCode = #21131
-//* #_PersonalRelationshipRoleType ^property[+].code = #notSelectable
-//* #_PersonalRelationshipRoleType ^property[=].valueBoolean = true
+* #_PersonalRelationshipRoleType ^property[+].code = #notSelectable
+* #_PersonalRelationshipRoleType ^property[=].valueBoolean = true
