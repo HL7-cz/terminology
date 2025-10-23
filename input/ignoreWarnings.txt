@@ -17,4 +17,4 @@ Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 
 # Unsupported property value (seems to be tooling error)
-Unsupported property value for a CodeSystem Property: boolean
+# Unsupported property value for a CodeSystem Property: boolean
