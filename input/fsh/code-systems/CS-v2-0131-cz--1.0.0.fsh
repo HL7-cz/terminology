@@ -3,11 +3,7 @@ Id: v2-0131-cz
 Title: "Contact Role (CZ supplement)"
 Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 table 0131 (Contact Role)."
 * ^language = #cs
-//* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-//* ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v2-0131-cz"
-//* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
-//* ^extension[=].valueCode = #executable
-* ^url = "https://terminology.hl7.cz/CodeSystem/v2-0131-cz"
+* ^url = "https://hl7.cz/fhir/terminology/CodeSystem/v2-0131-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft
