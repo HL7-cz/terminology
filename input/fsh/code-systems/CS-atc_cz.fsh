@@ -5,7 +5,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
 * ^url = "https://ncez.mzcr.cz/CodeSystem/dlp-atc"
 * ^version = "1.0.0"
 * ^status = #draft
-* ^content = #complete
+* ^content = #fragment
 * ^hierarchyMeaning = #grouped-by
 * ^publisher = "MZCR Czech Republic"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
