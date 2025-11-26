@@ -1,5 +1,5 @@
 ValueSet: OPNSVS
-Id: OP-NS-VS
+Id: OP-NS
 Description: "National identity card's namespaces (CZ)"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Standard namespaces for national identity card"
@@ -10,6 +10,7 @@ Description: "National identity card's namespaces (CZ)"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
+* ^url = "https://hl7.cz/terminology/ValueSet/OP-NS"
 * insert SetFmmandStatusRule(1, draft)
 
 * $uri#https://hl7.cz/NamingSystem/IdCardNumNS-AFG "OP: Afghánistán"
