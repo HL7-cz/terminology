@@ -49,6 +49,13 @@
              <notes>
                <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
              </notes>
+        <source>Not Selectable</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v3-RoleCode-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
         <source>The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.</source>
         <target></target>
       </trans-unit>

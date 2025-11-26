@@ -6,13 +6,13 @@ Description: "Typ registrujícího lékaře. (Registering healthcare provider se
 //* ^extension[=].valueUrl = "http://demo-web:4200/fhir/ValueSet/registering-provider-service-type-cz"
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
 //* ^extension[=].valueCanonical = "https://ncez.mzcr.cz/CodeSystem/registering-provider-service-type-cz|1.0.0"
-* ^url = "https://ncez.mzcr.cz/fhir/ValueSet/registering-provider-service-type-cz"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/registering-provider-service-type-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-03-10T12:47:28.893239Z"
-* ^publisher = "MZCR Czech Republic"
+* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
 //* ^effectivePeriod.start = "2025-03-10T00:00:00Z"
 * ^compose.inactive = false
 * ^identifier.system = "urn:ietf:rfc:3986"
@@ -22,7 +22,7 @@ Description: "Typ registrujícího lékaře. (Registering healthcare provider se
 
 * insert SetFmmandStatusRule(2, trial-use)
 * insert SNOMEDCopyrightForVS
-//* include codes from system RegisteringProviderServiceTypeCzCS
+
 * include $sct#310061009 "gynekologické služby"
 * include $sct#700232004 "všeobecné lékařské služby"
 * include $sct#722176000 "stomatologické služby"

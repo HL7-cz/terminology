@@ -3,7 +3,7 @@ Id: v3-RoleCode-cz
 Title: "RoleCode (CZ Supplement)"
 Description: "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."
 * ^language = #cs
-* ^url = "https://hl7.cz/fhir/terminology/CodeSystem/v3-RoleCode-cz"
+* ^url = "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft

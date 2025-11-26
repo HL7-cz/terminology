@@ -1,13 +1,13 @@
-CodeSystem: DLP_ATC
+CodeSystem: DLP_atc
 Id: dlp-atc
 Title: "ATC CZ"
 Description: "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
-* ^url = "https://ncez.mzcr.cz/CodeSystem/dlp-atc"
+* ^url = "https://sukl.cz/terminology/CodeSystem/dlp-atc"
 * ^version = "1.0.0"
 * ^status = #draft
-* ^content = #fragment
+* ^content = #fragment  // Full content is too large and generate timeout in FHIR publisher
 * ^hierarchyMeaning = #grouped-by
-* ^publisher = "MZCR Czech Republic"
+* ^publisher = "Státní ústav pro kontrolu léčiv (SÚKL)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
 * ^experimental = false

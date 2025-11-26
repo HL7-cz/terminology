@@ -8,7 +8,7 @@
         {
           "id" : "CodeSystem.name",
           "context" : "A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
-          "source" : "V20131Cz100",
+          "source" : "ContactRole2Cz",
           "target" : null
         },
         {
@@ -39,6 +39,12 @@
           "id" : "Coding.display",
           "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
           "source" : "Czechia",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.property.description",
+          "context" : "A description of the property- why it is defined, and how its value might be used.",
+          "source" : "Not Selectable",
           "target" : null
         },
         {

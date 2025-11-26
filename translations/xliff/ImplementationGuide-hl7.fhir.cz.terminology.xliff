@@ -77,6 +77,76 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>Body Structure Laterality for specimen.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Body Structure site laterality qualifier. It indicates the body site laterality from which a specimen is collected. (based on SNOMED CT)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Body Structure Qualifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Codesystem of DLP Lecive latky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Codesystem of DLP Lecive latky. Identification ingredient.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Codesystem of DLP Lecive pripravky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Codesystem of DLP Lecive pripravky. Identification medication.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Codesystem of Health Insurance Companies</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>National codes of health insurance companies.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Contact and Relationship (CZ)</source>
         <target></target>
       </trans-unit>
@@ -119,6 +189,34 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>Coverage SelfPay Codes (CZ supplement)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>This code system supplements Coverage SelfPay.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>DLP formy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Lékové formy dle DLP.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Drzar (CZ)</source>
         <target></target>
       </trans-unit>
@@ -133,6 +231,82 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>eHDSI Absent Or Unknown Allergy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The Value set is used to encode absent or unknown medical allergies.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>eHDSI Absent Or Unknown Device</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The Value set is used to encode absent or unknown medical devices.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>eHDSI Agent or Allergen With Exceptions</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The Value Set is used for coding s specific allergen or other agent/substance (drug, food, chemical agent, etc.) to which the patient has an adverse reaction propensity.
+It is defined as the union of:
+(a) eHDSIAllergenNoDrug
+(b) DLP_lecivePripravky
+(c) DLP_ATC
+(d) eHDSIAbsentOrUnknownAllergy
+(e) eHDSIExceptionalValue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>eHDSI Allergen No Drug</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The value set is used to code the patient's kind of adverse reactions against substance, food or drugs</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>eHDSI Exceptional Value</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The Value Set is used to code exceptional values for the required binding in FHIR IGs</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Gender for administrative purposes</source>
         <target></target>
       </trans-unit>
@@ -141,6 +315,119 @@
                <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
              </notes>
         <source>Pohlaví pro administrativní účely. (Gender for administrative purposes)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Kategorie dokumentů</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Kategorie dokumentů pro vyhledávání</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Lékové formy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník lékových forem dle DLP.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Léčivé přípravky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník léčivých přípravků dle DLP.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Materiál vzorků</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Materiál laboratorního vzorku/vzorku pro obrazová vyšetření. Číselník využívá terminologii SNOMED CT.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Medical Device</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Medical Device value set is used for coding implanted and external medical devices and equipment.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Medical Device with exceptions</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>The Value Set is used for coding implanted and external medical devices and equipment.
+It also includes exceptional values.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Mime types permissible for logo attachment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Mime types for logo attachment. It is used in OrganizationLogo extension to restrict the mime type of the logo image.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>NCLPMAT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>NCLP - Číselník materiálů pro laboratoře.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
@@ -217,6 +504,48 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>Specimen Additive</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>List of the specimen additives. Additives are commonly added to the vacutainer tubes to preserve the specimen for analysis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Specimen Container</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>List of the containers commonly used to collect specimens (e.g. urine, blood,..).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Standard namespaces for national identity card</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>National identity card's namespaces (CZ)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Standard namespaces for passports</source>
         <target></target>
       </trans-unit>
@@ -231,6 +560,13 @@
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
              </notes>
+        <source>Typ ošetřovatelské dokumentace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
         <source>Type of healthcare facility</source>
         <target></target>
       </trans-unit>
@@ -239,6 +575,153 @@
                <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
              </notes>
         <source>Czech national code system for type of healthcare facility.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Typy dokumentů obrazového komplementu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Typy dokumentů obrazového komplementu</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Typy laboratorních dokumentů</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Typy lékařské dokumentace</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník typů medicínských dokumentů.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Typy žádanek</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník typů žádanek</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>v3 Code System ActCode</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>This code system supplements v3 ActCode.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Value set of DLP Lecive latky</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Value set of DLP Lecive latky (Substances)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>ValueSet of Health Insurance Company Code</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník kódů zdravotních pojišťoven.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Všechny typy dokumentů</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Typy dokumentů zejména pro účely vyhledávání.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Český číselník ATC skupin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Value set of DLP ATC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Číselník NCLPMAT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník laboratorních materiálů NČLP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
+             </notes>
+        <source>Číselník typů úhrady</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník typů úhrady zdravotní péče.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.page.title">

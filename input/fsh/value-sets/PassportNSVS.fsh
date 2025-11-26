@@ -1,10 +1,10 @@
 ValueSet: PassportNSVS
-Id: passport-NS-VS
+Id: passport-NS
 Title: "Passport namespaces (CZ)"
 Description: "Číselník jmenných prostorů pro pasy. (Passport namespaces.)"
 //* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Standard namespaces for passports"
-* ^url = "https://ncez.mzcr.cz/fhir/ValueSet/PassportNS-vs"
+* ^url = "https://hl7.cz/terminology/ValueSet/passport-NS"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false

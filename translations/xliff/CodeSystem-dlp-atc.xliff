@@ -7,7 +7,7 @@
              <notes>
                <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
              </notes>
-        <source>DLP_ATC</source>
+        <source>DLP_atc</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-dlp-atc" resname="CodeSystem.title">

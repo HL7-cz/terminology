@@ -3,7 +3,7 @@ Id: contactrole-cz
 Title: "Contact Role (CZ)"
 Description: "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Concepts specifying role of contact person.)"
 * ^language = #cs
-* ^url = "https://hl7.cz/fhir/terminology/ValueSet/contactrole-cz"
+* ^url = "https://hl7.cz/terminology/ValueSet/contactrole-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft
@@ -15,7 +15,7 @@ Description: "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Conce
 //* ^effectivePeriod.start = "2025-04-03T00:00:00Z"
 * ^compose.inactive = false
 
-* insert ValueSetSupplementRule("https://hl7.cz/fhir/terminology/CodeSystem/v2-0131-cz")
+* insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/v2-0131-cz")
 * include codes from system $v2-0131 //http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0
 // exclude deprecated codes and #O (Other)
 * exclude $v2-0131#O

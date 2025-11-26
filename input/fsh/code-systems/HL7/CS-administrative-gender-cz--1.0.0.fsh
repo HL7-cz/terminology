@@ -3,8 +3,8 @@ Id: administrative-gender-cz
 Title: "Administrative Gender (CZ supplement)"
 Description: "Pohlaví osoby používané pro administrativní účely. The gender of a person used for administrative purposes."
 * ^language = #cs
-* ^url = "https://hl7.cz/fhir/terminology/CodeSystem/administrative-gender-cz"
-* ^version = "1.0.0"
+* ^url = "https://hl7.cz/terminology/CodeSystem/administrative-gender-cz"
+* ^version = "4.0.1"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft
 * ^experimental = false

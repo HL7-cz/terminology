@@ -1,4 +1,4 @@
-CodeSystem: DrzarCS
+CodeSystem: Drzar
 Id: drzar
 Title: "Type of healthcare facility"
 Description: "Czech national code system for type of healthcare facility."
@@ -6,7 +6,7 @@ Description: "Czech national code system for type of healthcare facility."
 * ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.2.10.1"
-* ^version = "1.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^date = "1980-01-01"
 * ^experimental = false
@@ -14,8 +14,8 @@ Description: "Czech national code system for type of healthcare facility."
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
 * ^content = #complete
-* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar"
-* insert SetFmmandStatusRule(2, trial-use)
+* ^url = "https://ncez.mzcr.cz/terminology/CodeSystem/drzar"
+//* insert SetFmmandStatusRule(2, trial-use)
 
 * #010 "Sdružení zdravotnických zařízení"
 * #101 "Fakultní nemocnice"

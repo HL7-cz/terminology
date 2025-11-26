@@ -1,5 +1,5 @@
-ValueSet: DrzarVS
-Id: cz-drzar-vs
+ValueSet: Drzar
+Id: drzar
 Title: "Drzar (CZ)"
 Description: "Číselník druhů zdravotnických zařízení. (Type of healthcare provider facility.)"
 * ^language = #cs
@@ -8,10 +8,10 @@ Description: "Číselník druhů zdravotnických zařízení. (Type of healthcar
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-12-26"
-* ^publisher = "NCEZ"
+* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^experimental = false
-* ^url = "https://ncez.mzcr.cz/fhir/ValueSet/cz-drzar-vs"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/drzar"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system DrzarCS
+* include codes from system Drzar

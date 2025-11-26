@@ -1,12 +1,12 @@
-CodeSystem: NRZP_PovolaniCS
-Id: nrzp-povolani-cs
+CodeSystem: NRZP_Povolani
+Id: nrzp-povolani
 Title: "NRZP - Czech health professional occupation"
 Description: "Czech national code system for health professional occupation used in the national registry of healthcare practicioners."
 
 * ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.2.10.2.1"
-* ^version = "1.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^date = "1980-01-01"
 * ^experimental = false
@@ -14,8 +14,8 @@ Description: "Czech national code system for health professional occupation used
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
 * ^content = #complete
-* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/nrzp-povolani"
-* insert SetFmmandStatusRule(2, trial-use)
+* ^url = "https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani"
+//* insert SetFmmandStatusRule(2, trial-use)
 
 * #L1 "Lékař po absolvování odborné způsobilosti (L1)"
 * #L2 "Lékař po absolvování základního kmene (L2)"

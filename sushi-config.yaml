@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cz.terminology
-canonical: https://hl7.cz/fhir/terminology
+canonical: https://hl7.cz/terminology
 name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
@@ -89,40 +89,47 @@ pages:
 #
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   special-url:
-# HL7 Code systems
-    # - https://terminology.hl7.cz/CodeSystem/v2-0131-cz--1.0.0
-    # - https://terminology.hl7.cz/CodeSystem/administrative-gender-cz--1.0.0
-    # - https://terminology.hl7.cz/CodeSystem/v3-role-code-cz
+# # NCEZ Code systems
+# #    - https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta
+#     - https://ncez.mzcr.cz/terminology/CodeSystem/cz-drzar
+#     - https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani
+#     - https://ncez.mzcr.cz/terminology/CodeSystem/registering-provider-service-type-cz-cs
+#     - https://ncez.mzcr.cz/terminology/CodeSystem/cs-healthInsuranceCompanyCode
 
-# NCEZ Code systems
-#    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta
-    - https://ncez.mzcr.cz/fhir/CodeSystem/cz-drzar
-    - https://ncez.mzcr.cz/fhir/CodeSystem/nrzp-povolani
-    - https://ncez.mzcr.cz/fhir/CodeSystem/registering-provider-service-type-cz-cs
-    - https://ncez.mzcr.cz/CodeSystem/dlp-atc
+# SUKL Code systems
+    - https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky
+    - https://sukl.cz/terminology/CodeSystem/dlp-formy
+    - https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky
+    - https://sukl.cz/terminology/CodeSystem/dlp-atc
 
-# HL7 Valuesets
-    # - https://terminology.hl7.cz/ValueSet/administrative-gender-cz
-    # - https://terminology.hl7.cz/ValueSet/personal-relationship
-    # - https://terminology.hl7.cz/ValueSet/hl7vs-contact-and-relationship-cz
-    # - https://terminology.hl7.cz/ValueSet/contactrole-cz
+# NCLP Code systems
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat
 
-# NCEZ valuesets
-    - https://ncez.mzcr.cz/fhir/ValueSet/nrzp-povolani-vs
-    - https://ncez.mzcr.cz/fhir/ValueSet/PassportNS-vs
-    - https://ncez.mzcr.cz/fhir/ValueSet/registering-provider-service-type-cz
-    - https://ncez.mzcr.cz/fhir/ValueSet/cz-drzar-vs
+# # NCEZ valuesets
+#     - https://ncez.mzcr.cz/terminology/ValueSet/nrzp-povolani-vs
+#     - https://ncez.mzcr.cz/terminology/ValueSet/PassportNS-vs
+#     - https://ncez.mzcr.cz/terminology/ValueSet/registering-provider-service-type-cz
+#     - https://ncez.mzcr.cz/terminology/ValueSet/cz-drzar-vs
+#     - https://ncez.mzcr.cz/terminology/ValueSet/atc-cz
+#    - https://ncez.mzcr.cz/terminology/ValueSet/cz-healthInsuranceCompanyCode-vs
 
-  # special-url-base:
-    #- https://terminology.hl7.cz/CodeSystem
-    #- https://terminology.hl7.cz/ValueSet
+# SUKL valuesets
+    - https://sukl.cz/terminology/ValueSet/dlp-atc
+    - https://sukl.cz/terminology/ValueSet/dlp-formy
+    - https://sukl.cz/terminology/ValueSet/dlp-lecivelatky
+    - https://sukl.cz/terminology/ValueSet/dlp_lecivepripravky
+
+  special-url-base: https://ncez.mzcr.cz/terminology
+    # - https://sukl.cz/terminology
+    # - https://ncez.mzcr.cz/terminology
+    # - https://ncez.mzcr.cz/nclp
 
 #  generate-version:
 #    - r4
 #    - r5
 
-#    - https://ncez.mzcr.cz/fhir/CodeSystem/role-code-supplement
-#    - https://ncez.mzcr.cz/fhir/CodeSystem/contact-role-supplement
+#    - https://ncez.mzcr.cz/terminology/CodeSystem/role-code-supplement
+#    - https://ncez.mzcr.cz/terminology/CodeSystem/contact-role-supplement
 #    - http://ncez.mzcr.cz/fhir/StructureDefinition/address-point-cz
 # path-resource:
 #    - input/resources

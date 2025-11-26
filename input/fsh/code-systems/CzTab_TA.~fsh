@@ -14,7 +14,7 @@ Description: "Czech national code system (DASTA) for type of address."
 * ^publisher = "DASTA"
 * ^caseSensitive = false
 * ^content = #complete
-* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta"
+* ^url = "https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta"
 * insert SetFmmandStatusRule(2, trial-use)
 */
 * ^language = #cs
@@ -27,7 +27,7 @@ Description: "Czech national code system (DASTA) for type of address."
 //* ^extension[=].extension[+].url = "preferred"
 //* ^extension[=].extension[=].valueBoolean = false
 //* ^extension[=].url = "http://hl7.org/fhir/StructureDefinition/codesystem-otherTitle"
-* ^url = "https://ncez.mzcr.cz/fhir/CodeSystem/cz-tab-ta"
+* ^url = "https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.203.24341.11.2.4.4"
 * ^version = "1.0.0"
@@ -48,13 +48,13 @@ Description: "Czech national code system (DASTA) for type of address."
 //* ^property[=].description = "Display"
 //* ^property[=].type = #string
 * ^property[+].code = #n32
-* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#n32"
+* ^property[=].uri = "https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#n32"
 * ^property[=].type = #string
 * ^property[+].code = #plati_od
-* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#plati_od"
+* ^property[=].uri = "https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#plati_od"
 * ^property[=].type = #dateTime
 * ^property[+].code = #poradi
-* ^property[=].uri = "https://ncez.mzcr.cz/fhir/CodeSystem/dasta-tab_ta#poradi"
+* ^property[=].uri = "https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#poradi"
 * ^property[=].type = #string
 
 * #1 "Trvalé bydliště pacienta" "Místo trvalého pobytu"

@@ -1,7 +1,7 @@
 {
   "package-id": "hl7.fhir.cz.terminology",
   "version": "0.1.0",
-  "path": "https://hl7.cz/fhir/terminology/0.1.0",
+  "path": "https://hl7.cz/terminology/0.1.0",
   "mode": "working",
   "status": "preview",
   "sequence": "Release 1",

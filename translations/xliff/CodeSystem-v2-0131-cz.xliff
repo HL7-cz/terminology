@@ -7,7 +7,7 @@
              <notes>
                <note id="n1">A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
              </notes>
-        <source>V20131Cz100</source>
+        <source>ContactRole2Cz</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-v2-0131-cz" resname="CodeSystem.title">
@@ -43,6 +43,13 @@
                <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
              </notes>
         <source>Czechia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-v2-0131-cz" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">A description of the property- why it is defined, and how its value might be used.</note>
+             </notes>
+        <source>Not Selectable</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-v2-0131-cz" resname="CodeSystem.concept.display">

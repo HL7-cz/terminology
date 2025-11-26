@@ -11,7 +11,7 @@ Description: "Povolání zdravotnických pracovníků dle registru NRZP. (Occupa
 * ^publisher = "NCEZ"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^experimental = false
-* ^url = "https://ncez.mzcr.cz/fhir/ValueSet/nrzp-povolani-vs"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/nrzp-povolani-vs"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system NRZP_PovolaniCS
+* include codes from system NRZP_Povolani
