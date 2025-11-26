@@ -14,7 +14,7 @@ Description: """Medical Device value set is used for coding implanted and extern
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^experimental = false
-* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/MedicalDeviceWithExceptions"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/medical-device"
 
 * insert setUrl ( medical-device )
 * insert SNOMEDCopyrightForVS
