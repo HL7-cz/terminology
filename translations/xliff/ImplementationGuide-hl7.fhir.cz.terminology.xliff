@@ -563,6 +563,13 @@ It also includes exceptional values.</source>
         <source>Typ ošetřovatelské dokumentace</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">A description of the reason that a resource has been included in the implementation guide.</note>
+             </notes>
+        <source>Číselník typů ošetřovatelské dokumentace</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-hl7.fhir.cz.terminology" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).</note>
