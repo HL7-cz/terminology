@@ -19,13 +19,13 @@ Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $dlp_lecive-pripravky-cs = https://sukl.cz/dlp/CodeSystem/dlp_lecivepripravky
 
 // Extensions:
-Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
+// Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 
 // Valuesets:
 //Alias: $CZ_AdministrativegenderVS = https://hl7.cz/terminology/ValueSet/cz-administrative-gender-vs
 Alias: $hl7vs-contactrole-cz = https://hl7.cz/terminology/ValueSet/contactrole-cz
 Alias: $personal-relationship = https://hl7.cz/terminology/ValueSet/personal-relationship-cz
-Alias: $MedicalDevicesSnomedAbsentUnknownUvIps = http://hl7.org/fhir/uv/ips/ValueSet/medical-devices-snomed-absent-unknown-uv-ips
-Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
+//Alias: $MedicalDevicesSnomedAbsentUnknownUvIps = http://hl7.org/fhir/uv/ips/ValueSet/medical-devices-snomed-absent-unknown-uv-ips
+//Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 
 //=========================
