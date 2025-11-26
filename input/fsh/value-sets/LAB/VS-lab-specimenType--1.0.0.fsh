@@ -5,12 +5,12 @@ Description: "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření.
 * ^language = #cs
 //* ^extension.url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 //* ^extension.valueUrl = "https://termx-t2-admin.csez.cz/fhir/ValueSet/lab-specimenType"
-* ^url = "https://hl7.cz/terminology/ValueSet/lab-specimenType"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #draft
 * ^experimental = false
-* ^publisher = "HL7 Czech Republic"
+* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
 //* ^effectivePeriod.start = "2025-11-20T00:00:00Z"
 * ^compose.inactive = false
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
