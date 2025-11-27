@@ -1,4 +1,4 @@
-CodeSystem:     DLP_lecivepripravky
+CodeSystem:     CS_DLP_lecivepripravky
 Id:	            dlp-lecivepripravky
 Title:	       "Codesystem of DLP Lecive pripravky"
 Description:   "Codesystem of DLP Lecive pripravky. Identification medication."
