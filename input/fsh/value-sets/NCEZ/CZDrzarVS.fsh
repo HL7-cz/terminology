@@ -14,4 +14,4 @@ Description: "Číselník druhů zdravotnických zařízení. (Type of healthcar
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/drzar"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system Drzar
+* include codes from system CS_Drzar
