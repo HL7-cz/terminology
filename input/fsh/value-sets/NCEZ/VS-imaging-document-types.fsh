@@ -17,8 +17,8 @@ Description: "Typy dokumentů obrazového komplementu"
 * ^compose.inactive = false
 * insert LOINCCopyrightForVS
 
-* include codes from system $loinc where CLASS = "RAD" and SCALE_TYP = "Doc" and STATUS = "ACTIVE"
-/*
+//* include codes from system $loinc where CLASS = "RAD" and SCALE_TYP = "Doc" and STATUS = "ACTIVE"
+
 * $loinc#41806-1 "CT břicha"
 * $loinc#24627-2 "CT hrudníku"
 * $loinc#24690-0 "CT končetiny"
@@ -78,4 +78,3 @@ Description: "Typy dokumentů obrazového komplementu"
 * $loinc#25011-8 "RTG bérce (tibia + fibula) – projekce"
 * $loinc#18782-3 "Popis nálezu zobrazovacího vyšetření (narrativní)"
 * $loinc#24619-9 "RTG zápěstí – projekce"
-*/
