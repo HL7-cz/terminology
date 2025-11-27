@@ -14,6 +14,6 @@ Description:   "Číselník kódů zdravotních pojišťoven."
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/healthInsuranceCompanyCode"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system HealthInsuranceCompanyCode
+* include codes from system CS_HealthInsuranceCompanyCode
 
 
