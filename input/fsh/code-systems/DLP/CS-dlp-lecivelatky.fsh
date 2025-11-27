@@ -1,4 +1,4 @@
-CodeSystem:     DLP_lecivelatky
+CodeSystem:     CS_DLP_lecivelatky
 Id:	            dlp-lecivelatky
 Title:	       "Codesystem of DLP Lecive latky"
 Description:   "Codesystem of DLP Lecive latky. Identification ingredient."
