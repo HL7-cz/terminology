@@ -14,7 +14,8 @@ Description: "The Value set is used to encode absent or unknown medical allergie
 //* insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 1, draft )
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.47)
-//* insert setUrl ( eHDSIAbsentOrUnknownAllergy-cz )
+// použítí Valueset supplement pro CZ verzi způsobuje chybu sushi - zatím jsem udělal workarround v alias.fsh
+//* insert ValueSetSupplementRule("https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz|1.1.0")
 
 * $absent-unknown-uv-ips#no-allergy-info "žádné informace o alergiích"
 * $absent-unknown-uv-ips#no-known-allergies "žádné známé alergie"
