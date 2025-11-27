@@ -1,4 +1,4 @@
-CodeSystem: Drzar
+CodeSystem: CS_Drzar
 Id: drzar
 Title: "Type of healthcare facility"
 Description: "Czech national code system for type of healthcare facility."
