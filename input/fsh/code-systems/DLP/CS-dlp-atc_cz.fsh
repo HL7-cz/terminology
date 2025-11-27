@@ -1,4 +1,4 @@
-CodeSystem: DLP_atc
+CodeSystem: CS_DLP_atc
 Id: dlp-atc
 Title: "ATC CZ"
 Description: "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
