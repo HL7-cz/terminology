@@ -16,4 +16,4 @@ Description:   "Value set of DLP ATC"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system DLP_atc
+* include codes from system CS_DLP_atc
