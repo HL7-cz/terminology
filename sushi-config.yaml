@@ -117,7 +117,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://sukl.cz/terminology/ValueSet/dlp-atc
     - https://sukl.cz/terminology/ValueSet/dlp-formy
     - https://sukl.cz/terminology/ValueSet/dlp-lecivelatky
-    - https://sukl.cz/terminology/ValueSet/dlp_lecivepripravky
+    - https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky
 
   special-url-base: https://ncez.mzcr.cz/terminology
     # - https://sukl.cz/terminology
