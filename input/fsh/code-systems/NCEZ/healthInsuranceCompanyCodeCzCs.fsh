@@ -1,4 +1,4 @@
-CodeSystem:     HealthInsuranceCompanyCode
+CodeSystem:     CS_HealthInsuranceCompanyCode
 Id:	            healthInsuranceCompanyCode
 Title:	       "Codesystem of Health Insurance Companies"
 Description:   "National codes of health insurance companies."
