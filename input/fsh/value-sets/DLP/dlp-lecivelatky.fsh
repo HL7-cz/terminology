@@ -16,4 +16,4 @@ Description:   "Value set of DLP Lecive latky (Substances)"
 
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system DLP_lecivelatky
+* include codes from system CS_DLP_lecivelatky
