@@ -15,7 +15,7 @@ Description: "The value set is used to code the patient's kind of adverse reacti
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 1, draft )
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.19)
-* insert setUrl_ncez ( eHDSIAllergenNoDrug-cz )
+//* insert setUrl_ncez ( eHDSIAllergenNoDrug-cz )
 
 * $sct#432003 ""
 * $sct#2159007 "azorubin"
