@@ -1,4 +1,4 @@
-CodeSystem: DLP_formy
+CodeSystem: CS_DLP_formy
 Id: dlp-formy
 Title: "DLP formy"
 Description: "Lékové formy dle DLP."
