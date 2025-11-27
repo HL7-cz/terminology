@@ -16,7 +16,7 @@ Description: """Medical Device value set is used for coding implanted and extern
 * ^experimental = false
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/medical-device"
 
-* insert setUrl ( medical-device )
+//* insert setUrl ( medical-device )
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 1, draft )
 //* insert setOID ( 1.3.6.1.4.1.12559.11.10.1.3.1.42.8 )
