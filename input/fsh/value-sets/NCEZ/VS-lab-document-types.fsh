@@ -1,6 +1,7 @@
 ValueSet: LabDocumentTypes
 Id: lab-document-types
 Title: "Typy laboratorních dokumentů"
+Description: "Číselník typů laboratorních dokumentů."
 * ^language = #cs
 // * ^extension.url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 // * ^extension.valueUrl = "https://termtest.mzcr.cz/fhir/ValueSet/lab-document-types"
