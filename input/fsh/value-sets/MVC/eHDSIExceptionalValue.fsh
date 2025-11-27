@@ -13,7 +13,7 @@ Description:   "The Value Set is used to code exceptional values for the require
 
 * insert setOID ( 1.3.6.1.4.1.12559.11.10.1.3.1.42.81 )
 * insert SetFmmandStatusRule ( 1, draft )
-* insert setUrl ( eHDSIExceptionalValue-cz )
+//* insert setUrl ( eHDSIExceptionalValue-cz )
 
 * $v3-NullFlavor#OTH "jinak" // not in the value set
 * $v3-NullFlavor#UNC "nekódováno" // not coded
