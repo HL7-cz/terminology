@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "path": "https://hl7.cz/terminology/0.1.0",
   "mode": "working",
-  "status": "preview",
+  "status": "release",
   "sequence": "Release 1",
   "first": true,
   "ci-build": "https://build.fhir.org/ig/HL7-cz/terminology",
