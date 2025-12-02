@@ -34,8 +34,8 @@ publisher:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
-# dependencies:
-  #hl7.fhir.cz.core: current
+dependencies:
+  hl7.fhir.uv.ips: 1.1.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
