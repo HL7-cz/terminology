@@ -152,7 +152,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
   apply-version: true
   show-inherited-invariants: true
   usage-stats-opt-out: true
-  i18n-default-lang: cs
+  # i18n-default-lang: cs
   # excludexml: false
   # excludejson: false
   # excludettl: true
