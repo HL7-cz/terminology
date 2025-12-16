@@ -16,7 +16,7 @@ Description: "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Conce
 * ^compose.inactive = false
 
 * insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/v2-0131-cz")
-* include codes from system $v2-0131 //http://terminology.hl7.org/CodeSystem/v2-0131|2.0.0
+* include codes from system $v2-0131 //http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0
 // exclude deprecated codes and #O (Other)
 * exclude $v2-0131#O
 * exclude $v2-0131#BP
