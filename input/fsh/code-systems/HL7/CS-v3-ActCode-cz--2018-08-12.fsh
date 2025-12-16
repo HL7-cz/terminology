@@ -16,7 +16,7 @@ Description: "This code system supplements v3 ActCode."
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-11-15T00:00:00Z"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
 * ^property[0].code = #child
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#child"
 * ^property[=].description = "Child"
