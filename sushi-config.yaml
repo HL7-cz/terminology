@@ -9,7 +9,7 @@ name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
 status: draft # draft | active | retired | unknown
-version: 0.1.0 # The version is used to create the packageId, which is used in the IG URL.
+version: 0.1.1 # The version is used to create the packageId, which is used in the IG URL.
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
