@@ -16,7 +16,7 @@ Description: "This code system supplements Coverage SelfPay."
 * ^publisher = "HL7 Czech Republic"
 //* ^effectivePeriod.start = "2025-11-15T00:00:00Z"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/coverage-selfpay"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/coverage-selfpay|1.0.1"
 // * ^property[0].code = #definition
 // * ^property[=].uri = "https://termx.org/fhir/CodeSystem/designation-usage#definition"
 // * ^property[=].description = "Definition"
