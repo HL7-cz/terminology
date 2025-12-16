@@ -18,5 +18,5 @@ Description:   "Číselník typů úhrady zdravotní péče."
 * insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz")
 
 
-* http://terminology.hl7.org/CodeSystem/v3-ActCode#HIP "zdravotní pojištění"
-* http://terminology.hl7.org/CodeSystem/coverage-selfpay#pay "samoplátce"
+* http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0#HIP "zdravotní pojištění"
+* http://terminology.hl7.org/CodeSystem/coverage-selfpay|1.0.1#pay "samoplátce"
