@@ -17,7 +17,8 @@ Description: "Číselník typů žádanek"
 * ^compose.inactive = false
 * insert SNOMEDCopyrightForVS
 * insert LOINCCopyrightForVS
-* $loinc#57133-1 "Žádanka o vyšetření"
-* $loinc#57830-2 "Žádanka o hospitalizaci"
-* $sct#721965002 "Žádanka o laboratorní vyšetření"
-* $sct#721964003 "Žádanka o zobrazovací vyšetření"
+* $loinc#57133-1 "žádanka o vyšetření"
+* $loinc#57830-2 "žádanka o hospitalizaci"
+* $loinc#57154-7 "žádanka o fyzioterapii"
+* $sct#721965002 "žádanka o laboratorní vyšetření"
+* $sct#721964003 "žádanka o zobrazovací vyšetření"
