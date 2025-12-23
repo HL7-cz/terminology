@@ -41,6 +41,10 @@ Description: "This code system supplements v3 ActCode."
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "Status"
 * ^property[=].type = #code
+* ^property[+].code = #subsumedBy
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "The concept code of a parent concept"
+* ^property[=].type = #code
 * #HIP "zdravotní pojištění"
 * #HIP ^designation[0].language = #en
 * #HIP ^designation[=].use.code = #definition
@@ -50,3 +54,53 @@ Description: "This code system supplements v3 ActCode."
 * #HIP ^designation[=].value = "health insurance plan policy"
 * #HIP ^property[0].code = #status
 * #HIP ^property[=].valueCode = #draft
+* #_ActEncounterCode "ActEncounterCode" "Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC)."
+* #_ActEncounterCode ^property[0].code = #status
+* #_ActEncounterCode ^property[=].valueCode = #active
+* #_ActEncounterCode ^property[+].code = #notSelectable
+* #_ActEncounterCode ^property[=].valueBoolean = true
+* #ACUTE "akutní hospitalizace" "Akutní hospitalizace."
+* #ACUTE ^property[0].code = #status
+* #ACUTE ^property[=].valueCode = #active
+* #ACUTE ^property[+].code = #subsumedBy
+* #ACUTE ^property[=].valueCode = #IMP
+* #AMB "ambulantní" "Souhrnný termín pro zdravotní péči poskytovanou ve zdravotnickém zařízení (např. v ordinaci lékaře, klinice nebo nemocnici) na nerezidentní bázi. Termín ambulantní obvykle znamená, že pacient přišel na dané místo a není mu přiděleno lůžko. Někdy se označuje jako ambulantní vyšetření."
+* #AMB ^property[0].code = #status
+* #AMB ^property[=].valueCode = #active
+* #AMB ^property[+].code = #subsumedBy
+* #AMB ^property[=].valueCode = #_ActEncounterCode
+* #EMER "emergentní" "Kontakt s pacientem, který se odehrává ve specializovaném zdravotnickém zařízení, kde je pacient okamžitě vyšetřen a ošetřen, a to až do okamžiku, kdy může být propuštěn nebo kdy je odpovědnost za jeho péči převedena na jiné zařízení (například může být pacient přijat k hospitalizaci nebo převezen do jiného zařízení)."
+* #EMER ^property[0].code = #status
+* #EMER ^property[=].valueCode = #active
+* #EMER ^property[+].code = #subsumedBy
+* #EMER ^property[=].valueCode = #_ActEncounterCode
+* #FLD "terénní" "Kontakt s pacientem, který se odehrává mimo specializované místo poskytování služeb a mimo bydliště pacienta. Příkladem takových míst může být místo nehody nebo supermarket."
+* #FLD ^property[0].code = #status
+* #FLD ^property[=].valueCode = #active
+* #FLD ^property[+].code = #subsumedBy
+* #FLD ^property[=].valueCode = #_ActEncounterCode
+* #HH "domácí péče" "Zdravotní péče poskytovaná v místě bydliště pacienta nebo jím určeném místě."
+* #HH ^property[0].code = #status
+* #HH ^property[=].valueCode = #active
+* #HH ^property[+].code = #subsumedBy
+* #HH ^property[=].valueCode = #_ActEncounterCode
+* #IMP "hospitalizace" "Kontakt s pacientem, při kterém je pacient přijat do nemocnice nebo obdobného zařízení, přidělen na místo, kde pacienti obvykle zůstávají alespoň přes noc, a je mu poskytnuto ubytování, stravování a nepřetržitá ošetřovatelská péče."
+* #IMP ^property[0].code = #status
+* #IMP ^property[=].valueCode = #active
+* #IMP ^property[+].code = #subsumedBy
+* #IMP ^property[=].valueCode = #_ActEncounterCode
+* #NONAC "neakutní hospitalizace" "Jakákoli kategorie hospitalizace kromě „akutní“"
+* #NONAC ^property[0].code = #status
+* #NONAC ^property[=].valueCode = #active
+* #NONAC ^property[+].code = #subsumedBy
+* #NONAC ^property[=].valueCode = #IMP
+* #OBSENC "pozorování" "Kontakt, při kterém pacient obvykle začíná v jiném kontaktu, například na pohotovosti (EMER), ale poté přechází k tomuto typu kontaktu, protože vyžaduje delší léčbu a sledování, aby bylo možné určit, zda jeho stav vyžaduje hospitalizaci nebo propuštění. Ve většině případů bude rozhodnutí o hospitalizaci nebo propuštění učiněno v časovém období stanoveném místními, regionálními nebo národními předpisy, často mezi 24 a 48 hodinami."
+* #OBSENC ^property[0].code = #status
+* #OBSENC ^property[=].valueCode = #active
+* #OBSENC ^property[+].code = #subsumedBy
+* #OBSENC ^property[=].valueCode = #_ActEncounterCode
+* #PRENC "pre-hospitalizace"
+* #PRENC ^property[0].code = #status
+* #PRENC ^property[=].valueCode = #active
+* #PRENC ^property[+].code = #subsumedBy
+* #PRENC ^property[=].valueCode = #_ActEncounterCode
