@@ -2,6 +2,8 @@
 // Code systems
 Alias: $sct =  http://snomed.info/sct
 Alias: $loinc = http://loinc.org
+Alias: $orpha = http://www.orpha.net
+Alias: $Mkn10_5 = https://uzis.cz/terminology/CodeSystem/mkn-10
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
