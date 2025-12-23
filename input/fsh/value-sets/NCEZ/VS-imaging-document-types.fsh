@@ -17,7 +17,14 @@ Description: "Typy dokumentů obrazového komplementu"
 * ^compose.inactive = false
 * insert LOINCCopyrightForVS
 
+// Tahle varianta by stále měla fungovat, ale hází chyby v QA
 //* include codes from system $loinc where CLASS = "RAD" and SCALE_TYP = "Doc" and STATUS = "ACTIVE"
+// Tahle varianta aktuálně funguje bez chyb v QA
+* include codes from system $loinc where CLASS = #LP29684-5 and SCALE_TYP = #LP32888-7 and STATUS = "ACTIVE"
+// tohle je verze generovaná TermX, nezkoušel jsem
+//* include codes from system http://loinc.org|2.81
+//    where SCALE = "{"code":"LP32888-7","codeSystem":"loinc-part"}" and
+//    CLASS = "{"code":"LP29684-5","codeSystem":"loinc-part"}"
 
 * $loinc#41806-1 "CT břicha"
 * $loinc#24627-2 "CT hrudníku"
