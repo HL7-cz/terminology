@@ -1,14 +1,14 @@
 {
   "package-id": "hl7.fhir.cz.terminology",
-  "version": "0.1.1",
-  "path": "https://hl7.cz/terminology/0.1.1",
+  "version": "0.2.0",
+  "path": "https://hl7.cz/terminology/0.2.0",
   "mode": "milestone",
   "status": "release",
   "sequence": "Release 1",
-  "first": false,
+  "first": true,
   "ci-build": "https://build.fhir.org/ig/HL7-cz/terminology",
   "category": "Terminology",
-  "desc": "This is a first release of the mixed HL7 and NCEZ FHIR Terminology package.",
-  "introduction": "This package contains the HL7 and NCEZ FHIR Terminology resources, including code systems, value sets, and other related resources. It is intended to support the use of FHIR in the Czech healthcare system.",
-  "title": "HL7 Czech FHIR Terminology"
+  "desc": "This is a first release of the Czech FHIR Terminology package.",
+  "introduction": "This package contains FHIR Terminology resources, including code systems, value sets, and other related resources. It is intended to support the use of FHIR in the Czech healthcare system.",
+  "title": "Czech FHIR Terminology Package"
 }
