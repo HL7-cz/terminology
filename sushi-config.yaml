@@ -8,8 +8,8 @@ canonical: https://hl7.cz/terminology
 name: HL7CzTerminologyImplementationGuide
 title: HL7 Czech Terminology Implementation Guide
 description: HL7 Czech Terminology Implementation Guide
-status: active # draft | active | retired | unknown
-version: 0.2.0 # The version is used to create the packageId, which is used in the IG URL.
+status: draft # draft | active | retired | unknown
+version: 0.3.0 # The version is used to create the packageId, which is used in the IG URL.
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -89,12 +89,6 @@ pages:
 #
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   special-url:
-# # NCEZ Code systems
-# #    - https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta
-#     - https://ncez.mzcr.cz/terminology/CodeSystem/cz-drzar
-#     - https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani
-#     - https://ncez.mzcr.cz/terminology/CodeSystem/registering-provider-service-type-cz-cs
-#     - https://ncez.mzcr.cz/terminology/CodeSystem/cs-healthInsuranceCompanyCode
 
 # SUKL Code systems
     - https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky
@@ -107,6 +101,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 
 # UZIS Code systems
     - https://uzis.cz/terminology/CodeSystem/mkn-10
+    - https://uzis.cz/terminology/CodeSystem/nzis-NahradyZaZdravotniPeci
 
 # # NCEZ valuesets
 #     - https://ncez.mzcr.cz/terminology/ValueSet/nrzp-povolani-vs
@@ -124,6 +119,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 
 # UZIS valuesets
     - https://uzis.cz/terminology/ValueSet/mkn-10
+    - https://uzis.cz/terminology/ValueSet/nzis-nahradyzazdravotnipeci
 
   special-url-base: https://ncez.mzcr.cz/terminology
     # - https://sukl.cz/terminology
