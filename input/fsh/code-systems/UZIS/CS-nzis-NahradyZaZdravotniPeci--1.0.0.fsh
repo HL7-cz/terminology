@@ -1,7 +1,7 @@
 CodeSystem: NahradyZaZdravotniPeci
 Id: nzis-NahradyZaZdravotniPeci
-Title: "NahradyZaZdravotniPeci"
-Description: "Číselník použitý v NRHOSP"
+Title: "Kódový systém NahradyZaZdravotniPeci"
+Description: "Kódový systém použitý v NRHOSP"
 * ^language = #cs
 // * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 // * ^extension[=].valueUrl = "https://termx-npez.gov.cz//fhir/CodeSystem/nzis-NahradyZaZdravotniPeci"
