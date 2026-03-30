@@ -26,5 +26,6 @@ Alias: $hl7vs-contactrole-cz = https://hl7.cz/terminology/ValueSet/contactrole-c
 Alias: $personal-relationship = https://hl7.cz/terminology/ValueSet/personal-relationship-cz
 //Alias: $MedicalDevicesSnomedAbsentUnknownUvIps = http://hl7.org/fhir/uv/ips/ValueSet/medical-devices-snomed-absent-unknown-uv-ips
 //Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
+Alias: $condition-cz = https://ncez.mzcr.cz/terminology/ValueSet/condition-cz
 
 //=========================
