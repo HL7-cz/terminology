@@ -1,6 +1,6 @@
 ValueSet: AllergyIntoleranceCriticality
 Id: allergy-intolerance-criticality-cz
-Title: "AllergyIntoleranceCriticality (CZ supplement)"
+Title: "AllergyIntoleranceCriticality (CZ supplement value set)"
 Description: "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance."
 * ^language = #cs
 // * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
