@@ -4,7 +4,7 @@ Title: "ATC CZ"
 Description: "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
 * ^url = "https://sukl.cz/terminology/CodeSystem/dlp-atc"
 * ^version = "1.0.0"
-* ^status = #draft
+* ^status = #active
 * ^content = #fragment  // Full content is too large and generate timeout in FHIR publisher
 * ^hierarchyMeaning = #grouped-by
 * ^publisher = "Státní ústav pro kontrolu léčiv (SÚKL)"
