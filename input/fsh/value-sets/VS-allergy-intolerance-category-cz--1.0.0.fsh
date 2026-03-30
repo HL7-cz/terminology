@@ -1,6 +1,6 @@
 ValueSet: AllergyIntoleranceCategory
 Id: allergy-intolerance-category-cz
-Title: "Allergy Intolerance Category (CZ supplement)"
+Title: "Allergy Intolerance Category (CZ supplement value set)"
 Description: "Category of an identified substance associated with allergies or intolerances."
 // * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 // * ^extension[=].valueUrl = "https://termx-t2-admin.csez.cz/fhir/ValueSet/allergy-intolerance-category-cz"
