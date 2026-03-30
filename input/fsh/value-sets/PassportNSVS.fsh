@@ -6,13 +6,13 @@ Description: "Číselník jmenných prostorů pro pasy. (Passport namespaces.)"
 * ^title = "Standard namespaces for passports"
 * ^url = "https://hl7.cz/terminology/ValueSet/passport-NS"
 * ^version = "1.0.0"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2023-01-01"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* insert SetFmmandStatusRule(1, draft)
+* insert SetFmmandStatusRule(2, trial-use)
 
 * $uri#http://terminology.hl7.org/NamingSystem/passportNumNS-AFG "Pas: Afghánistán"
 * $uri#http://terminology.hl7.org/NamingSystem/passportNumNS-ALB "Pas: Albánie"
