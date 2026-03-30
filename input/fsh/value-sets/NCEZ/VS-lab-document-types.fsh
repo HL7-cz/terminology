@@ -8,7 +8,7 @@ Description: "Číselník typů laboratorních dokumentů."
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/lab-document-types"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T13:46:00.42162Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

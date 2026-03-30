@@ -8,7 +8,7 @@ Description: "Kategorie dokumentů pro vyhledávání"
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/document-category"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T14:36:29.065962Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

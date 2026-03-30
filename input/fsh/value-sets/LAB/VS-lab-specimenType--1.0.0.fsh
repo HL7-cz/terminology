@@ -8,7 +8,7 @@ Description: "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření.
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/lab-specimenType"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
 //* ^effectivePeriod.start = "2025-11-20T00:00:00Z"

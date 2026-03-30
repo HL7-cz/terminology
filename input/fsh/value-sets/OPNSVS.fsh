@@ -4,14 +4,14 @@ Description: "National identity card's namespaces (CZ)"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^title = "Standard namespaces for national identity card"
 * ^version = "1.0.0"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2023-01-01"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^url = "https://hl7.cz/terminology/ValueSet/OP-NS"
-* insert SetFmmandStatusRule(1, draft)
+* insert SetFmmandStatusRule(2, trial-use)
 
 * $uri#https://hl7.cz/NamingSystem/IdCardNumNS-AFG "OP: Afghánistán"
 * $uri#https://hl7.cz/NamingSystem/IdCardNumNS-ALB "OP: Albánie"

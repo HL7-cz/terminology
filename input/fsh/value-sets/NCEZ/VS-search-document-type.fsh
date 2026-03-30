@@ -14,7 +14,7 @@ Description: "Typy dokumentů zejména pro účely vyhledávání."
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/search-document-types"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T19:22:51.629952Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

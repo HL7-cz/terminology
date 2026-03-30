@@ -15,7 +15,7 @@ It also includes exceptional values."
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/MedicalDeviceWithExceptions"
 
 * insert SNOMEDCopyrightForVS
-* insert SetFmmandStatusRule ( 1, draft )
+* insert SetFmmandStatusRule ( 2, trial-use )
 
 * codes from valueset MedicalDeviceVS
 * codes from valueset EHDSIAbsentOrUnknownDeviceCZ

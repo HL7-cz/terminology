@@ -8,7 +8,7 @@ Description: "Číselník typů žádanek"
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/referralorder-types"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T15:26:54.549507Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

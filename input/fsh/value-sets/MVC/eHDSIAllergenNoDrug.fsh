@@ -13,7 +13,7 @@ Description: "The value set is used to code the patient's kind of adverse reacti
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz"
 
 * insert SNOMEDCopyrightForVS
-* insert SetFmmandStatusRule ( 1, draft )
+* insert SetFmmandStatusRule ( 2, trial-use )
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.19)
 //* insert setUrl_ncez ( eHDSIAllergenNoDrug-cz )
 

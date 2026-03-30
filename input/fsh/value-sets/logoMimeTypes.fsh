@@ -10,7 +10,6 @@ Description:   "Mime types for logo attachment. It is used in OrganizationLogo e
 * ^date = "2022-12-26"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
-* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 
 * urn:ietf:bcp:13#image/png "PNG image"

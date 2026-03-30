@@ -6,7 +6,7 @@ Description: "Číselník rolí kontaktních osob ve vztahu k pacientovi. (Conce
 * ^url = "https://hl7.cz/terminology/ValueSet/contactrole-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-04-03T08:19:42.070148Z"
 * ^publisher = "HL7 Czech Republic"

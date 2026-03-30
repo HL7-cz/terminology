@@ -8,7 +8,7 @@ Description: "Číselník typů medicínských dokumentů."
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/medical-document-type"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T19:13:45.314486Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

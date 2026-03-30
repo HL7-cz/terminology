@@ -8,7 +8,7 @@ Description: "Číselník typů ošetřovatelské dokumentace"
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/nursing-document-type"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-19T15:47:12.482345Z"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
