@@ -6,7 +6,7 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"
 * ^version = "1.0.0"
 //* ^versionAlgorithmString = "semver"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-02-09T10:38:00.271394Z"
 * ^publisher = "HL7 Czech Republic"

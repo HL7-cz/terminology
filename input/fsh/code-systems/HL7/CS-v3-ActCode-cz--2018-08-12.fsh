@@ -9,7 +9,7 @@ Description: "This code system supplements v3 ActCode."
 // * ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"
 * ^version = "2018-08-12"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-11-15T18:54:22.337815Z"
 * ^publisher = "HL7 Czech Republic"
@@ -53,7 +53,7 @@ Description: "This code system supplements v3 ActCode."
 * #HIP ^designation[=].use.code = #display
 * #HIP ^designation[=].value = "health insurance plan policy"
 * #HIP ^property[0].code = #status
-* #HIP ^property[=].valueCode = #draft
+* #HIP ^property[=].valueCode = #active
 * #_ActEncounterCode "ActEncounterCode" "Doména poskytuje kódy, které klasifikují ActEncounterClass (ENC)."
 * #_ActEncounterCode ^property[0].code = #status
 * #_ActEncounterCode ^property[=].valueCode = #active

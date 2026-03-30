@@ -9,7 +9,7 @@ Description: "Null Flavor (CZ Code system supplement)"
 //* ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-NullFlavor-cz"
 * ^version = "3.0.0"
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-12-13T05:22:58.056901Z"
 * ^publisher = "HL7 Czech Republic"
