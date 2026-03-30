@@ -1,6 +1,6 @@
-CodeSystem: v3-ActCode
+CodeSystem: ActCode-cz
 Id: v3-ActCode-cz
-Title: "v3 Code System ActCode"
+Title: "ActCode (CZ supplement)"
 Description: "This code system supplements v3 ActCode."
 * ^language = #cs
 // * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
@@ -8,15 +8,16 @@ Description: "This code system supplements v3 ActCode."
 // * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 // * ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"
-* ^version = "2018-08-12"
+* ^version = "10.0.0"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-11-15T18:54:22.337815Z"
+* ^date = "2026-03-30T12:44:34.79865Z"
 * ^publisher = "HL7 Czech Republic"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-11-15T00:00:00Z"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+
 * ^property[0].code = #child
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#child"
 * ^property[=].description = "Child"

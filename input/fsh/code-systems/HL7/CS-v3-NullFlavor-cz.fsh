@@ -16,7 +16,7 @@ Description: "Null Flavor (CZ Code system supplement)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-12-12T00:00:00Z"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-NullFlavor|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0"
 // * ^property[0].code = #HL7usageNotes
 // * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes"
 // * ^property[=].description = "HL7 Concept Usage Notes"
