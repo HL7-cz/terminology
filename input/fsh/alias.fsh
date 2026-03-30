@@ -7,7 +7,7 @@ Alias: $Mkn10_5 = https://uzis.cz/terminology/CodeSystem/mkn-10
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0
+Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0
 Alias: $drzar = https://ncez.mzcr.cz/terminology/CodeSystem/cz-drzar
 Alias: $nrzp_povolani = https://ncez.mzcr.cz/terminology/CodeSystem/nrzp-povolani
 Alias: $uri = urn:ietf:rfc:3986
@@ -16,7 +16,7 @@ Alias: $administrative-gender = http://hl7.org/fhir/administrative-gender|4.0.1
 Alias: $cz-tab-ta-CS = https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta
 Alias: $designation-usage = http://terminology.hl7.org/CodeSystem/designation-usage
 Alias: $edqm = http://standardterms.edqm.eu
-Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|3.0.0
+Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0
 Alias: $AllergyIntoleranceCategory = http://hl7.org/fhir/allergy-intolerance-category|4.0.1
 Alias: $AllergyIntoleranceCriticality = http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1
 
