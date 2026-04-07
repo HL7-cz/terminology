@@ -1,4 +1,4 @@
-CodeSystem: ActCode-cz
+CodeSystem: ActCodeCz
 Id: v3-ActCode-cz
 Title: "ActCode (CZ supplement)"
 Description: "This code system supplements v3 ActCode."
