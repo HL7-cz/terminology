@@ -1,4 +1,4 @@
-CodeSystem: AllergyIntoleranceCriticality
+CodeSystem: AllergyIntoleranceCriticalityCz
 Id: allergy-intolerance-criticality-cz
 Title: "AllergyIntoleranceCriticality (CZ supplement)"
 Description: "AllergyIntoleranceCriticality CZ Code system supplement"
