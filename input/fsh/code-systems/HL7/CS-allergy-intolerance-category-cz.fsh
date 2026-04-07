@@ -1,4 +1,4 @@
-CodeSystem: AllergyIntoleranceCategory
+CodeSystem: AllergyIntoleranceCategoryCz
 Id: allergy-intolerance-category-cz
 Title: "Allergy Intolerance Category (CZ supplement)"
 Description: "Allergy Intolerance Category (CZ Code system supplement)"
