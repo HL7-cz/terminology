@@ -15,8 +15,16 @@ Description: "Číselník typů žádanek"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-11-01T00:00:00Z"
 * ^compose.inactive = false
-* insert SNOMEDCopyrightForVS
-* insert LOINCCopyrightForVS
+* ^copyright = """This value set includes content from SNOMED CT and LOINC.
+
+SNOMED CT is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement
+
+LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc
+"""
+
+//* insert SNOMEDCopyrightForVS
+//* insert LOINCCopyrightForVS
+
 * $loinc#57133-1 "žádanka o vyšetření"
 * $loinc#57830-2 "žádanka o hospitalizaci"
 * $loinc#57154-7 "žádanka o fyzioterapii"
