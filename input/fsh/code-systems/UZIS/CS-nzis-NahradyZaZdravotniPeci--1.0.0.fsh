@@ -1,4 +1,4 @@
-CodeSystem: NahradyZaZdravotniPeci
+CodeSystem: CS_NahradyZaZdravotniPeci
 Id: nzis-NahradyZaZdravotniPeci
 Title: "Kódový systém NahradyZaZdravotniPeci"
 Description: "Kódový systém použitý v NRHOSP"
