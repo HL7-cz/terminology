@@ -34,8 +34,8 @@ publisher:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
-dependencies:
-  hl7.fhir.uv.ips: 1.1.0
+# dependencies:
+#  hl7.fhir.uv.ips: 1.1.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -147,7 +147,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 #  generate-turtle:
 #  html-template:
 #  active-tables: false
-  path-expansion-params: ../../input/tx-params.json
+  path-expansion-params: '../../input/tx-params.json'
   apply-contact: true
   apply-jurisdiction: false
   apply-publisher: true

@@ -11,7 +11,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
 * ^experimental = false
-//* ^effectivePeriod.start = "2025-10-01T00:00:00Z"
+// * ^effectivePeriod.start = "2025-10-01T00:00:00Z"
 * ^language = #cs
 
 // Properties
@@ -194,6 +194,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #A01AB53 ^designation.value = "chlorhexidine and cetylpyridinium"
         * #A01AB53 ^property.code = #NT
         * #A01AB53 ^property.valueString = "N"
+/*
       * #A01AC "Kortikosteroidy pro lokální léčbu v dutině ústní"
       * #A01AC ^designation.language = #en
       * #A01AC ^designation.value = "Corticosteroids for local oral treatment"
@@ -1389,7 +1390,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #A03FA10 ^designation.value = "acotiamide"
         * #A03FA10 ^property.code = #NT
         * #A03FA10 ^property.valueString = "N"
-/*
+// The rest of the code system
   * #A04 "ANTIEMETIKA"
   * #A04 ^designation.language = #en
   * #A04 ^designation.value = "ANTIEMETICS AND ANTINAUSEANTS"
@@ -5985,11 +5986,13 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #B06AX05 ^designation.value = "exagamglogene autotemcel"
         * #B06AX05 ^property.code = #NT
         * #B06AX05 ^property.valueString = "N"
+        */
 * #C "KARDIOVASKULÁRNÍ SYSTÉM"
 * #C ^designation.language = #en
 * #C ^designation.value = "CARDIOVASCULAR SYSTEM"
 * #C ^property.code = #NT
 * #C ^property.valueString = "N"
+/*
   * #C01 "KARDIAKA"
   * #C01 ^designation.language = #en
   * #C01 ^designation.value = "CARDIAC THERAPY"
@@ -8900,6 +8903,8 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #C07FX06 ^designation.value = "carvedilol and ivabradine"
         * #C07FX06 ^property.code = #NT
         * #C07FX06 ^property.valueString = "N"
+*/
+/*  Zkráceno z praktických důvodů ()
   * #C08 "BLOKÁTORY KALCIOVÝCH KANÁLŮ"
   * #C08 ^designation.language = #en
   * #C08 ^designation.value = "CALCIUM CHANNEL BLOCKERS"
@@ -9620,6 +9625,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #C09XX01 ^designation.value = "sparsentan"
         * #C09XX01 ^property.code = #NT
         * #C09XX01 ^property.valueString = "N"
+  */
   * #C10 "LÁTKY UPRAVUJÍCÍ HLADINU LIPIDŮ"
   * #C10 ^designation.language = #en
   * #C10 ^designation.value = "LIPID MODIFYING AGENTS"
@@ -9895,6 +9901,7 @@ Description: "Czech national version of the Anatomical Therapeutical Chemical (A
         * #C10AX18 ^designation.value = "volanesorsen"
         * #C10AX18 ^property.code = #NT
         * #C10AX18 ^property.valueString = "N"
+/*
     * #C10B "LÁTKY UPRAVUJÍCÍ HLADINU LIPIDŮ, KOMBINACE"
     * #C10B ^designation.language = #en
     * #C10B ^designation.value = "LIPID MODIFYING AGENTS, COMBINATIONS"

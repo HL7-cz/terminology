@@ -1,0 +1,136 @@
+CodeSystem: Orphanet
+Id: orpha-rare-diseases
+Title: "ORPHA vzácná onemocnění"
+Description: "Nomenklatura vzácných onemocnění Orphanet (ORPHAcode), která je nezbytná pro zlepšení viditelnosti vzácných onemocnění ve zdravotnických a výzkumných informačních systémech."
+* ^language = #cs
+* ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
+* ^extension[=].valueUrl = "https://termx-t2-admin.csez.cz/fhir/CodeSystem/orpha-rare-diseases"
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
+* ^extension[=].valueCode = #executable
+* ^url = "https://www.orpha.net"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.5"
+* ^version = "2024-07"
+* ^status = #draft
+* ^experimental = false
+* ^date = "2026-04-16T12:39:37.905826Z"
+* ^publisher = "INSERM"
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
+//* ^effectivePeriod.start = "2025-04-28T00:00:00Z"
+* ^caseSensitive = false
+* ^hierarchyMeaning = #is-a
+* ^content = #fragment
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Status"
+* ^property[+].code = #classification-level
+* ^property[=].description = "Úroveň klasifikace"
+* ^property[=].type = #Coding
+// * ^property[+].code = #disorder-id
+// * ^property[=].description = "ID záznamu"
+// * ^property[=].type = #string
+* ^property[+].code = #disorder-type
+* ^property[=].type = #Coding
+* ^property[+].code = #expert-link
+* ^property[=].type = #string
+// * ^property[+].code = #expert-link-cz
+// * ^property[=].type = #string
+* ^property[+].code = #flag
+* ^property[=].type = #Coding
+// * ^property[+].code = #synonym
+// * ^property[=].uri = "http://hl7.org/fhir/concept-properties#synonym"
+// * ^property[=].description = "Synonym"
+// * ^property[=].type = #string
+* ^property[+].code = #synonym
+* ^property[=].uri = "http://hl7.org/fhir/ValueSet/designation-use|synonym"
+* ^property[=].description = "synonymum"
+* ^property[=].type = #string
+* ^property[+].code = #parent
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "Kód rodičovského konceptu"
+* ^property[=].type = #code
+* ^property[+].code = #aggregation-status
+//* ^property[=].uri = "http://hl7.org/fhir/ValueSet/designation-use|synonym"
+* ^property[=].description = "synonymum"
+* ^property[=].type = #string
+
+* #101433 "Vzácné urogenitální onemocnění"
+* #101433 ^designation[+].language = #en
+* #101433 ^designation[=].use.code = #display
+* #101433 ^designation[=].value = "Rare urogenital disease"
+* #101433 ^property[+].code = #status
+* #101433 ^property[=].valueCode = #active
+* #101433 ^property[+].code = #expert-link
+* #101433 ^property[=].valueString = "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=101433"
+// * #101433 ^property[+].code = #disorder-id
+// * #101433 ^property[=].valueString = "14860"
+* #101433 ^property[+].code = #disorder-type
+* #101433 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/orpha-disorder-type"
+* #101433 ^property[=].valueCoding.code = #36561
+* #101433 ^property[=].valueCoding.display = "Kategorie"
+* #101433 ^property[+].code = #classification-level
+* #101433 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/classification-level"
+* #101433 ^property[=].valueCoding.code = #36540
+* #101433 ^property[=].valueCoding.display = "Skupina onemocnění"
+* #101433 ^property[+].code = #flag
+* #101433 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/flag-value"
+* #101433 ^property[=].valueCoding.code = #129
+* #101433 ^property[=].valueCoding.display = "Aktivní"
+
+* #371364 "Syndrom zahrnující hypotonii, poruchu řeči a těžké kognitivní opoždění"
+* #371364 ^designation[+].language = #en
+* #371364 ^designation[=].use.code = #display
+* #371364 ^designation[=].value = "Hypotonia-speech impairment-severe cognitive delay syndrome"
+* #371364 ^designation[+].language = #en
+* #371364 ^designation[=].use = $sct#900000000000013009 "Synonym"
+* #371364 ^designation[=].value = "Infantile hypotonia-psychomotor retardation-characteristic facies syndrome"
+* #371364 ^designation[+].language = #en
+* #371364 ^designation[=].use = $sct#900000000000013009 "Synonym"
+* #371364 ^designation[=].value = "IHPRF syndrome"
+* #371364 ^designation[+].language = #en
+* #371364 ^designation[=].use = #definition
+* #371364 ^designation[=].value = "Hypotonia-speech impairment-severe cognitive delay syndrome is a rare, genetic neurodegenerative disorder characterized by severe, persistent hypotonia (presenting at birth or in early infancy), severe global developmental delay (with poor or absent speech, difficulty or inability to roll, sit or walk), profound intellectual disability, and failure to thrive. Additional manifestations include microcephaly, progressive peripheral spasticity, bilateral strabismus and nystagmus, constipation, and variable dysmorphic facial features (including plagiocephaly, broad forehead, small nose, low-set ears, micrognathia and open mouth with tented upper lip)."
+* #371364 ^property[+].code = #status
+* #371364 ^property[=].valueCode = #active
+* #371364 ^property[+].code = #expert-link
+* #371364 ^property[=].valueString = "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=371364"
+// * #371364 ^property[+].code = #disorder-id
+// * #371364 ^property[=].valueString = "22538"
+* #371364 ^property[+].code = #disorder-type
+* #371364 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/orpha-disorder-type"
+* #371364 ^property[=].valueCoding.code = #21394
+* #371364 ^property[=].valueCoding.display = "Onemocnění"
+* #371364 ^property[+].code = #classification-level
+* #371364 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/classification-level"
+* #371364 ^property[=].valueCoding.code = #36547
+* #371364 ^property[=].valueCoding.display = "Onemocnění"
+* #371364 ^property[+].code = #flag
+* #371364 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/flag-value"
+* #371364 ^property[=].valueCoding.code = #1
+* #371364 ^property[=].valueCoding.display = "Aktivní"
+/*
+* #700333
+* #700333 ^designation[+].language = #en
+* #700333 ^designation[=].use.code = #display
+* #700333 ^designation[=].value = "Hypotonia-speech impairment-severe cognitive delay syndrome due to UNC80 deficiency"
+* #700333 ^property[+].code = #status
+* #700333 ^property[=].valueCode = #active
+* #700333 ^property[+].code = #expert-link
+* #700333 ^property[=].valueString = "http://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=700333"
+* #700333 ^property[+].code = #disorder-type
+* #700333 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/orpha-disorder-type"
+* #700333 ^property[=].valueCoding.code = #21450
+* #700333 ^property[=].valueCoding.display = "Klinický podtyp"
+* #700333 ^property[+].code = #classification-level
+* #700333 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/classification-level"
+* #700333 ^property[=].valueCoding.code = #36554
+* #700333 ^property[=].valueCoding.display = "Podtyp onemocnění"
+* #700333 ^property[+].code = #flag
+* #700333 ^property[=].valueCoding.system = "https://www.orphadata.com/classification/flag-value"
+* #700333 ^property[=].valueCoding.code = #1
+* #700333 ^property[=].valueCoding.display = "Aktivní"
+* #700333 ^property[+].code = #parent
+* #700333 ^property[=].valueCode = #371364
+* #700333 ^property[+].code = #aggregation-status
+* #700333 ^property[=].valueString = "Použitelné"
+ */

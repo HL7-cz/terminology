@@ -1,8 +1,9 @@
 //============== ALIAS ===============
 // Code systems
 Alias: $sct =  http://snomed.info/sct
+Alias: $sctCZ = http://snomed.info/sct|http://snomed.info/sct/11000279109  // Czech extension
 Alias: $loinc = http://loinc.org
-Alias: $orpha = http://www.orpha.net
+Alias: $orpha = https://www.orpha.net
 Alias: $Mkn10_5 = https://uzis.cz/terminology/CodeSystem/mkn-10
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0
@@ -27,5 +28,6 @@ Alias: $personal-relationship = https://hl7.cz/terminology/ValueSet/personal-rel
 //Alias: $MedicalDevicesSnomedAbsentUnknownUvIps = http://hl7.org/fhir/uv/ips/ValueSet/medical-devices-snomed-absent-unknown-uv-ips
 //Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $condition-cz = https://ncez.mzcr.cz/terminology/ValueSet/condition-cz
-
+Alias: $mkn10vs = https://uzis.cz/terminology/ValueSet/mkn-10
+Alias: $orphavs = https://ncez.mzcr.cz/terminology/ValueSet/orphanet-rare-diseases
 //=========================

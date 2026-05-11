@@ -2,10 +2,6 @@ CodeSystem: CoverageSelfPayCodesCZ
 Id: coverage-selfpay-cz
 Title: "Coverage SelfPay Codes (CZ supplement)"
 Description: "This code system supplements Coverage SelfPay."
-// * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-// * ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/coverage-selfpay-cz"
-// * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
-// * ^extension[=].valueCode = #executable
 * ^language = #cs
 * ^url = "https://hl7.cz/terminology/CodeSystem/coverage-selfpay-cz"
 * ^version = "4.0.1"
@@ -26,6 +22,6 @@ Description: "This code system supplements Coverage SelfPay."
 // * ^property[=].description = "Display"
 // * ^property[=].type = #string
 * #pay "samoplátce" "An individual or organization is paying directly for goods and services."
-* #pay ^designation.language = #en
-* #pay ^designation.use.code = #display
-* #pay ^designation.value = "Pay"
+// * #pay ^designation.language = #en
+// * #pay ^designation.use.code = #display
+// * #pay ^designation.value = "Pay"

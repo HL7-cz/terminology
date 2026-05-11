@@ -24,23 +24,23 @@ Description: "AllergyIntoleranceCriticality CZ Code system supplement"
 // * ^property[=].description = "Display"
 // * ^property[=].type = #string
 * #high "vysoké riziko" "V nejhorším případě je výsledek budoucí expozice hodnocen jako život ohrožující nebo s vysokým rizikem selhání orgánového systému."
-* #high ^designation[0].language = #en
-* #high ^designation[=].use.code = #definition
-* #high ^designation[=].value = "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure."
-* #high ^designation[+].language = #en
-* #high ^designation[=].use.code = #display
-* #high ^designation[=].value = "High Risk"
+// * #high ^designation[0].language = #en
+// * #high ^designation[=].use.code = #definition
+// * #high ^designation[=].value = "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure."
+// * #high ^designation[+].language = #en
+// * #high ^designation[=].use.code = #display
+// * #high ^designation[=].value = "High Risk"
 * #low "nízké riziko" "Nejhorší možný výsledek budoucí expozice není hodnocen jako život ohrožující ani jako vysoce pravděpodobný selhání orgánového systému."
-* #low ^designation[0].language = #en
-* #low ^designation[=].use.code = #definition
-* #low ^designation[=].value = "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure."
-* #low ^designation[+].language = #en
-* #low ^designation[=].use.code = #display
-* #low ^designation[=].value = "Low Risk"
+// * #low ^designation[0].language = #en
+// * #low ^designation[=].use.code = #definition
+// * #low ^designation[=].value = "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure."
+// * #low ^designation[+].language = #en
+// * #low ^designation[=].use.code = #display
+// * #low ^designation[=].value = "Low Risk"
 * #unable-to-assess "riziko nelze posoudit" "Není možné odhadnout nejhorší možný výsledek budoucí expozice."
-* #unable-to-assess ^designation[0].language = #en
-* #unable-to-assess ^designation[=].use.code = #definition
-* #unable-to-assess ^designation[=].value = "Unable to assess the worst case result of a future exposure."
-* #unable-to-assess ^designation[+].language = #en
-* #unable-to-assess ^designation[=].use.code = #display
-* #unable-to-assess ^designation[=].value = "Unable to Assess Risk"
+// * #unable-to-assess ^designation[0].language = #en
+// * #unable-to-assess ^designation[=].use.code = #definition
+// * #unable-to-assess ^designation[=].value = "Unable to assess the worst case result of a future exposure."
+// * #unable-to-assess ^designation[+].language = #en
+// * #unable-to-assess ^designation[=].use.code = #display
+// * #unable-to-assess ^designation[=].value = "Unable to Assess Risk"

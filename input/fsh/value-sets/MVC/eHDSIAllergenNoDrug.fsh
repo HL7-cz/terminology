@@ -7,6 +7,7 @@ Id: eHDSIAllergenNoDrug-cz
 Title: "eHDSI Allergen No Drug"
 Description: "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"
 * ^experimental = false
+* ^status = #active
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"

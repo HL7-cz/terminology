@@ -1,3 +1,5 @@
+// Alias: $des-usage="http://terminology.hl7.org/CodeSystem/designation-usage"
+
 CodeSystem: AdministrativeGenderCz
 Id: administrative-gender-cz
 Title: "Administrative Gender (CZ supplement)"
@@ -18,20 +20,20 @@ Description: "Pohlaví osoby používané pro administrativní účely. The gend
 * #female "žena"
 * #female ^definition = "Žena"
 * #female ^designation.language = #en
-* #female ^designation.use.code = #display
+//* #female ^designation.use.code = $des-usage#display
 * #female ^designation.value = "Female"
 * #male "muž"
 * #male ^definition = "Muž"
 * #male ^designation.language = #en
-* #male ^designation.use.code = #display
+//* #male ^designation.use.code = $des-usage#display
 * #male ^designation.value = "Male"
 * #other "jiné"
 * #other ^definition = "Jiné"
 * #other ^designation.language = #en
-* #other ^designation.use.code = #display
+//* #other ^designation.use.code = $des-usage#display
 * #other ^designation.value = "Other"
 * #unknown "neznámé"
 * #unknown ^definition = "Neznámé"
 * #unknown ^designation.language = #en
-* #unknown ^designation.use.code = #display
+//* #unknown ^designation.use.code = $des-usage#display
 * #unknown ^designation.value = "Unknown"
