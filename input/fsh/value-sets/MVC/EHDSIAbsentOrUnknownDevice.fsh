@@ -6,6 +6,7 @@ Id: eHDSIAbsentOrUnknownDevice-cz
 Title: "eHDSI Absent Or Unknown Device"
 Description: "The Value set is used to encode absent or unknown medical devices."
 * ^experimental = false
+* ^status = #active
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
