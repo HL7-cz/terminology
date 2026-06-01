@@ -20,6 +20,7 @@ Alias: $edqm = http://standardterms.edqm.eu
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0
 Alias: $AllergyIntoleranceCategory = http://hl7.org/fhir/allergy-intolerance-category|4.0.1
 Alias: $AllergyIntoleranceCriticality = http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1
+Alias: $odbornost-pracovist-VZP = https://uzis.cz/terminology/CodeSystem/OdbornostVZP|1.0.0
 
 // Valuesets:
 //Alias: $CZ_AdministrativegenderVS = https://hl7.cz/terminology/ValueSet/cz-administrative-gender-vs
@@ -30,4 +31,5 @@ Alias: $personal-relationship = https://hl7.cz/terminology/ValueSet/personal-rel
 Alias: $condition-cz = https://ncez.mzcr.cz/terminology/ValueSet/condition-cz
 Alias: $mkn10vs = https://uzis.cz/terminology/ValueSet/mkn-10
 Alias: $orphavs = https://ncez.mzcr.cz/terminology/ValueSet/orphanet-rare-diseases
+Alias: $odbornost-pracovist-VZPvs = https://uzis.cz/terminology/ValueSet/OdbornostVZP
 //=========================
