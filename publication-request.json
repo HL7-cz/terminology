@@ -5,7 +5,7 @@
   "mode": "milestone",
   "status": "release",
   "sequence": "Release 1",
-  "first": true,
+  "first": false,
   "ci-build": "https://build.fhir.org/ig/HL7-cz/terminology",
   "category": "Terminology",
   "desc": "This is a second release of the Czech FHIR Terminology package.",
