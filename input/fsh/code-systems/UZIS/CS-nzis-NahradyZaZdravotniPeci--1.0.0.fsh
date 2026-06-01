@@ -1,7 +1,7 @@
 CodeSystem: CS_NahradyZaZdravotniPeci
 Id: nzis-NahradyZaZdravotniPeci
 Title: "Kódový systém NahradyZaZdravotniPeci"
-Description: "Kódový systém použitý v NRHOSP"
+Description: "Kódový systém použitý v Národním registru hospitalizovaných (NRHOSP) pro kódování důvodů náhrady za zdravotní péči."
 * ^language = #cs
 // * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 // * ^extension[=].valueUrl = "https://termx-npez.gov.cz//fhir/CodeSystem/nzis-NahradyZaZdravotniPeci"
