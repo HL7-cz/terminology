@@ -99,7 +99,7 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 # NCLP Code systems
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclppol
-    - https://ncez.mzcr.cz/nclp/CodeSystem/slp-aktualnost
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclp-aktualnost
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclptng
