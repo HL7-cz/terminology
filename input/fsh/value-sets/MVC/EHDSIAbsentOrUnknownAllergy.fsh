@@ -7,6 +7,7 @@ Title: "eHDSI Absent Or Unknown Allergy"
 Description: "The Value set is used to encode absent or unknown medical allergies."
 * ^experimental = false
 * ^status = #active
+* ^version = "0.0.1"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
