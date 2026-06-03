@@ -7,6 +7,7 @@ Title:	       "eHDSI Exceptional Value"
 Description:   "The Value Set is used to code exceptional values for the required binding in FHIR IGs"
 * ^experimental = false
 * ^status = #active
+* ^version = "0.0.1"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
