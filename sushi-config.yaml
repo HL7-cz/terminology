@@ -98,6 +98,26 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 
 # NCLP Code systems
     - https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclppol
+    - https://ncez.mzcr.cz/nclp/CodeSystem/slp-aktualnost
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpfh
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpfrm
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclptng
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclptk
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpdrvl
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpjedn
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpkomp
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclponp
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpproc
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpsyst
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpmtv
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpskal
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpaz
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclptypd
+    - https://ncez.mzcr.cz/nclp/CodeSystem/nclpvznk
+    - https://ncez.mzcr.cz/nclp/CodeSystem/ncmpagtk
+
 
 # UZIS Code systems
     - https://uzis.cz/terminology/CodeSystem/mkn-10
@@ -132,6 +152,9 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     # - https://ncez.mzcr.cz/terminology
     # - https://ncez.mzcr.cz/nclp
 
+#  pin-canonicals: pin-multiples
+  path-expansion-params: '../../expansion-params.json'
+
 #  generate-version:
 #    - r4
 #    - r5
@@ -153,11 +176,10 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
 #  generate-turtle:
 #  html-template:
 #  active-tables: false
-  path-expansion-params: '../../input/tx-params.json'
   apply-contact: true
   apply-jurisdiction: false
   apply-publisher: true
-  apply-version: true
+  apply-version: false
   show-inherited-invariants: true
   usage-stats-opt-out: true
   # i18n-default-lang: cs
