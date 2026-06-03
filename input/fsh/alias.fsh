@@ -1,5 +1,6 @@
 //============== ALIAS ===============
 // Code systems
+Alias: $dlp-atc = https://sukl.cz/terminology/CodeSystem/dlp-atc
 Alias: $sct =  http://snomed.info/sct
 Alias: $sctCZ = http://snomed.info/sct|http://snomed.info/sct/11000279109  // Czech extension
 Alias: $loinc = http://loinc.org
@@ -21,6 +22,7 @@ Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.
 Alias: $AllergyIntoleranceCategory = http://hl7.org/fhir/allergy-intolerance-category|4.0.1
 Alias: $AllergyIntoleranceCriticality = http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1
 Alias: $odbornost-pracovist-VZP = https://uzis.cz/terminology/CodeSystem/OdbornostVZP|1.0.0
+Alias: $NCLPPOL = https://ncez.mzcr.cz/nclp/CodeSystem/nclppol
 
 // Valuesets:
 //Alias: $CZ_AdministrativegenderVS = https://hl7.cz/terminology/ValueSet/cz-administrative-gender-vs
