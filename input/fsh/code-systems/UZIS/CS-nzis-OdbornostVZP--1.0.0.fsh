@@ -34,6 +34,7 @@ Description: "Kódový systém smluvních odborností poskytovatele (VZP)"
 * ^property[=].type = #string
 * ^property[+].code = #typ
 * ^property[=].type = #string
+
 * #001 "PL dospělí"
 * #001 ^property[0].code = #hospitalizace
 * #001 ^property[=].valueBoolean = false
