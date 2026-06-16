@@ -1,8 +1,8 @@
 // -------------------------------------------------------------------------------
 //  Value Set. File: 					eHDSIAbsentOrUnknownDevice.fsh
 // -------------------------------------------------------------------------------
-ValueSet: EHDSIAbsentOrUnknownAllergyCZ
-Id: eHDSIAbsentOrUnknownAllergy-cz
+ValueSet: EHDSIAbsentOrUnknownAllergy
+Id: eHDSIAbsentOrUnknownAllergy
 Title: "eHDSI Absent Or Unknown Allergy"
 Description: "The Value set is used to encode absent or unknown medical allergies."
 * ^experimental = false
@@ -10,8 +10,8 @@ Description: "The Value set is used to encode absent or unknown medical allergie
 * ^version = "0.0.1"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
-* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownAllergy-cz"
+* ^publisher = "eHDSI"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownAllergy"
 
 * insert ValueSetSupplementRule("https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz")
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.47)
