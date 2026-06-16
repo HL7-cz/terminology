@@ -18,5 +18,5 @@ It also includes exceptional values."
 * insert SetFmmandStatusRule ( 2, trial-use )
 
 * codes from valueset MedicalDeviceVS
-* codes from valueset EHDSIAbsentOrUnknownDeviceCZ
-* codes from valueset EHDSIExceptionalValueCZ
+* codes from valueset EHDSIAbsentOrUnknownDevice
+* codes from valueset EHDSIExceptionalValue
