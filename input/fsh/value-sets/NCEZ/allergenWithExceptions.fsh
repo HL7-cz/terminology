@@ -26,8 +26,8 @@ It is defined as the union of:
 * insert SetFmmandStatusRule(2, trial-use)
 * insert SNOMEDCopyrightForVS
 
-* codes from valueset EHDSIAllergenNoDrugCZ
+* codes from valueset EHDSIAllergenNoDrug
 * codes from valueset dlp-lecivepripravky
 * codes from valueset dlp-atc
-* codes from valueset EHDSIAbsentOrUnknownAllergyCZ
-* codes from valueset EHDSIExceptionalValueCZ
+* codes from valueset EHDSIAbsentOrUnknownAllergy
+* codes from valueset EHDSIExceptionalValue
