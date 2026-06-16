@@ -3,10 +3,6 @@ Id: v3-ActCode-cz
 Title: "ActCode (CZ supplement)"
 Description: "This code system supplements v3 ActCode."
 * ^language = #cs
-// * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-// * ^extension[=].valueUrl = "http://demo-web:4200/fhir/CodeSystem/v3-ActCode-cz"
-// * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
-// * ^extension[=].valueCode = #executable
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"
 * ^version = "10.0.0"
 * ^status = #active
