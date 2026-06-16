@@ -2,21 +2,21 @@
 //  Value Set. File: 					eHDSIAllergenNoDrug.fsh
 // -------------------------------------------------------------------------------
 
-ValueSet: EHDSIAllergenNoDrugCZ
-Id: eHDSIAllergenNoDrug-cz
+ValueSet: EHDSIAllergenNoDrug
+Id: eHDSIAllergenNoDrug
 Title: "eHDSI Allergen No Drug"
 Description: "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"
 * ^experimental = false
 * ^status = #active
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
-* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAllergenNoDrug-cz"
+* ^publisher = "eHDSI"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug"
 
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 2, trial-use )
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.19)
-//* insert setUrl_ncez ( eHDSIAllergenNoDrug-cz )
+//* insert setUrl_ncez ( eHDSIAllergenNoDrug )
 
 * $sct#432003 "kyselina karminová – barvivo (E120)"
 * $sct#2159007 "azorubin"
