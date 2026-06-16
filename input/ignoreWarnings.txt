@@ -49,3 +49,8 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 
 # All SNOMED-CT concepts use preferred terms consistently - FSN tags in the warning are from the terminology server, not from our value sets
 %This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms)%
+
+# Problem with tx.hl7.eu server - hopefully will be resolved soon
+%Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked %
+
+
