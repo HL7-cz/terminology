@@ -1,8 +1,8 @@
 // -------------------------------------------------------------------------------
 //  Value Set. File: 					eHDSIAbsentOrUnknownDevice.fsh
 // -------------------------------------------------------------------------------
-ValueSet: EHDSIAbsentOrUnknownDeviceCZ
-Id: eHDSIAbsentOrUnknownDevice-cz
+ValueSet: EHDSIAbsentOrUnknownDevice
+Id: eHDSIAbsentOrUnknownDevice
 Title: "eHDSI Absent Or Unknown Device"
 Description: "The Value set is used to encode absent or unknown medical devices."
 * ^experimental = false
@@ -11,7 +11,7 @@ Description: "The Value set is used to encode absent or unknown medical devices.
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
-* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice-cz"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownDevice"
 
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.48)
 * insert ValueSetSupplementRule("https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz")
