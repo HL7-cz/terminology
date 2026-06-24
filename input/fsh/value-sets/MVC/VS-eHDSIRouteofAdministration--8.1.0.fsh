@@ -13,7 +13,7 @@ Description: "eHDSIRouteofAdministration"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-06-15T15:06:55.238088Z"
-* ^publisher = "eHMSEG"
+* ^publisher = "eHDSI"
 //* ^effectivePeriod.start = "2025-05-15T00:00:00Z"
 * ^compose.inactive = false
 
