@@ -15,7 +15,7 @@ Description: "eHDSIDoseForm"
 // * ^effectivePeriod.start = "2026-06-16T00:00:00Z"
 * ^compose.inactive = false
 
-* include codes from system https://standardterms.edqm.eu|2026-01-06 where class = "CMT"
+* include codes from system http://standardterms.edqm.eu|2026-01-06 where class = "CMT"
 * exclude $edqm#50037450
-* exclude codes from system https://standardterms.edqm.eu|2026-01-06
+* exclude codes from system http://standardterms.edqm.eu|2026-01-06
     where domain = "Veterinary only"
