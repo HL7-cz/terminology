@@ -89,6 +89,8 @@ pages:
 #
 parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
   special-url:
+# EDQM
+    - http://standardterms.edqm.eu
 
 # SUKL Code systems
     - https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky
