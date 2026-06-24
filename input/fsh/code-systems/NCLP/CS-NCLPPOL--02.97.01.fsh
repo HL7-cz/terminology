@@ -1,4 +1,4 @@
-CodeSystem: CS-NCLPPOL
+CodeSystem: CS_NCLPPOL
 Id: NCLPPOL
 Title: "NCLPPOL Code System"
 Description: "Národní číselník laboratorních položek"
