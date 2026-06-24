@@ -10,7 +10,7 @@ Description:   "The Value Set is used to code exceptional values for the require
 * ^version = "0.0.1"
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-* ^publisher = "Národní centrum elektronického zdravotnictví (NCEZ)"
+* ^publisher = "eHDSI"
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIExceptionalValue"
 
 * insert setOID ( 1.3.6.1.4.1.12559.11.10.1.3.1.42.81 )
