@@ -9,6 +9,7 @@ Description: "The value set is used to code the patient's kind of adverse reacti
 * ^experimental = false
 * ^status = #active
 * ^language = #cs
+* ^version = "8.1.0"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "eHDSI"
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug"
