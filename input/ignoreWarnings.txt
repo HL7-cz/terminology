@@ -7,10 +7,10 @@ Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
 
 # Code system properties
-%No definition could be found for URL value 'https://termx.org/fhir/CodeSystem/designation-usage#definition'%
+# %No definition could be found for URL value 'https://termx.org/fhir/CodeSystem/designation-usage#definition'%
 %No definition could be found for URL value 'https://termx-t2-admin.csez.cz/fhir/ValueSet/orphanet-rare-diseases'%
-%The base property uri 'https://termx.org/fhir/CodeSystem/designation-usage' is not known for the property 'definition', so the property values can not be validated fully%
-%The base property uri 'http://terminology.hl7.org/CodeSystem/designation-usage' is not known for the property 'display', so the property values can not be validated fully%
+# %The base property uri 'https://termx.org/fhir/CodeSystem/designation-usage' is not known for the property 'definition', so the property values can not be validated fully%
+# %The base property uri 'http://terminology.hl7.org/CodeSystem/designation-usage' is not known for the property 'display', so the property values can not be validated fully%
 %No definition could be found for URL value 'https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#n32'%
 %No definition could be found for URL value 'https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#plati_od'%
 %No definition could be found for URL value 'https://ncez.mzcr.cz/terminology/CodeSystem/dasta-tab_ta#poradi'%
@@ -52,5 +52,8 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 
 # Problem with tx.hl7.eu server - hopefully will be resolved soon
 %Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked %
+%A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000279109' could not be found%
+%A definition for CodeSystem 'https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat' could not be found%
 
-
+# Suppres information on Czech terms not at the tx.sever
+%INFORMATION: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0]%
