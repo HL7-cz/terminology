@@ -6,9 +6,5 @@
   "status": "release",
   "sequence": "Release 1",
   "first": false,
-  "ci-build": "https://build.fhir.org/ig/HL7-cz/terminology",
-  "category": "Terminology",
-  "desc": "This is a second release of the Czech FHIR Terminology package.",
-  "introduction": "This package contains FHIR Terminology resources, including code systems, value sets, and other related resources. It is intended to support the use of FHIR in the Czech healthcare system.",
-  "title": "Czech FHIR Terminology Package"
+  "desc": "This is a second release of the Czech FHIR Terminology package."
 }
