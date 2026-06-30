@@ -24,7 +24,7 @@ Alias: $AllergyIntoleranceCriticality = http://hl7.org/fhir/allergy-intolerance-
 Alias: $odbornost-pracovist-VZP = https://uzis.cz/terminology/CodeSystem/OdbornostVZP|1.0.0
 Alias: $NCLPPOL = https://ncez.mzcr.cz/nclp/CodeSystem/nclppol
 Alias: $NCLPMAT = https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat
-Alias: $nclp-aktualnost = https://nclp.ncez.mzcr.cz/CodeSystem/nclp-aktualnost
+Alias: $nclp-aktualnost = https://ncez.mzcr.cz/CodeSystem/nclp-aktualnost
 
 // Valuesets:
 //Alias: $CZ_AdministrativegenderVS = https://hl7.cz/terminology/ValueSet/cz-administrative-gender-vs
