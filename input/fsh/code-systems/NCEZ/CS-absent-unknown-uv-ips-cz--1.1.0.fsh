@@ -10,7 +10,6 @@ Description: "Kódový systém pro označení nepřítomnosti nebo neznalosti ú
 * ^date = "2025-11-26T13:38:57.738896Z"
 * ^publisher = "Health Level Seven International - Patient Care Work Group"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-//* ^hierarchyMeaning = #is-a
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0"
 
