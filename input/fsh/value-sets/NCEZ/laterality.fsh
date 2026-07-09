@@ -11,6 +11,7 @@ Description:   "Body Structure site laterality qualifier. It indicates the body 
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/cz-specimen-laterality"
 * ^language = #cs
 
+
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 2, trial-use)
 
