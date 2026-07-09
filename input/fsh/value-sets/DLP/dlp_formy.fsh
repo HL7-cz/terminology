@@ -15,4 +15,4 @@ Description:   "Číselník lékových forem dle DLP."
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system dlp-formy
+* include codes from system $dlp-formy
