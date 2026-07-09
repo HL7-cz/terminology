@@ -12,4 +12,4 @@ Description: "Číselník obsahující koncepty z kódového systému Mkn10_5. C
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-11-07T00:00:00Z"
 * ^compose.inactive = false
-* include codes from system $Mkn10_5
+* include codes from system $mkn-10
