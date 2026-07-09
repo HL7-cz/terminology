@@ -12,7 +12,7 @@ Description:  """Condition value set includes selected codes from national and r
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/condition-cz"
 
 * insert SNOMEDCopyrightForVS
-* codes from system MKN10_5
+* codes from system $mkn-10
 * codes from system $orpha
 * codes from system $sct where concept is-a #404684003 "Clinical finding"
 //* codes from system $sct where concept is-a #71388002 "Procedure"
