@@ -17,4 +17,4 @@ Description:   "Číselník léčivých přípravků dle DLP."
 * insert SetFmmandStatusRule(2, trial-use)
 //* insert setUrl_sukl(dlp-lecivepripravky)
 
-* include codes from system CS_DLP_lecivepripravky
+* include codes from system $dlp-lecivepripravky
