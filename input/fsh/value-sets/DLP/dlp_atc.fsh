@@ -11,9 +11,8 @@ Description:   "Value set of DLP ATC"
 * ^date = "2025-01-17"
 * ^experimental = false
 * ^publisher = "Státní ústav pro kontrolu léčiv (SÚKL)"
-//* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^url = "https://sukl.cz/terminology/ValueSet/dlp-atc"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SetFmmandStatusRule(2, trial-use)
 
-* include codes from system CS_DLP_atc
+* include codes from system $dlp-atc
