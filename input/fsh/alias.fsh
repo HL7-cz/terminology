@@ -1,11 +1,14 @@
 //============== ALIAS ===============
 // Code systems
 Alias: $dlp-atc = https://sukl.cz/terminology/CodeSystem/dlp-atc
+Alias: $dlp-formy = https://sukl.cz/terminology/CodeSystem/dlp-formy
+Alias: $dlp-lecivepripravky = https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky
+Alias: $dlp-lecivelatky = https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky
 Alias: $sct =  http://snomed.info/sct
 Alias: $sctCZ = http://snomed.info/sct|http://snomed.info/sct/11000279109  // Czech extension
 Alias: $loinc = http://loinc.org
 Alias: $orpha = https://www.orpha.net
-Alias: $Mkn10_5 = https://uzis.cz/terminology/CodeSystem/mkn-10
+Alias: $mkn-10 = https://uzis.cz/terminology/CodeSystem/mkn-10
 Alias: $absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131|3.0.0
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
@@ -18,6 +21,7 @@ Alias: $administrative-gender = http://hl7.org/fhir/administrative-gender|4.0.1
 Alias: $cz-tab-ta-CS = https://ncez.mzcr.cz/terminology/CodeSystem/cz-tab-ta
 Alias: $designation-usage = http://terminology.hl7.org/CodeSystem/designation-usage
 Alias: $edqm = http://standardterms.edqm.eu
+Alias: $standardterms = http://standardterms.edqm.eu
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0
 Alias: $AllergyIntoleranceCategory = http://hl7.org/fhir/allergy-intolerance-category|4.0.1
 Alias: $AllergyIntoleranceCriticality = http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1
