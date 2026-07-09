@@ -13,13 +13,6 @@ Description:   "Codesystem of DLP Lecive latky. Identification ingredient."
 * ^publisher = "Státní ústav pro kontrolu léčiv (SÚKL)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
-* ^content = #fragment
+* ^content = #not-present
 * ^url = "https://sukl.cz/terminology/CodeSystem/dlp-lecivelatky"
 * insert SetFmmandStatusRule(2, trial-use)
-
-
-* #10647 "SIMVASTATIN"
-* #828 "LEVOTHYROXINUM NATRICUM"
-* #1593 "IBUPROFENUM"
-* #1064 "PARACETAMOLUM"
-* #23463 "SARS-COV-2 (OMICRON JN.1) SPIKE PROTEIN"
