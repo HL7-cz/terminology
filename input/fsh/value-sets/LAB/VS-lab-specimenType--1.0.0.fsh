@@ -16,455 +16,1814 @@ Description: "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření.
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SNOMEDCopyrightForVS
 
-* $sct#258497007 "Stěr z abscesu"
-* $sct#258407001 "Tkáně z abscesu"
-* $sct#119373006 "Vzorek plodové vody"
-* $sct#122552005 "Vzorek arteriální krve"
-* $sct#309201001 "Vzorek ascitické tekutiny"
-* $sct#119341000 "Vzorek žluči"
-* $sct#258493006 "Vzorek močového kamene"
-* $sct#258582006 "Vzorek krevní sraženiny"
-* $sct#119297000 "Vzorek krve"
-* $sct#309051001 "Vzorek tělesné tekutiny"
-* $sct#432825001 "Vzorek tělesného sekretu"
-* $sct#258583001 "Vzorek sraženiny kostní dřeně"
-* $sct#119359002 "Vzorek kostní dřeně"
-* $sct#258417006 "Vzorek kostní tkáně"
-* $sct#309176002 "Kartáčkový odběr z bronchů"
-* $sct#258446004 "Vzorek bronchální tekutiny"
-* $sct#258564008 "Stěr z bukální sliznice"
-* $sct#258418001 "Tkáně z popáleniny"
-* $sct#258448003 "Vzorek tekutiny z burzy"
-* $sct#309110000 "Vzorek tkáně burzy"
-* $sct#119350003 "Vzorek konkrementu"
-* $sct#258627009 "Špička kanyly jako vzorek"
-* $sct#122554006 "Kapilární krevní vzorek"
-* $sct#309101008 "Vzorek chrupavky"
-* $sct#119312009 "Špička katétru jako vzorek"
-* $sct#258450006 "Vzorek mozkomíšního moku"
-* $sct#122580007 "Vzorek ušního mazu"
-* $sct#258452003 "Vzorek chylózní tekutiny"
-* $sct#258581004 "Vzorek sražené krve"
-* $sct#168136008 "Vzorek tekutiny z kolostomie"
-* $sct#119329007 "Vzorek mleziva"
-* $sct#258498002 "Stěr ze spojivky"
-* $sct#122556008 "Vzorek pupečníkové krve"
-* $sct#258499005 "Stěr po kašli"
-* $sct#258419009 "Kyretážní materiál"
-* $sct#258453008 "Vzorek tekutiny z cysty"
-* $sct#258420003 "Tkáně z cysty"
-* $sct#119338009 "Vzorek dentinu"
-* $sct#472919007 "Zdravotnická pomůcka jako vzorek"
-* $sct#258454002 "Vzorek dialyzátu"
-* $sct#258439008 "Vzorek sekretu"
-* $sct#258566005 "Vzorek DNA"
-* $sct#1003705007 "Špička drénu jako vzorek"
-* $sct#258455001 "Vzorek drenážní tekutiny"
-* $sct#119294007 "Vzorek zaschlé krve"
-* $sct#258440005 "Vzorek výpotku"
-* $sct#258456000 "Vzorek tekutiny z empyému"
-* $sct#119336008 "Vzorek vydechovaného vzduchu"
-* $sct#258470000 "Vzorek prostatického sekretu"
-* $sct#258441009 "Vzorek exsudátu"
-* $sct#309128003 "Vzorek nitrooční tekutiny"
-* $sct#258487003 "Stěr stolice"
-* $sct#119339001 "Vzorek stolice"
-* $sct#309117002 "Vzorek fascie"
-* $sct#258458004 "Vzorek tekutiny z píštěle"
-* $sct#258442002 "Vzorek tekutiny"
-* $sct#445744006 "Vzorek tekutiny ze seromu"
-* $sct#309502007 "Vzorek z plodu"
-* $sct#447103002 "Cizí těleso jako vzorek"
-* $sct#258492001 "Vzorek žlučového kamene"
-* $sct#432657002 "Vzorek gangliové cysty"
-* $sct#309213006 "Kartáčkový odběr ze žaludku"
-* $sct#309199003 "Vzorek gastrointestinální tekutiny"
-* $sct#258562007 "Genetický vzorek"
-* $sct#258508008 "Genitální stěr"
-* $sct#258559009 "Vzorek tekutiny z gingivální rýhy"
-* $sct#440493002 "Štěp od pacienta jako vzorek"
-* $sct#258588005 "Vzorek hematomu"
-* $sct#119326000 "Vzorek vlasů"
-* $sct#258424007 "Tkáně srdeční chlopně"
-* $sct#258521001 "Stěr z horní části pochvy"
-* $sct#258461003 "Vzorek tekutiny z hydrokély"
-* $sct#258462005 "Vzorek tekutiny z ileostomie"
-* $sct#258479004 "Vzorek intersticiální tekutiny"
-* $sct#309114009 "Vzorek vazu"
-* $sct#258522008 "Stěr z dolní části pochvy"
-* $sct#309171007 "Vzorek tekutiny z dolních dýchacích cest"
-* $sct#302795002 "Aspirát z lymfatické uzliny"
-* $sct#258488008 "Nátěr z lymfatické uzliny"
-* $sct#309078004 "Vzorek tkáně lymfatické uzliny"
-* $sct#119340004 "Vzorek smolky"
-* $sct#119345009 "Vzorek menstruační krve"
-* $sct#119303007 "Mikrobiální izolát"
-* $sct#119328004 "Vzorek mateřského mléka"
-* $sct#258483004 "Vzorek hlenu"
-* $sct#119327009 "Vzorek nehtu"
-* $sct#168141000 "Vzorek nosní tekutiny"
-* $sct#258467004 "Výplach nosohltanu"
-* $sct#433799002 "Vzorek nervového ganglia"
-* $sct#309129006 "Vzorek nervové tkáně"
-* $sct#309131002 "Vzorek neuromu"
-* $sct#258468009 "Vzorek edémové tekutiny"
-* $sct#309210009 "Kartáčkový odběr z jícnu"
-* $sct#258494000 "Vzorek pankreatického kamene"
-* $sct#122571007 "Vzorek perikardiální tekutiny"
-* $sct#168139001 "Vzorek peritoneální tekutiny"
-* $sct#258469001 "Výplach hltanu"
-* $sct#119361006 "Vzorek plazmy"
-* $sct#110913002 "Cytologický materiál z pleurální tekutiny"
-* $sct#418564007 "Vzorek pleurální tekutiny"
-* $sct#258484005 "Posmrtný tkáňový vzorek"
-* $sct#258428005 "Tkáně produktů početí"
-* $sct#119323008 "Vzorek hnisu"
-* $sct#258502009 "Stěr z hnisu"
-* $sct#119351004 "Vzorek erytrocytů"
-* $sct#258495004 "Vzorek ledvinového kamene"
-* $sct#119342007 "Vzorek slin"
-* $sct#258431006 "Seškrab"
-* $sct#258432004 "Vzorek kožního mazu"
-* $sct#119347001 "Vzorek semenné tekutiny"
-* $sct#119364003 "Vzorek séra"
-* $sct#309261004 "Kartáčkový odběr ze sigmatu"
-* $sct#258475005 "Výplach z paranazálních dutin"
-* $sct#119331003 "Vzorek kosterního svalu"
-* $sct#119325001 "Vzorek kožní tkáně"
-* $sct#258505006 "Stěr z kožního vředu"
-* $sct#258433009 "Nátěrový vzorek"
-* $sct#309072003 "Vzorek měkké tkáně"
-* $sct#119300005 "Vzorek z krevního přípravku"
-* $sct#898201001 "Vzorek ze zdravotnického prostředku"
-* $sct#1003706008 "Vzorek ze špičky drénu"
-* $sct#119305000 "Vzorek z vaku s plazmou"
-* $sct#119349003 "Vzorek spermií"
-* $sct#258434003 "Vycentrovaný močový sediment"
-* $sct#119334006 "Vzorek sputa"
-* $sct#257261003 "Stěr"
-* $sct#445160003 "Stěr z oka"
-* $sct#122569007 "Vzorek potu"
-* $sct#119332005 "Vzorek synoviální tekutiny"
-* $sct#309123007 "Vzorek synovie"
-* $sct#309121009 "Vzorek synoviální tkáně"
-* $sct#440468004 "Tampon jako vzorek"
-* $sct#258465007 "Vzorek slzné tekutiny"
-* $sct#122594008 "Vzorek slz"
-* $sct#309481000 "Vzorek temporální arterie"
-* $sct#309107007 "Vzorek šlachy"
-* $sct#258529004 "Stěr z krku"
-* $sct#119376003 "Tkáňový vzorek"
-* $sct#258538002 "Vzorek transudátu"
-* $sct#258435002 "Vzorek nádorové tkáně"
-* $sct#441479001 "Vzorek čerstvé tkáně"
-* $sct#439628000 "Močový sběrný sáček jako vzorek"
-* $sct#439580004 "Močová savá podložka jako vzorek"
-* $sct#122567009 "Vzorek močového sedimentu"
-* $sct#122575003 "Vzorek moči"
-* $sct#258437005 "Vegetace ze srdeční chlopně"
-* $sct#122555007 "Vzorek žilní krve"
-* $sct#122572000 "Vzorek zvratků"
-* $sct#258591005 "Vzorek leukocytů"
-* $sct#258580003 "Vzorek plné krve"
-* $sct#438805006 "Vzorek celého zubu"
-* $sct#122566000 "Vzorek tekutiny z rány"
-* $sct#258531008 "Stěr z rány"
-* $sct#446302006 "Vzorek vzduchu"
-* $sct#33631000087102 "Alogenní kostní štěp jako vzorek"
-* $sct#703430008 "Vzorek arteriální pupečníkové krve"
-* $sct#16215211000119100 "Vzorek tekutiny z Bartholiniho žlázy"
-* $sct#446129006 "Vzorek žluči ze společného žlučovodu"
-* $sct#446817004 "Vzorek žluči ze žlučníku"
-* $sct#258490009 "Vzorek biliárního kamene"
-* $sct#309105004 "Bioptický vzorek kosti"
-* $sct#258607008 "Vzorek bronchoalveolární laváže"
-* $sct#122577006 "Vzorek cervikálního hlenu"
-* $sct#16216411000119106 "Nátěr ze spojivky"
-* $sct#1003707004 "Drén jako vzorek"
-* $sct#309216003 "Bioptický vzorek duodena"
-* $sct#122574004 "Vzorek duodenální tekutiny"
-* $sct#309166000 "Stěr z ucha"
-* $sct#119314005 "Elektroda jako vzorek"
-* $sct#419695002 "Stěr z prostředí"
-* $sct#309211008 "Bioptický vzorek žaludku"
-* $sct#122573005 "Vzorek žaludečního obsahu"
-* $sct#258459007 "Vzorek žaludeční tekutiny"
-* $sct#122579009 "Vzorek lochií"
-* $sct#258512002 "Stěr z glans penis"
-* $sct#473415003 "Nitroděložní tělísko jako vzorek"
-* $sct#258649003 "Vzorek infuzní tekutiny"
-* $sct#309049000 "Vzorek z léze"
-* $sct#309203003 "Bioptický vzorek jater"
-* $sct#258589002 "Vzorek lymfatické uzliny"
-* $sct#258466008 "Vzorek tekutiny ze středního ucha"
-* $sct#119298005 "Vzorek smíšené žilní krve"
-* $sct#705054005 "Vzorek svalu"
-* $sct#309104000 "Vzorek pohybového aparátu"
-* $sct#447339001 "Nátěr z nosu"
-* $sct#258500001 "Stěr z nosohltanu"
-* $sct#16220931000119104 "Vzorek tekutiny z cysty pankreatu"
-* $sct#119343002 "Vzorek pankreatické tekutiny"
-* $sct#309154006 "Vzorek hypofýzy"
-* $sct#708317005 "Smíšený vzorek z introitu a rektálního stěru"
-* $sct#258513007 "Stěr z předkožky"
-* $sct#258528007 "Rektální stěr"
-* $sct#410580001 "Vzorek respirační tekutiny"
-* $sct#732293002 "Vzorek slinného kamene"
-* $sct#309066003 "Bioptický vzorek kůže"
-* $sct#430268003 "Vzorek z kosti"
-* $sct#119398007 "Vzorek z mozku"
-* $sct#122601001 "Bioptický vzorek z prsu"
-* $sct#119307008 "Vzorek z endotracheální kanyly"
-* $sct#119399004 "Vzorek z oka"
-* $sct#127476006 "Vzorek z vejcovodu"
-* $sct#446951004 "Vzorek z granulační tkáně"
-* $sct#127473003 "Vzorek z ledviny"
-* $sct#119383005 "Vzorek z jater"
-* $sct#122610009 "Bioptický vzorek z plic"
-* $sct#447407009 "Vzorek z nekrotické tkáně"
-* $sct#127469001 "Vzorek z pankreatu"
-* $sct#119403008 "Vzorek z placenty"
-* $sct#1003711005 "Vzorek z náhrady kloubu"
-* $sct#608969007 "Vzorek z kůže"
-* $sct#433308004 "Vzorek ze sleziny"
-* $sct#119379005 "Vzorek ze žaludku"
-* $sct#445447003 "Aspirát z trachey"
-* $sct#441903006 "Vzorek z bronchální aspirace"
-* $sct#440674008 "Vzorek získaný laváží"
-* $sct#57711000052109 "Vzorek získaný punkcí"
-* $sct#16220971000119101 "Vzorek tekutiny z cysty ledviny"
-* $sct#278020009 "Jednorázový vzorek moči"
-* $sct#271514008 "Vzorek kostní dřeně ze sterna"
-* $sct#472894002 "Stěr z rohovky"
-* $sct#472900002 "Stěr z dásně"
-* $sct#472888005 "Stěr z hrtanu"
-* $sct#16210971000119108 "Stěr z léze"
-* $sct#472862007 "Stěr z kožní léze"
-* $sct#472879001 "Stěr z placenty"
-* $sct#472885008 "Stěr z dekubitu"
-* $sct#472883001 "Stěr z chirurgické rány"
-* $sct#472866005 "Stěr z jazyka"
-* $sct#472867001 "Stěr z tonsily"
-* $sct#461911000124106 "Orofaryngeální stěr"
-* $sct#309478005 "Vzorek trombu"
-* $sct#258480001 "Transtracheální aspirát"
-* $sct#258436001 "Vzorek tkáně pupečníku"
-* $sct#258530009 "Uretrální stěr"
-* $sct#444937002 "Vzorek moči z ureteru"
-* $sct#447589008 "Moč po jednorázové katetrizaci"
-* $sct#446907008 "Vzorek moči z ledviny"
-* $sct#258520000 "Vaginální stěr"
-* $sct#703431007 "Vzorek žilní pupečníkové krve"
-* $sct#258482009 "Vzorek tekutiny z puchýře"
-* $sct#258523003 "Stěr z vulvy"
-* $sct#258662004 "Vzorek na adhezním sklíčku"
-* $sct#258527002 "Anální stěr"
-* $sct#258415003 "Bioptický vzorek"
-* $sct#303248007 "Krevní nátěr"
-* $sct#737535000 "Krevní nátěr"
-* $sct#122560006 "Krevní vzorek dárce"
-* $sct#866033003 "Krev v aerobní hemokultivační lahvi"
-* $sct#866032008 "Krev v anaerobní hemokultivační lahvi"
-* $sct#878861003 "Krev v hemokultivační lahvi"
-* $sct#445295009 "Krevní vzorek v EDTA"
-* $sct#309061008 "Aspirát z prsu tenkou jehlou"
-* $sct#309503002 "Sekret z bradavky"
-* $sct#309174004 "Biopsie bronchu"
-* $sct#119308003 "Kanyla jako vzorek"
-* $sct#473409003 "Centrální žilní katétr jako vzorek"
-* $sct#472929000 "Špička centrálního žilního katétru"
-* $sct#445372002 "Mozkomíšní mok z mozkové komory"
-* $sct#258524009 "Cervikální stěr"
-* $sct#440473005 "Kontaktní čočka jako vzorek"
-* $sct#440500007 "Suchá kapka krve"
-* $sct#119319000 "Vzorek léčiva"
-* $sct#309165001 "Vzorek ucha"
-* $sct#258575007 "Ranní moč"
-* $sct#446676001 "Odsáté mateřské mléko"
-* $sct#122568004 "Exsudát z rány"
-* $sct#258519006 "Stěr z ženského genitálu"
-* $sct#737357006 "Vzorek fetální krve"
-* $sct#698276005 "První proud moči"
-* $sct#733056005 "Vzorek tekutiny z ucha"
-* $sct#732976006 "Vzorek tekutiny ze zevního zvukovodu"
-* $sct#16214171000119101 "Vzorek genitální tekutiny"
-* $sct#258570002 "Urogenitální vzorek"
-* $sct#309124001 "Biopsie kloubu"
-* $sct#431361003 "Kloubní tekutina"
-* $sct#309079007 "Biopsie lymfatické uzliny"
-* $sct#309052008 "Vzorek mužského genitálu"
-* $sct#258574006 "Střední proud moči"
-* $sct#119321005 "Vzorek mléka"
-* $sct#119377007 "Vzorek myokardu"
-* $sct#16224371000119105 "Výplach nosu"
-* $sct#16223051000119101 "Obsah paranazální dutiny"
-* $sct#258411007 "Aspirát z nosohltanu"
-* $sct#441620008 "Orální tekutina"
-* $sct#418932006 "Orální stěr"
-* $sct#258511009 "Uretrální stěr u muže"
-* $sct#258510005 "Stěr z penisu"
-* $sct#258526006 "Perianální stěr"
-* $sct#258525005 "Perineální stěr"
-* $sct#472923004 "Špička periferního katétru"
-* $sct#168140004 "Peritoneální dialyzát"
-* $sct#788707000 "Plazma / sérum / plná krev"
-* $sct#708049000 "Plazma s EDTA"
-* $sct#309172000 "Biopsie pleury"
-* $sct#258471001 "Sekret po masáži prostaty"
-* $sct#708112008 "Aspirát z Douglasova prostoru"
-* $sct#258664003 "Vzorek pomocí lepicí pásky"
-* $sct#119348006 "Semenná plazma"
-* $sct#122589008 "Sérum od dárce krve"
-* $sct#122590004 "Sérum od pacienta"
-* $sct#258549008 "Kožní šupina"
-* $sct#258503004 "Kožní stěr"
-* $sct#1179252003 "Mikroskopické sklíčko jako vzorek"
-* $sct#119371008 "Vzorek z abscesu"
-* $sct#446972001 "Aspirát z abscesu"
-* $sct#119392008 "Vzorek z anu"
-* $sct#127456000 "Vzorek z prsu"
-* $sct#16211051000119109 "Vzorek z hluboké rány"
-* $sct#119396006 "Vzorek z endometria"
-* $sct#440229008 "Vzorek z prostředí"
-* $sct#16212771000119105 "Biopsie z víčka"
-* $sct#449446003 "Vzorek ze žlučníku"
-* $sct#119344008 "Vzorek z genitálního systému"
-* $sct#447098004 "Seškrab z nehtu"
-* $sct#430248009 "Vzorek z nosohltanu"
-* $sct#447154002 "Vzorek z nosu"
-* $sct#119397002 "Vzorek z penisu"
-* $sct#434250007 "Biopsie perikardu"
-* $sct#438660002 "Vzorek z implantátu"
-* $sct#446952006 "Seškrab z kůže"
-* $sct#119295008 "Aspirát"
-* $sct#119324002 "Vzorek neznámého materiálu"
-* $sct#703691002 "Vycentrovaný mozkomíšní mok"
-* $sct#258609006 "Aspirát sputa z trachey"
-* $sct#447488002 "Suprapubická moč"
-* $sct#373826004 "Chirurgicky odstraněná tkáň"
-* $sct#472896000 "Stěr z puchýře"
-* $sct#733104004 "Stěr z bukální sliznice"
-* $sct#472884007 "Stěr z hluboké rány"
-* $sct#472886009 "Stěr z gastrostomie"
-* $sct#472901003 "Stěr z paranazální dutiny"
-* $sct#472881004 "Stěr z hltanu"
-* $sct#472882006 "Stěr z povrchové rány"
-* $sct#33901000087104 "Stěr z tracheostomie"
-* $sct#472871003 "Stěr z vředu"
-* $sct#445364004 "Stěr z axily"
-* $sct#445444005 "Stěr z třísla"
-* $sct#445367006 "Stěr z pupku"
-* $sct#710069003 "Vzorek klíštěte"
-* $sct#128157004 "Tkáně z mozku"
-* $sct#399492000 "Tkáně z plic"
-* $sct#699874006 "Tkáně z perikardu"
-* $sct#57741000052105 "Tracheální sekret"
-* $sct#472938003 "Tracheální kanyla jako vzorek"
-* $sct#122877000 "Aspirát z horních dýchacích cest"
-* $sct#258604001 "Vzorek z horních dýchacích cest"
-* $sct#122565001 "Vzorek z močového katétru"
-* $sct#446130001 "Vzorek moči z močového měchýře"
-* $sct#442173007 "Vzorek moči z nefrostomie"
-* $sct#446306009 "Vzorek moči ze sběrného sáčku"
-* $sct#446846006 "Moč z permanentního katétru"
-* $sct#16221251000119108 "Moč z jednorázového katétru"
-* $sct#258577004 "Vaginální sekret"
-* $sct#472932002 "Vaskulární katétr jako vzorek"
-* $sct#703432000 "Vzorek žilní plazmy"
-* $sct#472942000 "Ventrikuloperitoneální shunt jako vzorek"
-* $sct#258438000 "Vzorek sklivce"
-* $sct#119318008 "Vzorek vody"
-* $sct#57921000052103 "Plná krev s edetovou kyselinou"
-* $sct#258565009 "Vzorek choriových klků"
-* $sct#258599007 "Roztok z kontaktní čočky"
-* $sct#439961009 "Implantát jako vzorek"
-* $sct#258603007 "Vzorek z dýchacího systému"
-* $sct#119368000 "Vzorek z cysty"
-* $sct#433861002 "FNAB z paranazální dutiny"
-* $sct#734379005 "Vzorek z periodoncia"
-* $sct#119369008 "Vzorek z vředu"
-* $sct#430304001 "Vzorek z neurčené lokalizace"
-* $sct#127479004 "Vzorek z dělohy"
-* $sct#122550002 "FNAB vzorek"
-* $sct#258576008 "Suprapubický aspirát"
-* $sct#445297001 "Stěr z vnitřní části nosu"
-* $sct#699287008 "Moč ze suprapubického permanentního katétru"
-* $sct#444946008 "Dialyzační tekutina před dialýzou"
-* $sct#122592007 "Sérum nebo plazma"
-* $sct#309141004 "Vzorek nadledvin"
-* $sct#309479002 "Vzorek tepny"
-* $sct#122558009 "Vzorek krve z krevního přípravku"
-* $sct#122559001 "Kontrolní krevní vzorek"
-* $sct#122562003 "Krevní vzorek novorozence"
-* $sct#258587000 "Buffy coat (vrstva leukocytů)"
-* $sct#433116003 "FNAB z jater"
-* $sct#119346005 "Vzorek vaječného žloutku"
-* $sct#122582004 "Vzorek erytrocytů z krevního přípravku"
-* $sct#119333000 "Vzorek fibroblastů"
-* $sct#119320006 "Vzorek potraviny"
-* $sct#122576002 "Genitální hlen"
-* $sct#119337004 "Vzorek vdechovaného plynu"
-* $sct#258606004 "Vzorek z dolních dýchacích cest"
-* $sct#119316007 "Nebuněčná (nebiologická) tekutina"
-* $sct#122551003 "Vzorek periferní krve"
-* $sct#119301009 "Vzorek rostliny"
-* $sct#119362004 "Plazma chudá na trombocyty"
-* $sct#119363009 "Plazma bohatá na trombocyty"
-* $sct#119358005 "Vzorek trombocytů"
-* $sct#725946000 "Vzorek retikulocytů"
-* $sct#309508006 "FNAB z léze měkkých tkání"
-* $sct#119391001 "Vzorek z bronchu"
-* $sct#119367005 "Vzorek z popáleniny"
-* $sct#702701006 "Vzorek z čípku nebo pochvy"
-* $sct#119400006 "Vzorek z rohovky"
-* $sct#1003708009 "Vzorek z drénu"
-* $sct#127462005 "Vzorek ze srdce"
-* $sct#127458004 "Vzorek z plic"
-* $sct#122614000 "FNAB z plic"
-* $sct#432382007 "FNAB z lymfatické uzliny"
-* $sct#128155007 "Vzorek z ovaria"
-* $sct#431406009 "FNAB z pankreatu"
-* $sct#441695007 "FNAB z příušní žlázy"
-* $sct#430250001 "Vzorek z peritonea"
-* $sct#127459007 "Vzorek z pleury"
-* $sct#119386002 "Vzorek z prostaty"
-* $sct#384819001 "Jehlová biopsie prostaty"
-* $sct#434406008 "FNAB ze slinné žlázy"
-* $sct#441810001 "FNAB z měkké tkáně"
-* $sct#441749007 "FNAB z podčelistní žlázy"
-* $sct#128154006 "Vzorek z varlete"
-* $sct#119389009 "Vzorek z hrdla"
-* $sct#399680007 "Vzorek ze štítné žlázy"
-* $sct#119390000 "Vzorek z trachey"
-* $sct#399411006 "Vzorek z trofoblastu"
-* $sct#119393003 "Vzorek z uretry"
-* $sct#450872001 "Vzorek z močového měchýře"
-* $sct#119395005 "Vzorek z děložního čípku"
-* $sct#119394009 "Vzorek z pochvy"
-* $sct#119365002 "Vzorek z rány"
-* $sct#309146009 "FNAB štítné žlázy"
-* $sct#122638001 "Tkáně z tenkého střeva"
-* $sct#258444001 "Vzorek komorové vody"
-* $sct#258485006 "Seškrab z rohovky"
-* $sct#168137004 "Gastrický aspirát"
-* $sct#1259931002 "Vzorek vousů"
-* $sct#168145009 "Vzorek lymfy"
-* $sct#309507001 "Biopsie svalu"
-* $sct#16224171000119108 "Nasotracheální aspirát"
-* $sct#309068002 "Vzorek kožní léze"
-* $sct#396997002 "Aspirát z kostní dřeně"
-* $sct#16215771000119101 "FNAB z tříselné uzliny"
-* $sct#430236006 "Vzorek z nervu"
-* $sct#472898004 "Stěr z ruky"
-* $sct#472868006 "Stěr z peritoneální dutiny"
-* $sct#444787003 "Stěr z endocervixu"
-* $sct#16223971000119109 "FNAB synoviální tekutiny"
-* $sct#122656001 "Tkáně ze žlučníku"
-* $sct#122736005 "Tkáně z placenty"
-* $sct#369611008 "Biopsie tenkého střeva"
-* $sct#309191000 "Biopsie tonsily"
-* $sct#697989009 "Stěr z přední části nosu"
-* $sct#57931000052101 "Kombinovaný vzorek cervikálního hlenu a moči"
-* $sct#433324003 "Vzorek z oční krajiny"
-* $sct#16216171000119108 "Aspirát z jater"
-* $sct#16221491000119104 "Samovolně vyloučená moč"
+* $sct#119371008
+* $sct#119362004
+* $sct#16216211000119105
+* $sct#16212571000119100
+* $sct#16209731000119104
+* $sct#16209291000119109
+* $sct#2541000181108
+* $sct#2511000181107
+* $sct#447158004
+* $sct#445069004
+* $sct#444656005
+* $sct#443498007
+* $sct#430245007
+* $sct#396356004
+* $sct#309174004
+* $sct#309120005
+* $sct#122734008
+* $sct#122660003
+* $sct#122607002
+* $sct#110965000
+* $sct#110899003
+* $sct#122565001
+* $sct#445447003
+* $sct#168137004
+* $sct#16223771000119107
+* $sct#16216371000119105
+* $sct#16211531000119105
+* $sct#725946000
+* $sct#703431007
+* $sct#472922009
+* $sct#446676001
+* $sct#127461003
+* $sct#122689001
+* $sct#122638001
+* $sct#122619005
+* $sct#122614000
+* $sct#119316007
+* $sct#309176002
+* $sct#119344008
+* $sct#16223971000119109
+* $sct#1293160008
+* $sct#787149001
+* $sct#446130001
+* $sct#432141003
+* $sct#399388008
+* $sct#309281003
+* $sct#309187005
+* $sct#309107007
+* $sct#258524009
+* $sct#258506007
+* $sct#258485006
+* $sct#122730004
+* $sct#122700007
+* $sct#122551003
+* $sct#119398007
+* $sct#110915009
+* $sct#110898006
+* $sct#16223051000119101
+* $sct#16215611000119102
+* $sct#697988001
+* $sct#472942000
+* $sct#440472000
+* $sct#433860001
+* $sct#431697001
+* $sct#430133009
+* $sct#405902005
+* $sct#397131006
+* $sct#258561000
+* $sct#122587005
+* $sct#122585002
+* $sct#418564007
+* $sct#16211211000119102
+* $sct#16210971000119108
+* $sct#472889002
+* $sct#472863002
+* $sct#446235003
+* $sct#441479001
+* $sct#430856003
+* $sct#110925004
+* $sct#258435002
+* $sct#258520000
+* $sct#119320006
+* $sct#16211051000119109
+* $sct#454911000124104
+* $sct#35321000087105
+* $sct#866035005
+* $sct#472871003
+* $sct#433118002
+* $sct#432140002
+* $sct#309496001
+* $sct#258652006
+* $sct#258617003
+* $sct#258554004
+* $sct#258444001
+* $sct#122658000
+* $sct#110956007
+* $sct#446302006
+* $sct#16216571000119104
+* $sct#472903000
+* $sct#472885008
+* $sct#406101006
+* $sct#384744003
+* $sct#309263001
+* $sct#309151003
+* $sct#119342007
+* $sct#122572000
+* $sct#430268003
+* $sct#16214131000119104
+* $sct#16213851000119101
+* $sct#16210451000119109
+* $sct#1335920009
+* $sct#708317005
+* $sct#705054005
+* $sct#472890006
+* $sct#447392008
+* $sct#443654002
+* $sct#399640003
+* $sct#396359006
+* $sct#309193002
+* $sct#309191000
+* $sct#309104000
+* $sct#258650003
+* $sct#258511009
+* $sct#258412000
+* $sct#119385003
+* $sct#432825001
+* $sct#16213451000119104
+* $sct#2521000181103
+* $sct#472894002
+* $sct#439479000
+* $sct#438352005
+* $sct#309490007
+* $sct#128174004
+* $sct#127473003
+* $sct#122600000
+* $sct#122576002
+* $sct#119333000
+* $sct#16210891000119102
+* $sct#1345219005
+* $sct#732227008
+* $sct#699287008
+* $sct#440138003
+* $sct#399693002
+* $sct#396997002
+* $sct#396526009
+* $sct#309289001
+* $sct#309225009
+* $sct#309224008
+* $sct#309222007
+* $sct#309112008
+* $sct#258510005
+* $sct#258417006
+* $sct#127467004
+* $sct#122880004
+* $sct#122879002
+* $sct#122647009
+* $sct#119373006
+* $sct#110910004
+* $sct#119341000
+* $sct#119300005
+* $sct#119294007
+* $sct#258433009
+* $sct#119379005
+* $sct#16222771000119104
+* $sct#16215171000119102
+* $sct#16214291000119108
+* $sct#16213491000119109
+* $sct#433781000124108
+* $sct#33501000087106
+* $sct#733475007
+* $sct#733103005
+* $sct#446304007
+* $sct#442524009
+* $sct#426815000
+* $sct#399402006
+* $sct#397077004
+* $sct#371783005
+* $sct#309272009
+* $sct#309067007
+* $sct#258590006
+* $sct#258589002
+* $sct#258587000
+* $sct#258576008
+* $sct#122579009
+* $sct#110949001
+* $sct#119323008
+* $sct#898201001
+* $sct#734427005
+* $sct#734333000
+* $sct#472943005
+* $sct#472932002
+* $sct#447154002
+* $sct#441652008
+* $sct#434244002
+* $sct#432099000
+* $sct#399741007
+* $sct#399713008
+* $sct#309549006
+* $sct#309058007
+* $sct#122618002
+* $sct#119393003
+* $sct#119340004
+* $sct#119309006
+* $sct#119351004
+* $sct#439961009
+* $sct#119314005
+* $sct#122592007
+* $sct#16215451000119103
+* $sct#16211331000119100
+* $sct#16210411000119108
+* $sct#773611006
+* $sct#443418008
+* $sct#431889006
+* $sct#431406009
+* $sct#426924005
+* $sct#399657004
+* $sct#396904001
+* $sct#396527000
+* $sct#309227001
+* $sct#309101008
+* $sct#258563002
+* $sct#258549008
+* $sct#128155007
+* $sct#127483004
+* $sct#122713001
+* $sct#122675006
+* $sct#16215771000119101
+* $sct#16215651000119101
+* $sct#433801000124107
+* $sct#57921000052103
+* $sct#30961000087106
+* $sct#1173097006
+* $sct#708285007
+* $sct#473414004
+* $sct#473404008
+* $sct#445743000
+* $sct#445384000
+* $sct#397334006
+* $sct#309285007
+* $sct#258525005
+* $sct#258519006
+* $sct#258425008
+* $sct#127481002
+* $sct#122684006
+* $sct#119338009
+* $sct#119318008
+* $sct#119329007
+* $sct#258439008
+* $sct#309166000
+* $sct#16220041000119107
+* $sct#16215931000119102
+* $sct#16211131000119102
+* $sct#16210251000119108
+* $sct#33331000087108
+* $sct#734420007
+* $sct#472919007
+* $sct#447375004
+* $sct#440229008
+* $sct#433120004
+* $sct#430221008
+* $sct#421615004
+* $sct#415293009
+* $sct#397457001
+* $sct#309548003
+* $sct#258426009
+* $sct#127475005
+* $sct#122691009
+* $sct#122676007
+* $sct#119378002
+* $sct#119370009
+* $sct#110955006
+* $sct#290211000146104
+* $sct#142261000146106
+* $sct#472900002
+* $sct#446972001
+* $sct#446306009
+* $sct#445372002
+* $sct#430248009
+* $sct#410580001
+* $sct#399751008
+* $sct#373193000
+* $sct#309138008
+* $sct#258602002
+* $sct#258539005
+* $sct#258517008
+* $sct#122702004
+* $sct#122678008
+* $sct#119301009
+* $sct#119337004
+* $sct#16213531000119109
+* $sct#16211011000119108
+* $sct#33651000087106
+* $sct#446137003
+* $sct#444937002
+* $sct#399619004
+* $sct#399526005
+* $sct#309273004
+* $sct#309134005
+* $sct#128168004
+* $sct#127462005
+* $sct#122623002
+* $sct#122583009
+* $sct#119313004
+* $sct#110941003
+* $sct#258531008
+* $sct#16214331000119102
+* $sct#1345235003
+* $sct#472865009
+* $sct#447355008
+* $sct#439034006
+* $sct#432983009
+* $sct#431696005
+* $sct#430236006
+* $sct#399689008
+* $sct#373192005
+* $sct#309293007
+* $sct#309177006
+* $sct#258577004
+* $sct#258522008
+* $sct#258504005
+* $sct#167913002
+* $sct#128172000
+* $sct#127482009
+* $sct#122608007
+* $sct#122595009
+* $sct#119401005
+* $sct#110950001
+* $sct#110903005
+* $sct#258454002
+* $sct#434140003
+* $sct#397458006
+* $sct#363328006
+* $sct#309290005
+* $sct#309264007
+* $sct#309206006
+* $sct#258487003
+* $sct#122649007
+* $sct#122582004
+* $sct#116161004
+* $sct#258529004
+* $sct#258498002
+* $sct#16213931000119103
+* $sct#16211411000119101
+* $sct#35311000087102
+* $sct#1285640000
+* $sct#441903006
+* $sct#397482001
+* $sct#371780008
+* $sct#309484008
+* $sct#309482007
+* $sct#309050000
+* $sct#258546001
+* $sct#110937002
+* $sct#57721000052101
+* $sct#878861003
+* $sct#737357006
+* $sct#472944004
+* $sct#445367006
+* $sct#444824001
+* $sct#432657002
+* $sct#432060008
+* $sct#430214008
+* $sct#258651004
+* $sct#110901007
+* $sct#309213006
+* $sct#122566000
+* $sct#16222251000119102
+* $sct#16221011000119101
+* $sct#16215251000119104
+* $sct#16212331000119108
+* $sct#29011000087100
+* $sct#734336008
+* $sct#473408006
+* $sct#446212001
+* $sct#399551006
+* $sct#399447007
+* $sct#396805001
+* $sct#258515000
+* $sct#258462005
+* $sct#167870008
+* $sct#128169007
+* $sct#472896000
+* $sct#472881004
+* $sct#16213251000119100
+* $sct#737016007
+* $sct#472923004
+* $sct#472886009
+* $sct#430387006
+* $sct#420548004
+* $sct#371784004
+* $sct#309476009
+* $sct#309292002
+* $sct#309183009
+* $sct#309181006
+* $sct#258545002
+* $sct#258446004
+* $sct#122558009
+* $sct#116213003
+* $sct#110924000
+* $sct#122556008
+* $sct#788707000
+* $sct#309068002
+* $sct#16212171000119109
+* $sct#29031000087105
+* $sct#1343300000
+* $sct#703475006
+* $sct#440135000
+* $sct#309486005
+* $sct#309139000
+* $sct#128167009
+* $sct#122724004
+* $sct#122685007
+* $sct#122683000
+* $sct#122555007
+* $sct#309051001
+* $sct#16224371000119105
+* $sct#57711000052109
+* $sct#33931000087107
+* $sct#30941000087105
+* $sct#2531000181101
+* $sct#1345230008
+* $sct#472930005
+* $sct#472864008
+* $sct#441876003
+* $sct#433324003
+* $sct#430318008
+* $sct#396899000
+* $sct#369614000
+* $sct#258476006
+* $sct#258430007
+* $sct#122739003
+* $sct#119389009
+* $sct#119381007
+* $sct#472938003
+* $sct#472931009
+* $sct#446131002
+* $sct#441518000
+* $sct#440136004
+* $sct#433859006
+* $sct#384820007
+* $sct#369617007
+* $sct#309494003
+* $sct#309119004
+* $sct#258490009
+* $sct#122657005
+* $sct#122644002
+* $sct#122620004
+* $sct#16214171000119101
+* $sct#35261000087106
+* $sct#732975005
+* $sct#718684005
+* $sct#472933007
+* $sct#472899007
+* $sct#472866005
+* $sct#445160003
+* $sct#433115004
+* $sct#309481000
+* $sct#309133004
+* $sct#309048008
+* $sct#258629007
+* $sct#122718005
+* $sct#122593002
+* $sct#258500001
+* $sct#119349003
+* $sct#309211008
+* $sct#258438000
+* $sct#898205005
+* $sct#773630006
+* $sct#472874006
+* $sct#399672000
+* $sct#309506005
+* $sct#309501000
+* $sct#309495002
+* $sct#309147000
+* $sct#258432004
+* $sct#258423001
+* $sct#122670001
+* $sct#122634004
+* $sct#119297000
+* $sct#119363009
+* $sct#697989009
+* $sct#16214651000119100
+* $sct#16211731000119101
+* $sct#3040001000004107
+* $sct#1003706008
+* $sct#1003522007
+* $sct#866034009
+* $sct#473410008
+* $sct#447098004
+* $sct#445369009
+* $sct#442043001
+* $sct#438595008
+* $sct#438343001
+* $sct#431412004
+* $sct#430249001
+* $sct#309485009
+* $sct#276446009
+* $sct#258604001
+* $sct#119302002
+* $sct#16216491000119102
+* $sct#16214611000119101
+* $sct#16211371000119102
+* $sct#16210931000119105
+* $sct#435541000124108
+* $sct#1343301001
+* $sct#1332490003
+* $sct#765469005
+* $sct#472873000
+* $sct#447407009
+* $sct#447337004
+* $sct#434406008
+* $sct#399752001
+* $sct#397456005
+* $sct#397111007
+* $sct#396897003
+* $sct#396476009
+* $sct#258628004
+* $sct#128154006
+* $sct#122672009
+* $sct#122666009
+* $sct#119326000
+* $sct#110893002
+* $sct#119376003
+* $sct#122554006
+* $sct#16216091000119108
+* $sct#33891000087100
+* $sct#446838005
+* $sct#440468004
+* $sct#438960000
+* $sct#432134009
+* $sct#431771004
+* $sct#399680007
+* $sct#399645008
+* $sct#309226005
+* $sct#309132009
+* $sct#258492001
+* $sct#122656001
+* $sct#122553000
+* $sct#110966004
+* $sct#461911000124106
+* $sct#16224291000119101
+* $sct#16215691000119106
+* $sct#447589008
+* $sct#430250001
+* $sct#399484009
+* $sct#309150002
+* $sct#122679000
+* $sct#119366001
+* $sct#119324002
+* $sct#16222091000119100
+* $sct#16216451000119107
+* $sct#16214371000119104
+* $sct#16212251000119107
+* $sct#1149105007
+* $sct#447345009
+* $sct#430244006
+* $sct#397132004
+* $sct#309483002
+* $sct#309218002
+* $sct#309126004
+* $sct#122624008
+* $sct#119319000
+* $sct#119365002
+* $sct#1003517007
+* $sct#445529007
+* $sct#444623009
+* $sct#309547008
+* $sct#258608003
+* $sct#258571003
+* $sct#127471001
+* $sct#127468009
+* $sct#122635003
+* $sct#122578001
+* $sct#122550002
+* $sct#119399004
+* $sct#110932008
+* $sct#119336008
+* $sct#119345009
+* $sct#16214411000119103
+* $sct#734377007
+* $sct#732293002
+* $sct#447103002
+* $sct#438454007
+* $sct#432144006
+* $sct#128173005
+* $sct#127457009
+* $sct#122604009
+* $sct#122562003
+* $sct#116158000
+* $sct#110943000
+* $sct#258450006
+* $sct#258607008
+* $sct#446846006
+* $sct#1345270001
+* $sct#733482006
+* $sct#699285000
+* $sct#446562005
+* $sct#445742005
+* $sct#309220004
+* $sct#258407001
+* $sct#167877006
+* $sct#122584003
+* $sct#119403008
+* $sct#119343002
+* $sct#278020009
+* $sct#1003708009
+* $sct#16213331000119104
+* $sct#608868000
+* $sct#444865001
+* $sct#399407000
+* $sct#309278008
+* $sct#258627009
+* $sct#128156008
+* $sct#127466008
+* $sct#119358005
+* $sct#110917001
+* $sct#16209851000119100
+* $sct#734442008
+* $sct#734417004
+* $sct#432136006
+* $sct#432098008
+* $sct#396998007
+* $sct#309103006
+* $sct#258655008
+* $sct#167872000
+* $sct#119298005
+* $sct#116159008
+* $sct#110936006
+* $sct#258482009
+* $sct#119325001
+* $sct#258523003
+* $sct#16214211000119104
+* $sct#52041000087106
+* $sct#1340203001
+* $sct#1331990008
+* $sct#473403002
+* $sct#472937008
+* $sct#472893008
+* $sct#446951004
+* $sct#441673008
+* $sct#309503002
+* $sct#309215004
+* $sct#309052008
+* $sct#258495004
+* $sct#122591000
+* $sct#119308003
+* $sct#16210331000119109
+* $sct#734341000
+* $sct#399603006
+* $sct#128162003
+* $sct#128160006
+* $sct#110938007
+* $sct#110916005
+* $sct#110902000
+* $sct#258530009
+* $sct#16222971000119102
+* $sct#2421000181104
+* $sct#732964006
+* $sct#396928004
+* $sct#396480004
+* $sct#396477000
+* $sct#369615004
+* $sct#276833005
+* $sct#258585008
+* $sct#127460002
+* $sct#122673004
+* $sct#122667000
+* $sct#122627001
+* $sct#122877000
+* $sct#1173996004
+* $sct#472875007
+* $sct#438805006
+* $sct#433854001
+* $sct#404643001
+* $sct#399467003
+* $sct#309291009
+* $sct#309283000
+* $sct#309184003
+* $sct#122663001
+* $sct#110935005
+* $sct#168141000
+* $sct#309066003
+* $sct#699874006
+* $sct#430297000
+* $sct#397221008
+* $sct#309208007
+* $sct#258465007
+* $sct#119388001
+* $sct#110942005
+* $sct#40511003
+* $sct#258411007
+* $sct#732211001
+* $sct#708112008
+* $sct#399572009
+* $sct#309124001
+* $sct#309073008
+* $sct#258616007
+* $sct#258581004
+* $sct#258484005
+* $sct#258474009
+* $sct#258456000
+* $sct#127480001
+* $sct#122639009
+* $sct#119317003
+* $sct#16215331000119103
+* $sct#16211091000119104
+* $sct#1177151008
+* $sct#473411007
+* $sct#447155001
+* $sct#438803004
+* $sct#432384008
+* $sct#431413009
+* $sct#397436009
+* $sct#309212001
+* $sct#258469001
+* $sct#122692002
+* $sct#122633005
+* $sct#119364003
+* $sct#16210211000119107
+* $sct#429931000124105
+* $sct#33551000087107
+* $sct#32651000087104
+* $sct#28981000087104
+* $sct#734343002
+* $sct#732226004
+* $sct#472927003
+* $sct#447403008
+* $sct#430386002
+* $sct#399542003
+* $sct#396357008
+* $sct#309266009
+* $sct#309217007
+* $sct#258544003
+* $sct#122736005
+* $sct#122564002
+* $sct#119397002
+* $sct#119327009
+* $sct#57931000052101
+* $sct#35281000087100
+* $sct#28971000087101
+* $sct#735950000
+* $sct#708110000
+* $sct#473413005
+* $sct#430389009
+* $sct#399624001
+* $sct#258493006
+* $sct#128175003
+* $sct#708048008
+* $sct#440493002
+* $sct#16211571000119108
+* $sct#16210491000119104
+* $sct#472904006
+* $sct#440675009
+* $sct#309190004
+* $sct#258496003
+* $sct#127459007
+* $sct#122710003
+* $sct#110933003
+* $sct#110913002
+* $sct#119334006
+* $sct#423696009
+* $sct#309504008
+* $sct#309288009
+* $sct#119392008
+* $sct#399411006
+* $sct#397135002
+* $sct#309203003
+* $sct#309201001
+* $sct#122707005
+* $sct#122641005
+* $sct#119400006
+* $sct#119347001
+* $sct#440500007
+* $sct#258505006
+* $sct#725957005
+* $sct#608860007
+* $sct#432145007
+* $sct#258457009
+* $sct#258448003
+* $sct#258437005
+* $sct#122705002
+* $sct#50841000087100
+* $sct#40371000087100
+* $sct#33631000087102
+* $sct#444832009
+* $sct#309267000
+* $sct#309079007
+* $sct#258664003
+* $sct#258599007
+* $sct#258584007
+* $sct#122677003
+* $sct#122646000
+* $sct#16215291000119109
+* $sct#16213011000119107
+* $sct#16210531000119104
+* $sct#16210371000119107
+* $sct#57741000052105
+* $sct#33481000087100
+* $sct#1163592005
+* $sct#472892003
+* $sct#472870002
+* $sct#444787003
+* $sct#309200000
+* $sct#309142006
+* $sct#258660007
+* $sct#122729009
+* $sct#258538002
+* $sct#16224091000119108
+* $sct#16221891000119102
+* $sct#1003714002
+* $sct#472868006
+* $sct#445364004
+* $sct#441884004
+* $sct#431205006
+* $sct#430132004
+* $sct#397438005
+* $sct#371782000
+* $sct#258421004
+* $sct#168140004
+* $sct#122611008
+* $sct#16210611000119105
+* $sct#1345268005
+* $sct#441750007
+* $sct#309261004
+* $sct#309178001
+* $sct#258466008
+* $sct#258420003
+* $sct#122733002
+* $sct#122669002
+* $sct#445295009
+* $sct#16215731000119104
+* $sct#16213211000119101
+* $sct#16213091000119103
+* $sct#734381007
+* $sct#472861000
+* $sct#431361003
+* $sct#373826004
+* $sct#309505009
+* $sct#309497005
+* $sct#309146009
+* $sct#309057002
+* $sct#271516005
+* $sct#258658005
+* $sct#258509000
+* $sct#127456000
+* $sct#119352006
+* $sct#258440005
+* $sct#119305000
+* $sct#16214971000119103
+* $sct#38851000087103
+* $sct#29041000087104
+* $sct#703430008
+* $sct#608852006
+* $sct#446300003
+* $sct#258472008
+* $sct#122712006
+* $sct#119396006
+* $sct#110970007
+* $sct#110952009
+* $sct#16216411000119106
+* $sct#16212691000119100
+* $sct#57481000052108
+* $sct#737087006
+* $sct#409876003
+* $sct#309478005
+* $sct#309269002
+* $sct#122735009
+* $sct#698276005
+* $sct#258606004
+* $sct#16215491000119108
+* $sct#16214531000119107
+* $sct#473405009
+* $sct#473399006
+* $sct#312494007
+* $sct#309182004
+* $sct#258488008
+* $sct#122697008
+* $sct#122598006
+* $sct#110897001
+* $sct#110894008
+* $sct#122575003
+* $sct#1003705007
+* $sct#449446003
+* $sct#446577002
+* $sct#399541005
+* $sct#396479002
+* $sct#309274005
+* $sct#258470000
+* $sct#122589008
+* $sct#447955000
+* $sct#441695007
+* $sct#434014007
+* $sct#256912003
+* $sct#110940002
+* $sct#119350003
+* $sct#472939006
+* $sct#472887000
+* $sct#441810001
+* $sct#433861002
+* $sct#431233006
+* $sct#399622002
+* $sct#309271002
+* $sct#122617007
+* $sct#258603007
+* $sct#16214451000119102
+* $sct#454951000124103
+* $sct#1331991007
+* $sct#1259931002
+* $sct#737017003
+* $sct#446837000
+* $sct#432608000
+* $sct#385338007
+* $sct#384747005
+* $sct#309148005
+* $sct#122665008
+* $sct#119353001
+* $sct#472867001
+* $sct#734334006
+* $sct#472926007
+* $sct#472877004
+* $sct#430312009
+* $sct#408654003
+* $sct#309192007
+* $sct#309188000
+* $sct#309129006
+* $sct#258631003
+* $sct#119391001
+* $sct#110931001
+* $sct#122552005
+* $sct#119332005
+* $sct#302795002
+* $sct#119307008
+* $sct#840395001
+* $sct#438659007
+* $sct#396354001
+* $sct#309262006
+* $sct#167875003
+* $sct#258467004
+* $sct#16210811000119106
+* $sct#473433009
+* $sct#309270001
+* $sct#309078004
+* $sct#258532001
+* $sct#119303007
+* $sct#16222611000119100
+* $sct#732295009
+* $sct#472872005
+* $sct#446561003
+* $sct#445405002
+* $sct#441709004
+* $sct#432058006
+* $sct#370108001
+* $sct#122642003
+* $sct#116162006
+* $sct#258453008
+* $sct#16216131000119105
+* $sct#16212371000119106
+* $sct#16210291000119103
+* $sct#33911000087102
+* $sct#438351003
+* $sct#430408004
+* $sct#430144001
+* $sct#363311008
+* $sct#309207002
+* $sct#309172000
+* $sct#258662004
+* $sct#258588005
+* $sct#258494000
+* $sct#122715008
+* $sct#122668005
+* $sct#309502007
+* $sct#309049000
+* $sct#16216611000119108
+* $sct#16213651000119102
+* $sct#29021000087108
+* $sct#472920001
+* $sct#443241002
+* $sct#397136001
+* $sct#309277003
+* $sct#309121009
+* $sct#122605005
+* $sct#122596005
+* $sct#119377007
+* $sct#110919003
+* $sct#16209931000119102
+* $sct#57731000052104
+* $sct#1335922001
+* $sct#472898004
+* $sct#399747006
+* $sct#399649002
+* $sct#258555003
+* $sct#258512002
+* $sct#110907006
+* $sct#16212131000119106
+* $sct#1345269002
+* $sct#1003711005
+* $sct#444959000
+* $sct#410581002
+* $sct#399732002
+* $sct#369611008
+* $sct#309189008
+* $sct#309128003
+* $sct#258535004
+* $sct#167867009
+* $sct#122728001
+* $sct#122574004
+* $sct#445297001
+* $sct#16223491000119100
+* $sct#16223091000119106
+* $sct#16216331000119107
+* $sct#35291000087103
+* $sct#732222002
+* $sct#473400004
+* $sct#434250007
+* $sct#309479002
+* $sct#258583001
+* $sct#258572005
+* $sct#258479004
+* $sct#168136008
+* $sct#127465007
+* $sct#122738006
+* $sct#119359002
+* $sct#733105003
+* $sct#708111001
+* $sct#397133009
+* $sct#258514001
+* $sct#122632000
+* $sct#258503004
+* $sct#16213051000119108
+* $sct#16209251000119104
+* $sct#127470000
+* $sct#122630008
+* $sct#119335007
+* $sct#16212731000119107
+* $sct#446299006
+* $sct#431776009
+* $sct#258513007
+* $sct#122671002
+* $sct#116155002
+* $sct#787151002
+* $sct#734421006
+* $sct#703432000
+* $sct#473412000
+* $sct#472902005
+* $sct#445383006
+* $sct#397134003
+* $sct#396273004
+* $sct#309276007
+* $sct#309275006
+* $sct#258428005
+* $sct#122613006
+* $sct#122610009
+* $sct#16224251000119106
+* $sct#433119005
+* $sct#432986001
+* $sct#431232001
+* $sct#399502008
+* $sct#309507001
+* $sct#309480004
+* $sct#128164002
+* $sct#122687004
+* $sct#122654003
+* $sct#110961009
+* $sct#1003707004
+* $sct#16213691000119107
+* $sct#2431000181102
+* $sct#898203003
+* $sct#765470006
+* $sct#441694006
+* $sct#432061007
+* $sct#309110000
+* $sct#258526006
+* $sct#256889002
+* $sct#168138009
+* $sct#128157004
+* $sct#16220971000119101
+* $sct#15650601000119102
+* $sct#472883001
+* $sct#430310001
+* $sct#397235005
+* $sct#309137003
+* $sct#258461003
+* $sct#16211251000119101
+* $sct#866032008
+* $sct#472880003
+* $sct#432980007
+* $sct#430131006
+* $sct#409821005
+* $sct#309280002
+* $sct#122681003
+* $sct#110957003
+* $sct#16209331000119103
+* $sct#608840004
+* $sct#472941007
+* $sct#445421007
+* $sct#430861001
+* $sct#430157009
+* $sct#122708000
+* $sct#122594008
+* $sct#16224171000119108
+* $sct#399396003
+* $sct#258615006
+* $sct#258553005
+* $sct#122628006
+* $sct#122621000
+* $sct#258574006
+* $sct#168139001
+* $sct#699284001
+* $sct#432441006
+* $sct#309489003
+* $sct#309265008
+* $sct#303247002
+* $sct#258657000
+* $sct#119390000
+* $sct#116157005
+* $sct#48469005
+* $sct#258483004
+* $sct#34141000087102
+* $sct#709024005
+* $sct#703691002
+* $sct#433309007
+* $sct#432897002
+* $sct#397245007
+* $sct#258565009
+* $sct#258518003
+* $sct#258434003
+* $sct#2501000181105
+* $sct#1003713008
+* $sct#446364005
+* $sct#430346005
+* $sct#399460001
+* $sct#397246008
+* $sct#309122002
+* $sct#122717000
+* $sct#119311002
+* $sct#119339001
+* $sct#16212971000119107
+* $sct#1172660005
+* $sct#472925006
+* $sct#444946008
+* $sct#419695002
+* $sct#373101006
+* $sct#16219801000119102
+* $sct#16212491000119103
+* $sct#46121000146104
+* $sct#608858005
+* $sct#473406005
+* $sct#396804002
+* $sct#309144007
+* $sct#309053003
+* $sct#122711004
+* $sct#122664007
+* $sct#16216051000119103
+* $sct#446277003
+* $sct#432436003
+* $sct#431234000
+* $sct#271518006
+* $sct#110960005
+* $sct#258502009
+* $sct#16212451000119108
+* $sct#433871000124101
+* $sct#621000009105
+* $sct#1345107007
+* $sct#432984003
+* $sct#430855004
+* $sct#258611002
+* $sct#258649003
+* $sct#472901003
+* $sct#16223731000119109
+* $sct#734335007
+* $sct#447357000
+* $sct#442173007
+* $sct#430232008
+* $sct#397053005
+* $sct#396896007
+* $sct#309287004
+* $sct#309286008
+* $sct#258548000
+* $sct#258507003
+* $sct#110923006
+* $sct#708049000
+* $sct#258614005
+* $sct#258418001
+* $sct#122709008
+* $sct#119331003
+* $sct#258442002
+* $sct#57221000087106
+* $sct#1335921008
+* $sct#608856009
+* $sct#446817004
+* $sct#397232008
+* $sct#309219005
+* $sct#309143001
+* $sct#16215051000119107
+* $sct#16211771000119103
+* $sct#472897009
+* $sct#396525008
+* $sct#309130001
+* $sct#309113003
+* $sct#127464006
+* $sct#447148003
+* $sct#432982004
+* $sct#431235004
+* $sct#397455009
+* $sct#309102001
+* $sct#110958008
+* $sct#1003709001
+* $sct#737356002
+* $sct#447488002
+* $sct#438543000
+* $sct#432865002
+* $sct#309268005
+* $sct#271515009
+* $sct#110948009
+* $sct#710069003
+* $sct#434249007
+* $sct#418932006
+* $sct#122597001
+* $sct#110963007
+* $sct#16213891000119106
+* $sct#16210651000119106
+* $sct#733485008
+* $sct#472878009
+* $sct#431196006
+* $sct#399559008
+* $sct#309131002
+* $sct#309055005
+* $sct#110912007
+* $sct#16214691000119105
+* $sct#866033003
+* $sct#432985002
+* $sct#309223002
+* $sct#309167009
+* $sct#122659008
+* $sct#110951002
+* $sct#110946008
+* $sct#110920009
+* $sct#16215131000119100
+* $sct#431884001
+* $sct#258560004
+* $sct#122661004
+* $sct#119383005
+* $sct#472935000
+* $sct#432143000
+* $sct#309508006
+* $sct#309125000
+* $sct#258431006
+* $sct#122571007
+* $sct#119394009
+* $sct#16211611000119104
+* $sct#16210571000119101
+* $sct#33921000087105
+* $sct#444831002
+* $sct#369618002
+* $sct#309114009
+* $sct#258536003
+* $sct#122577006
+* $sct#110962002
+* $sct#734422004
+* $sct#396481000
+* $sct#309149002
+* $sct#122720008
+* $sct#110896005
+* $sct#309171007
+* $sct#473415003
+* $sct#399735000
+* $sct#122680002
+* $sct#119368000
+* $sct#16214571000119105
+* $sct#35271000087102
+* $sct#472884007
+* $sct#258429002
+* $sct#110934009
+* $sct#16215211000119100
+* $sct#712559006
+* $sct#397130007
+* $sct#309175003
+* $sct#122732007
+* $sct#122721007
+* $sct#119384004
+* $sct#110945007
+* $sct#734379005
+* $sct#472869003
+* $sct#445444005
+* $sct#438336007
+* $sct#396906004
+* $sct#309491006
+* $sct#309169007
+* $sct#119369008
+* $sct#2441000181109
+* $sct#733104004
+* $sct#433322004
+* $sct#309071005
+* $sct#258527002
+* $sct#122616003
+* $sct#119361006
+* $sct#432139004
+* $sct#430379005
+* $sct#258419009
+* $sct#122706001
+* $sct#440674008
+* $sct#16216291000119101
+* $sct#1335924000
+* $sct#472921002
+* $sct#446211008
+* $sct#430246008
+* $sct#397056002
+* $sct#258497007
+* $sct#167869007
+* $sct#110905003
+* $sct#258528007
+* $sct#16211451000119100
+* $sct#433308004
+* $sct#399614009
+* $sct#119357000
+* $sct#16211291000119106
+* $sct#1335925004
+* $sct#735197003
+* $sct#734426001
+* $sct#472862007
+* $sct#110918006
+* $sct#33641000087108
+* $sct#446952006
+* $sct#430304001
+* $sct#258656009
+* $sct#122696004
+* $sct#122652004
+* $sct#42061000087105
+* $sct#309493009
+* $sct#309204009
+* $sct#309109005
+* $sct#110969006
+* $sct#110953004
+* $sct#16223251000119109
+* $sct#16212091000119109
+* $sct#737089009
+* $sct#373102004
+* $sct#309498000
+* $sct#309487001
+* $sct#309214000
+* $sct#258659002
+* $sct#122693007
+* $sct#110939004
+* $sct#16212811000119105
+* $sct#16209891000119105
+* $sct#29001000087102
+* $sct#732972008
+* $sct#440469007
+* $sct#309186001
+* $sct#440137008
+* $sct#258569003
+* $sct#119328004
+* $sct#34151000087104
+* $sct#473409003
+* $sct#446305008
+* $sct#429836002
+* $sct#309141004
+* $sct#309072003
+* $sct#472934001
+* $sct#472876008
+* $sct#16209811000119101
+* $sct#33491000087103
+* $sct#608969007
+* $sct#396806000
+* $sct#384746001
+* $sct#309179009
+* $sct#258601009
+* $sct#167873005
+* $sct#122662006
+* $sct#122601001
+* $sct#110928002
+* $sct#119312009
+* $sct#473432004
+* $sct#472895001
+* $sct#447881000
+* $sct#128158009
+* $sct#127469001
+* $sct#33531000087103
+* $sct#447391001
+* $sct#431405008
+* $sct#373103009
+* $sct#32641000087102
+* $sct#444936006
+* $sct#396900005
+* $sct#363329003
+* $sct#110909009
+* $sct#258480001
+* $sct#704663000
+* $sct#442219007
+* $sct#410729004
+* $sct#788524009
+* $sct#732217002
+* $sct#472891005
+* $sct#438545007
+* $sct#432864003
+* $sct#258475005
+* $sct#258436001
+* $sct#110929005
+* $sct#258455001
+* $sct#16210691000119101
+* $sct#450872001
+* $sct#732220005
+* $sct#441792002
+* $sct#396902002
+* $sct#122645001
+* $sct#122569007
+* $sct#446842008
+* $sct#439895009
+* $sct#309154006
+* $sct#110900008
+* $sct#446700001
+* $sct#438804005
+* $sct#432385009
+* $sct#128165001
+* $sct#787152009
+* $sct#445744006
+* $sct#399629006
+* $sct#309185002
+* $sct#119367005
+* $sct#439628000
+* $sct#369613006
+* $sct#119348006
+* $sct#433323009
+* $sct#399633004
+* $sct#258422006
+* $sct#258562007
+* $sct#122560006
+* $sct#733484007
+* $sct#258558001
+* $sct#122699006
+* $sct#16216011000119104
+* $sct#309546004
+* $sct#122563008
+* $sct#119355008
+* $sct#110926003
+* $sct#122648004
+* $sct#433881000124103
+* $sct#791000009104
+* $sct#473401000
+* $sct#432420000
+* $sct#309216003
+* $sct#258653001
+* $sct#397199005
+* $sct#258610001
+* $sct#119295008
+* $sct#309116006
+* $sct#122588000
+* $sct#16210851000119107
+* $sct#399731009
+* $sct#397333000
+* $sct#309140003
+* $sct#258537007
+* $sct#258459007
+* $sct#16223931000119106
+* $sct#16216251000119106
+* $sct#734375004
+* $sct#473407001
+* $sct#442166002
+* $sct#399440009
+* $sct#258516004
+* $sct#16212051000119104
+* $sct#399661005
+* $sct#309070006
+* $sct#127478007
+* $sct#122686008
+* $sct#122640006
+* $sct#1345231007
+* $sct#441620008
+* $sct#440515008
+* $sct#397055003
+* $sct#258521001
+* $sct#127458004
+* $sct#15650671000119107
+* $sct#432910000
+* $sct#167876002
+* $sct#127463000
+* $sct#16235301000119101
+* $sct#473417006
+* $sct#122573005
+* $sct#110921008
+* $sct#16215851000119100
+* $sct#16215411000119104
+* $sct#447339001
+* $sct#258541006
+* $sct#309061008
+* $sct#122727006
+* $sct#33541000087109
+* $sct#704243004
+* $sct#446908003
+* $sct#444965000
+* $sct#431058008
+* $sct#309117002
+* $sct#119346005
+* $sct#446129006
+* $sct#433799002
+* $sct#734342007
+* $sct#258568006
+* $sct#122580007
+* $sct#396355000
+* $sct#122609004
+* $sct#33661000087109
+* $sct#399436000
+* $sct#309209004
+* $sct#258618008
+* $sct#110914008
+* $sct#16224131000119105
+* $sct#473416002
+* $sct#432057001
+* $sct#430309006
+* $sct#430241003
+* $sct#430228002
+* $sct#258564008
+* $sct#2451000181107
+* $sct#472929000
+* $sct#446774006
+* $sct#432607005
+* $sct#258575007
+* $sct#422991009
+* $sct#258508008
+* $sct#433117007
+* $sct#309202008
+* $sct#309164002
+* $sct#309059004
+* $sct#167871007
+* $sct#1344978009
+* $sct#734307008
+* $sct#122561005
+* $sct#16215571000119106
+* $sct#258458004
+* $sct#441710009
+* $sct#423671006
+* $sct#167874004
+* $sct#116160003
+* $sct#734338009
+* $sct#699286004
+* $sct#448789008
+* $sct#415563002
+* $sct#399512001
+* $sct#16214091000119101
+* $sct#399492000
+* $sct#309170008
+* $sct#128171007
+* $sct#122694001
+* $sct#734380008
+* $sct#302794003
+* $sct#258471001
+* $sct#122651006
+* $sct#33671000087100
+* $sct#432383002
+* $sct#309105004
+* $sct#258570002
+* $sct#128170008
+* $sct#446272009
+* $sct#399486006
+* $sct#303248007
+* $sct#385339004
+* $sct#258609006
+* $sct#472940008
+* $sct#472928008
+* $sct#258542004
+* $sct#16213371000119101
+* $sct#16212931000119109
+* $sct#309165001
+* $sct#16221811000119106
+* $sct#16216531000119102
+* $sct#110959000
+* $sct#110904004
+* $sct#446907008
+* $sct#432981006
+* $sct#445516007
+* $sct#119321005
+* $sct#433760005
+* $sct#309180007
+* $sct#432382007
+* $sct#399499009
+* $sct#257261003
+* $sct#122723005
+* $sct#16223651000119107
+* $sct#15650531000119105
+* $sct#427558003
+* $sct#396353007
+* $sct#122698003
+* $sct#16212851000119106
+* $sct#472936004
+* $sct#430319000
+* $sct#258463000
+* $sct#168145009
+* $sct#122726002
+* $sct#119386002
+* $sct#733476008
+* $sct#397233003
+* $sct#258424007
+* $sct#110927007
+* $sct#119395005
+* $sct#425804000
+* $sct#396898008
+* $sct#122567009
+* $sct#110944006
+* $sct#110968003
+* $sct#1003712003
+* $sct#258481002
+* $sct#122636002
+* $sct#122631007
+* $sct#119380008
+* $sct#16220931000119104
+* $sct#712562009
+* $sct#396358003
+* $sct#33521000087100
+* $sct#441906003
+* $sct#397462000
+* $sct#122725003
+* $sct#309499008
+* $sct#258415003
+* $sct#309260003
+* $sct#446675002
+* $sct#442649003
+* $sct#309127008
+* $sct#258613004
+* $sct#258566005
+* $sct#122688009
+* $sct#33901000087104
+* $sct#258567001
+* $sct#122655002
+* $sct#1335919003
+* $sct#472924005
+* $sct#309111001
+* $sct#122650007
+* $sct#608842007
+* $sct#122602008
+* $sct#119382000
+* $sct#33511000087108
+* $sct#127476006
+* $sct#397129002
+* $sct#122682005
+* $sct#110954005
+* $sct#702701006
+* $sct#16212531000119103
+* $sct#258452003
+* $sct#16221371000119107
+* $sct#309173005
+* $sct#258414004
+* $sct#122690005
+* $sct#16215811000119101
+* $sct#16212411000119107
+* $sct#441510007
+* $sct#384819001
+* $sct#430238007
+* $sct#309153000
+* $sct#127474009
+* $sct#369616003
+* $sct#127472008
+* $sct#16211651000119103
+* $sct#258468009
+* $sct#110908001
+* $sct#446861007
+* $sct#110930000
+* $sct#1338034005
+* $sct#122737001
+* $sct#472879001
+* $sct#432135005
+* $sct#33351000087104
+* $sct#699283007
+* $sct#397078009
+* $sct#385340002
+* $sct#734419001
+* $sct#431404007
+* $sct#127479004
+* $sct#110906002
+* $sct#1003710006
+* $sct#309077009
+* $sct#258591005
+* $sct#16213411000119100
+* $sct#430117006
+* $sct#110922001
+* $sct#16223571000119102
+* $sct#16209691000119106
+* $sct#122590004
+* $sct#733056005
+* $sct#122701006
+* $sct#734337004
+* $sct#397326000
+* $sct#110947004
+* $sct#16214011000119105
+* $sct#732976006
+* $sct#397234009
+* $sct#309145008
+* $sct#16213731000119100
+* $sct#309075001
+* $sct#258663009
+* $sct#122557004
+* $sct#787150001
+* $sct#432146008
+* $sct#122643008
+* $sct#128159001
+* $sct#122716009
+* $sct#699868006
+* $sct#396478005
+* $sct#309210009
+* $sct#396999004
+* $sct#122719002
+* $sct#399451009
+* $sct#258559009
+* $sct#128166000
+* $sct#16221491000119104
+* $sct#396807009
+* $sct#122599003
+* $sct#128163008
+* $sct#433116003
+* $sct#309168004
+* $sct#119299002
+* $sct#258489000
+* $sct#122703009
+* $sct#258580003
+* $sct#430222001
+* $sct#431905001
+* $sct#258547005
+* $sct#1179252003
+* $sct#472888005
+* $sct#122722000
+* $sct#16211491000119105
+* $sct#309074002
+* $sct#258654007
+* $sct#258499005
+* $sct#725372003
+* $sct#122622007
+* $sct#309118007
+* $sct#1201985008
+* $sct#399532000
+* $sct#440502004
+* $sct#608870009
+* $sct#440473005
+* $sct#397483006
+* $sct#16221251000119108
+* $sct#430970004
+* $sct#258441009
+* $sct#438660002
+* $sct#430234009
+* $sct#271514008
+* $sct#122559001
+* $sct#438661003
+* $sct#16213171000119103
+* $sct#122606006
+* $sct#122581006
+* $sct#735198008
+* $sct#16209771000119101
+* $sct#128161005
+* $sct#16214491000119107
+* $sct#1237234002
+* $sct#258582006
+* $sct#122637006
+* $sct#734443003
+* $sct#122568004
+* $sct#122704003
+* $sct#119356009
+* $sct#16223531000119100
+* $sct#433326001
+* $sct#447358005
+* $sct#122674005
+* $sct#116156001
+* $sct#309199003
+* $sct#258630002
+* $sct#119304001
+* $sct#442427000
+* $sct#309135006
+* $sct#16215531000119108
+* $sct#309205005
+* $sct#396685001
+* $sct#110964001
+* $sct#438542005
+* $sct#433873002
+* $sct#446674003
+* $sct#309221000
+* $sct#432097003
+* $sct#309108002
+* $sct#309488006
+* $sct#122629003
+* $sct#122714007
+* $sct#447341000
+* $sct#733101007
+* $sct#399658009
+* $sct#399443006
+* $sct#432059003
+* $sct#446906004
+* $sct#28991000087102
+* $sct#432142005
+* $sct#399728008
+* $sct#309123007
+* $sct#122626005
+* $sct#712560001
+* $sct#167868004
+* $sct#446128003
+* $sct#429832000
+* $sct#734425002
+* $sct#16216171000119108
+* $sct#447104008
+* $sct#432419006
+* $sct#16215091000119102
+* $sct#110967008
+* $sct#16213571000119107
+* $sct#472882006
+* $sct#122625009
+* $sct#441749007
+* $sct#309115005
+* $sct#439580004
+* $sct#445745007
+* $sct#447359002
+* $sct#264380007
+* $sct#1345234004
+* $sct#396483002
+* $sct#16212771000119105
+* $sct#122653009
