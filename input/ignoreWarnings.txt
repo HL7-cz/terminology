@@ -24,7 +24,7 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 %https://www.orpha.net%
 %https://spor.ema.europa.eu/v2/SubstanceDefinition%
 %urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6%
-%https://uzis.cz/terminology/CodeSystem/mkn-10%
+# %https://uzis.cz/terminology/CodeSystem/mkn-10%
 
 # Known wrong display names - terminology issue
 %for http://snomed.info/sct%
@@ -34,9 +34,6 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 %for urn:ietf:bcp:13%
 %for http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips%
 %for http://terminology.hl7.org/CodeSystem/v3-NullFlavor%
-
-#Ignore value set expansion warnings for code systems not present on terminology server
-%Unable to expand included value set 'https://sukl.cz/terminology/ValueSet/dlp-lecivepripravky'%
 
 # Ignore HL7 terminology warning on missing definition of the HL7 code system concepts
 %HL7 Defined CodeSystems should ensure that every concept has a definition%
@@ -50,10 +47,13 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 # All SNOMED-CT concepts use preferred terms consistently - FSN tags in the warning are from the terminology server, not from our value sets
 %This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms)%
 
-# Problem with tx.hl7.eu server - hopefully will be resolved soon
-%Unknown System 'http://snomed.info/sct' specified, so Concepts and Filters can't be checked %
-%A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000279109' could not be found%
-%A definition for CodeSystem 'https://ncez.mzcr.cz/nclp/CodeSystem/nclpmat' could not be found%
+# Suppress warning on missing OID identifiers for CDA compatibility
+%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)%
+%The resource ImplementationGuide/hl7.fhir.cz.terminology could usefully have an OID assigned%
 
-# Suppres information on Czech terms not at the tx.sever
-%INFORMATION: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0]%
+# Suppress information about draft and experimental CodeSystems
+Reference to draft CodeSystem urn:iso:std:iso:3166|1.0.0
+Reference to experimental CodeSystem urn:ietf:bcp:13|0.0.2
+
+# Ignore warning on inactive SCT codes present in the MVC
+%The concept '37017009' has a status of inactive and its use should be reviewed%
