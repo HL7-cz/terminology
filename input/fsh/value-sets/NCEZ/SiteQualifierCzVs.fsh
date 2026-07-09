@@ -2,6 +2,7 @@ ValueSet:      CZ_SiteQualifier
 Id:	           cz-sitequalifier
 Title:	       "Body Structure Qualifier"
 Description:   "Body Structure site qualifier. It indicates the body site qualifier from which a specimen is collected. (based on SNOMED CT)"
+* ^language = #cs
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2024-01-01"
