@@ -13,14 +13,6 @@ Description:   "Codesystem of DLP Lecive pripravky. Identification medication."
 * ^publisher = "Státní ústav pro kontrolu léčiv (SÚKL)"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^caseSensitive = true
-* ^content = #fragment
+* ^content = #not-present
 * ^url = "https://sukl.cz/terminology/CodeSystem/dlp-lecivepripravky"
 * insert SetFmmandStatusRule(2, trial-use)
-
-
-* #0013831 "SIMVASTATIN RATIOPHARM 40MG TBL FLM 20"
-* #0226200 "Fludeoxythymidin"
-* #0271911 "COMIRNATY OMICRON XBB.1.5"
-* #0254294 "IBALGIN"
-* #0243131 "EUTHYROX"
-* #0253304 "PARACETAMOL ZENTIVA K.S."
