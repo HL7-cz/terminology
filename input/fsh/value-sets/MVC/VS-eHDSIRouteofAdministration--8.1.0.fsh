@@ -1,5 +1,3 @@
-Alias: $standardterms = http://standardterms.edqm.eu
-
 ValueSet: eHDSIRouteofAdministration
 Id: eHDSIRouteofAdministration
 Title: "eHDSI Route of Administration"
