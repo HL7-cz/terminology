@@ -16,8 +16,8 @@ Description: "The Value set is used to encode absent or unknown medical allergie
 * insert ValueSetSupplementRule("https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz")
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.47)
 
-* $absent-unknown-uv-ips#no-allergy-info "žádné informace o alergiích"
-* $absent-unknown-uv-ips#no-known-allergies "žádné známé alergie"
-* $absent-unknown-uv-ips#no-known-medication-allergies "žádné známé alergie na léky"
-* $absent-unknown-uv-ips#no-known-environmental-allergies "žádné známé alergie na vnější prostředí"
-* $absent-unknown-uv-ips#no-known-food-allergies "žádné známé alergie na potraviny"
+* $absent-unknown-uv-ips#no-allergy-info //"žádné informace o alergiích"
+* $absent-unknown-uv-ips#no-known-allergies //"žádné známé alergie"
+* $absent-unknown-uv-ips#no-known-medication-allergies //"žádné známé alergie na léky"
+* $absent-unknown-uv-ips#no-known-environmental-allergies //"žádné známé alergie na vnější prostředí"
+* $absent-unknown-uv-ips#no-known-food-allergies //"žádné známé alergie na potraviny"
