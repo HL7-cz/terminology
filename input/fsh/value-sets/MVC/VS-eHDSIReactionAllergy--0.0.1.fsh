@@ -17,7 +17,7 @@ Description: "Value Set is used to encode clinical manifestation of the allergic
 
 * insert SNOMEDCopyrightForVS
 
-* $sct#2129002 "edém hltanu"
+* $sct#2129002 "edém faringu"
 // * $sct#2129002 ^designation.language = #en
 // * $sct#2129002 ^designation.value = "Edema of pharynx"
 * $sct#22649008 "fotodermatitida"
