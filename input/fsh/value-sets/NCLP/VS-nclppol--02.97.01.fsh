@@ -9,6 +9,5 @@ Description: "Číselník obsahující koncepty z kódového systému NCLPPOL. N
 * ^experimental = false
 * ^publisher = "MZČR"
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
-//* ^effectivePeriod.start = "2026-05-14T00:00:00Z"
 * ^compose.inactive = false
 * include codes from system https://ncez.mzcr.cz/nclp/CodeSystem/nclppol|02.97.01
