@@ -4,7 +4,7 @@ Title: "eHDSI Dose Form"
 Description: "eHDSIDoseForm"
 * ^language = #cs
 //* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIDoseForm"
-* ^url = "https://ncez.mzcr.cz/ValuSet/eHDSIDoseForm"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIDoseForm"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2"
 * ^version = "8.1.0"
