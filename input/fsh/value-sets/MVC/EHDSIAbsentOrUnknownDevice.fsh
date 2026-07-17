@@ -11,7 +11,7 @@ Description: "The Value set is used to encode absent or unknown medical devices.
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "eHDSI"
-* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownDevice"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIAbsentOrUnknownDevice"
 
 * insert setOID (1.3.6.1.4.1.12559.11.10.1.3.1.42.48)
 * insert ValueSetSupplementRule("https://ncez.mzcr.cz/terminology/CodeSystem/absent-unknown-uv-ips-cz")

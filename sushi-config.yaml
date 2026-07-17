@@ -148,12 +148,12 @@ parameters:  #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+P
     - https://uzis.cz/terminology/ValueSet/OdbornostVZP
 
 # eHDSI valuesets
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownAllergy
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIExceptionalValue
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownDevice
-    - http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownAllergy
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIExceptionalValue
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIAbsentOrUnknownDevice
+    # - http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy
     # - http://terminology.ehdsi.eu/ValueSet/eHDSIDoseForm
 
 # NCLP valuesets

@@ -11,7 +11,7 @@ Description:   "The Value Set is used to code exceptional values for the require
 * ^language = #cs
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * ^publisher = "eHDSI"
-* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIExceptionalValue"
+* ^url = "https://ncez.mzcr.cz/terminology/ValueSet/eHDSIExceptionalValue"
 
 * insert setOID ( 1.3.6.1.4.1.12559.11.10.1.3.1.42.81 )
 * insert SetFmmandStatusRule ( 2, trial-use )
