@@ -17,4 +17,4 @@ Description: "Medical test result codes. List of Medical test result codes conta
 // * ^status = #active
 // * ^experimental = false
 * include codes from system $NCLPPOL
-* include codes from system $sct // where concept is-a #363787002  // Observeable entity
+* include codes from system $sct where concept is-a #363787002  // Observeable entity
