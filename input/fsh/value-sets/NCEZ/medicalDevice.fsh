@@ -20,4 +20,4 @@ Description: """Medical Device value set is used for coding implanted and extern
 * insert SetFmmandStatusRule ( 2, trial-use )
 //* insert setOID ( 1.3.6.1.4.1.12559.11.10.1.3.1.42.8 )
 
-* include codes from system $sct where concept descendant-of #49062001 "Device (physical object)"
+* include codes from system $sct where concept descendant-of #49062001 //"Device (physical object)"
