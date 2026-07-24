@@ -16,6 +16,6 @@ Description: "Pohlaví pro administrativní účely. (Gender for administrative 
 //* ^compose.property[0] = "display"
 //* ^compose.property[+] = "definition"
 
-* insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/administrative-gender-cz")
+* insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/administrative-gender-cz|4.0.1")
 
 * include codes from system $administrative-gender
