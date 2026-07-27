@@ -6,5 +6,5 @@
   "status": "release",
   "sequence": "Release 1",
   "first": false,
-  "desc": "This is a second release of the Czech FHIR Terminology package."
+  "desc": "This is a first updated release of the Czech FHIR Terminology package."
 }
