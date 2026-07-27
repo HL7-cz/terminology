@@ -1,7 +1,7 @@
 CodeSystem:     CS_DLP_lecivelatky
 Id:	            dlp-lecivelatky
-Title:	       "Codesystem of DLP Lecive latky"
-Description:   "Codesystem of DLP Lecive latky. Identification ingredient."
+Title:	       "DLP Lecive latky"
+Description:   "DLP Lecive latky - Czech national code system for active drug substances."
 
 * ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
