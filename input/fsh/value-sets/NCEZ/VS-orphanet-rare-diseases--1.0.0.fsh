@@ -1,7 +1,7 @@
 ValueSet: OrphanetRareDiseasesVs
 Id: orphanet-rare-diseases
-Title: "ORPHA vzácná onemocnění"
-Description: "Číselník vzácných onemocnění z ORPHAnetu"
+Title: "Číselník ORPHAcode vzácná onemocnění"
+Description: "Číselník vzácných onemocnění ORPHACode"
 * ^language = #cs
 //* ^extension.url = "http://hl7.org/fhir/StructureDefinition/web-source"
 //* ^extension.valueUrl = "https://termx-t2-admin.csez.cz/fhir/ValueSet/orphanet-rare-diseases"
