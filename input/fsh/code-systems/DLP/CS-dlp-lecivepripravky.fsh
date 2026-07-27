@@ -1,7 +1,7 @@
 CodeSystem:     CS_DLP_lecivepripravky
 Id:	            dlp-lecivepripravky
-Title:	       "Codesystem of DLP Lecive pripravky"
-Description:   "Codesystem of DLP Lecive pripravky. Identification medication."
+Title:	       "DLP Lecive pripravky"
+Description:   "DLP Lecive pripravky - Czech national registry of the pharmaceutical products."
 
 * ^language = #cs
 * ^identifier.system = "urn:ietf:rfc:3986"
