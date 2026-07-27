@@ -4,7 +4,7 @@ Title: "ActCode (CZ supplement)"
 Description: "This code system supplements v3 ActCode."
 * ^language = #cs
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz"
-* ^version = "10.0.0"
+* ^version = "11.0.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-30T12:44:34.79865Z"
@@ -12,7 +12,7 @@ Description: "This code system supplements v3 ActCode."
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 //* ^effectivePeriod.start = "2025-11-15T00:00:00Z"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0"
 
 // * ^property[0].code = #child
 // * ^property[=].uri = "http://hl7.org/fhir/concept-properties#child"
