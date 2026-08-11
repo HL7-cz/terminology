@@ -28,7 +28,7 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 
 # Known wrong display names - terminology issue
 %for http://snomed.info/sct%
-%for http://loinc.org%
+# %for http://loinc.org%
 %for http://terminology.hl7.org/CodeSystem/v3-ActCode%
 %for http://terminology.hl7.org/CodeSystem/coverage-selfpay%
 %for urn:ietf:bcp:13%
