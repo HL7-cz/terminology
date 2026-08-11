@@ -16,7 +16,9 @@ Description: "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření.
 * ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 * insert SNOMEDCopyrightForVS
 
-* $sct#119371008
+* codes from valueset http://hl7.eu/fhir/laboratory/ValueSet/lab-specimenType-eu-lab
+
+/* * $sct#119371008
 * $sct#119362004
 * $sct#16216211000119105
 * $sct#16212571000119100
@@ -1826,4 +1828,4 @@ Description: "Materiál laboratorního vzorku/vzorku pro obrazová vyšetření.
 * $sct#1345234004
 * $sct#396483002
 * $sct#16212771000119105
-* $sct#122653009
+* $sct#122653009 */
