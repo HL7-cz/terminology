@@ -4,7 +4,7 @@ Title: "RoleCode (CZ Supplement)"
 Description: "Český doplněk kódového systému v3-RoleCode, který je souborem kódů blíže specifikujících druh Role; obsahuje specifické klasifikační kódy pro další upřesnění kódů RoleClass. A Czech supplement to the v3-RoleCode code system which is a set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."
 * ^language = #cs
 * ^url = "https://hl7.cz/terminology/CodeSystem/v3-RoleCode-cz"
-* ^version = "1.0.0"
+* ^version = "4.0.0"
 //* ^versionAlgorithmString = "semver"
 * ^status = #active
 * ^experimental = false
@@ -15,85 +15,127 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 * ^content = #supplement
 * ^supplements = $v3-RoleCode //"http://terminology.hl7.org/CodeSystem/v3-RoleCode"
 
-//* ^property[+].code = #internalId
-// * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"
-// * ^property[=].description = "The internal identifier for the concept in the HL7 Access database repository."
-// * ^property[=].type = #code
-
-// * ^property[+].code = #notSelectable
-// * ^property[=].uri = "http://hl7.org/fhir/concept-properties#notSelectable"
-// * ^property[=].description = "Not Selectable"
-// * ^property[=].type = #boolean
-
-// * ^property[+].code = #rim-ClassifiesClassCode
-// * ^property[=].uri = "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode"
-// * ^property[=].description = "The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values."
-// * ^property[=].type = #Coding
-// * ^property[+].code = #subsumedBy
-// * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
-// * ^property[=].description = "The concept code of a parent concept"
-// * ^property[=].type = #code
-// * ^property[+].code = #synonymCode
-// * ^property[=].uri = "http://hl7.org/fhir/concept-properties#synonym"
-// * ^property[=].description = "An additional concept code that was also attributed to a concept"
-// * ^property[=].type = #code
-
 * #AUNT "teta"
-* #AUNT ^definition = "Sestra matky nebo otce dotčené osoby."
-// * #AUNT ^property[+].code = #subsumedBy
-// * #AUNT ^property[=].valueCode = #EXT
+  * ^designation[0].language = #cs
+  * ^designation[=].value = "teta"
 
 * #BRO "bratr"
-* #BRO ^definition = "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "bratr"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou."
+// * #BRO ^definition = "Muž, který sdílí jednoho nebo oba společné rodiče s dotčenou osobou."
 // * #BRO ^property[+].code = #subsumedBy
 // * #BRO ^property[=].valueCode = #SIB
 
 * #BROINLAW "švagr"
-* #BROINLAW ^definition = "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "švagr"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby."
+// * #BROINLAW ^definition = "(1) bratr manžela nebo manželky dotčené osoby, nebo (2) manžel sestry dotčené osoby, nebo (3) manžel sestry manžela nebo manželky dotčené osoby."
 // * #BROINLAW ^property[+].code = #subsumedBy
 // * #BROINLAW ^property[=].valueCode = #SIBINLAW
 
 * #CHILD "dítě"
-* #CHILD ^definition = "Dítě dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "dítě"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dítě dotčené osoby."
+// * #CHILD ^definition = "Dítě dotčené osoby."
 // * #CHILD ^property[+].code = #subsumedBy
 // * #CHILD ^property[=].valueCode = #FAMMEMB
 
 * #CHLDADOPT "osvojené dítě"
-* #CHLDADOPT ^definition = "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "osvojené dítě"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě."
+// * #CHLDADOPT ^definition = "Dítě dotčené osoby, které bylo přijato do rodiny prostřednictvím právních prostředků a vychováváno dotčenou osobou (rodičem) jako vlastní dítě."
 // * #CHLDADOPT ^property[+].code = #subsumedBy
 // * #CHLDADOPT ^property[=].valueCode = #CHILD
 
 * #CHLDFOST "dítě v náhradní péči (kromě osvojení)"
-* #CHLDFOST ^definition = "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "dítě v náhradní péči (kromě osvojení)"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+// * #CHLDFOST ^definition = "Dítě dotčené osoby, které přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
 // * #CHLDFOST ^property[+].code = #subsumedBy
 // * #CHLDFOST ^property[=].valueCode = #CHILD
 
 * #CHLDINLAW "zeť/snacha"
-* #CHLDINLAW ^definition = "Manžel nebo manželka dítěte dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "zeť/snacha"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Manžel nebo manželka dítěte dotčené osoby."
+// * #CHLDINLAW ^definition = "Manžel nebo manželka dítěte dotčené osoby."
 // * #CHLDINLAW ^property[+].code = #subsumedBy
 // * #CHLDINLAW ^property[=].valueCode = #INLAW
 * #COUSN "sestřenice/bratranec"
-* #COUSN ^definition = "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "sestřenice/bratranec"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii."
+// * #COUSN ^definition = "Příbuzný dotčené osoby, který pochází ze společného předka, jako je prarodič, po dvou nebo více krocích v rodové linii."
 // * #COUSN ^property[+].code = #subsumedBy
 // * #COUSN ^property[=].valueCode = #EXT
 * #DAU "vlastní dcera"
-* #DAU ^definition = "Ženský potomek dotčené entity (rodiče)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "vlastní dcera"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Ženský potomek dotčené entity (rodiče)."
+// * #DAU ^definition = "Ženský potomek dotčené entity (rodiče)."
 // * #DAU ^property[+].code = #subsumedBy
 // * #DAU ^property[=].valueCode = #DAUC
 // * #DAU ^property[+].code = #subsumedBy
 // * #DAU ^property[=].valueCode = #NCHILD
 * #DAUADOPT "osvojená dcera"
-* #DAUADOPT ^definition = "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "osvojená dcera"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+// * #DAUADOPT ^definition = "Ženský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
 // * #DAUADOPT ^property[+].code = #subsumedBy
 // * #DAUADOPT ^property[=].valueCode = #CHLDADOPT
 // * #DAUADOPT ^property[+].code = #subsumedBy
 // * #DAUADOPT ^property[=].valueCode = #DAUC
 * #DAUC "dcera"
-* #DAUC ^definition = "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "dcera"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)."
+// * #DAUC ^definition = "**Popis:** Ženský potomek (jakéhokoliv typu) dotčené entity (rodiče)."
 // * #DAUC ^property[+].code = #subsumedBy
 // * #DAUC ^property[=].valueCode = #CHILD
 * #DAUFOST "dcera v náhradní péči (kromě osvojení)"
-* #DAUFOST ^definition = "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "dcera v náhradní péči (kromě osvojení)"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
+// * #DAUFOST ^definition = "Ženský potomek dotčené entity (rodiče), který přijímá rodičovskou péči a výchovu od dotčené osoby (rodiče), ale není s ním nebo s ní spojeno právními nebo pokrevními vazbami."
 //* #DAUFOST ^designation[0].language = #en
 //* #DAUFOST ^designation[=].use.code = #definition
 //* #DAUFOST ^designation[=].value = "The player of the role is a female child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
@@ -107,7 +149,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #DAUFOST ^property[+].code = #subsumedBy
 // * #DAUFOST ^property[=].valueCode = #DAUC
 * #DAUINLAW "snacha"
-* #DAUINLAW ^definition = "Manželka syna dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "snacha"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Manželka syna dotčené osoby."
+// * #DAUINLAW ^definition = "Manželka syna dotčené osoby."
 //* #DAUINLAW ^designation[0].language = #en
 //* #DAUINLAW ^designation[=].use.code = #definition
 //* #DAUINLAW ^designation[=].value = "The player of the role is the wife of scoping person's son."
@@ -119,7 +167,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #DAUINLAW ^property[+].code = #subsumedBy
 // * #DAUINLAW ^property[=].valueCode = #CHLDINLAW
 * #DOMPART "druh/družka"
-* #DOMPART ^definition = "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "druh/družka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby."
+// * #DOMPART ^definition = "Osoba žijící s dotčenou osobou, která není manželem nebo manželkou dotčené osoby."
 //* #DOMPART ^designation[0].language = #en
 //* #DOMPART ^designation[=].use.code = #definition
 //* #DOMPART ^designation[=].value = "The player of the role cohabits with the scoping person but is not the scoping person's spouse."
@@ -132,7 +186,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #DOMPART ^property[=].valueCode = #SIGOTHR
 
 * #EXT "člen širší rodiny"
-* #EXT ^definition = "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "člen širší rodiny"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc."
+// * #EXT ^definition = "**Popis:** Rodinný příslušník, který není v bezprostředním genetickém nebo právním vztahu k dotčené osobě, např. teta, bratranec, sestřenice, prarodič, vnuk, praprarodič, neteř, synovec nebo strýc."
 //* #EXT ^designation[0].language = #en
 //* #EXT ^designation[=].use.code = #definition
 //* #EXT ^designation[=].value = "**Description:** A family member not having an immediate genetic or legal relationship e.g. Aunt, cousin, great grandparent, grandchild, grandparent, niece, nephew or uncle."
@@ -145,7 +205,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #EXT ^property[=].valueCode = #FAMMEMB
 
 * #FAMMEMB "rodinný příslušník"
-* #FAMMEMB ^definition = """Vztah mezi dvěma osobami, který je charakterizován jako vztah \"rodinný\"."""
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "rodinný příslušník"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = """Vztah mezi dvěma osobami, který je charakterizován jako vztah \"rodinný\"."""
+// * #FAMMEMB ^definition = """Vztah mezi dvěma osobami, který je charakterizován jako vztah \"rodinný\"."""
 //* #FAMMEMB ^designation[0].language = #en
 //* #FAMMEMB ^designation[=].use.code = #definition
 //* #FAMMEMB ^designation[=].value = "A relationship between two people characterizing their \"familial\" relationship"
@@ -158,7 +224,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #FAMMEMB ^property[=].valueCode = #_PersonalRelationshipRoleType
 
 * #FRND "přítel/přítelkyně"
-* #FRND ^definition = "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "přítel/přítelkyně"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu."
+// * #FRND ^definition = "Osoba, která je známá, oblíbená a důvěryhodná pro dotčenou osobu."
 //* #FRND ^designation[0].language = #en
 //* #FRND ^designation[=].use.code = #definition
 //* #FRND ^designation[=].value = "The player of the role is a person who is known, liked, and trusted by the scoping person."
@@ -170,7 +242,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #FRND ^property[+].code = #subsumedBy
 // * #FRND ^property[=].valueCode = #_PersonalRelationshipRoleType
 * #FTH "otec"
-* #FTH ^definition = "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "otec"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)."
+// * #FTH ^definition = "Muž, který zplodil, vychoval nebo pečuje o dotčenou osobu (dítě)."
 //* #FTH ^designation[0].language = #en
 //* #FTH ^designation[=].use.code = #definition
 //* #FTH ^designation[=].value = "The player of the role is a male who begets or raises or nurtures the scoping entity (child)."
@@ -182,7 +260,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #FTH ^property[+].code = #subsumedBy
 // * #FTH ^property[=].valueCode = #PRN
 * #FTHINLAW "tchán"
-* #FTHINLAW ^definition = "Muž, který je otcem manžela nebo manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "tchán"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který je otcem manžela nebo manželky dotčené osoby."
+// * #FTHINLAW ^definition = "Muž, který je otcem manžela nebo manželky dotčené osoby."
 //* #FTHINLAW ^designation[0].language = #en
 //* #FTHINLAW ^designation[=].use.code = #definition
 //* #FTHINLAW ^designation[=].value = "The player of the role is the father of the scoping person's husband or wife."
@@ -194,7 +278,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #FTHINLAW ^property[+].code = #subsumedBy
 // * #FTHINLAW ^property[=].valueCode = #PRNINLAW
 * #GGRFTH "pradědeček"
-* #GGRFTH ^definition = "Muž, který je otcem prarodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "pradědeček"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který je otcem prarodiče dotčené osoby."
+// * #GGRFTH ^definition = "Muž, který je otcem prarodiče dotčené osoby."
 //* #GGRFTH ^designation[0].language = #en
 //* #GGRFTH ^designation[=].use.code = #definition
 //* #GGRFTH ^designation[=].value = "The player of the role is the father of the scoping person's grandparent."
@@ -206,7 +296,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GGRFTH ^property[+].code = #subsumedBy
 // * #GGRFTH ^property[=].valueCode = #GGRPRN
 * #GGRMTH "prababička"
-* #GGRMTH ^definition = "Žena, která je matkou prarodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "prababička"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která je matkou prarodiče dotčené osoby."
+// * #GGRMTH ^definition = "Žena, která je matkou prarodiče dotčené osoby."
 //* #GGRMTH ^designation[0].language = #en
 //* #GGRMTH ^designation[=].use.code = #definition
 //* #GGRMTH ^designation[=].value = "The player of the role is the mother of the scoping person's grandparent."
@@ -218,7 +314,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GGRMTH ^property[+].code = #subsumedBy
 // * #GGRMTH ^property[=].valueCode = #GGRPRN
 * #GGRPRN "praprarodič"
-* #GGRPRN ^definition = "Osoba, která je rodičem prarodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "praprarodič"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je rodičem prarodiče dotčené osoby."
+// * #GGRPRN ^definition = "Osoba, která je rodičem prarodiče dotčené osoby."
 //* #GGRPRN ^designation[0].language = #en
 //* #GGRPRN ^designation[=].use.code = #definition
 //* #GGRPRN ^designation[=].value = "The player of the role is a parent of the scoping person's grandparent."
@@ -230,7 +332,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GGRPRN ^property[+].code = #subsumedBy
 // * #GGRPRN ^property[=].valueCode = #EXT
 * #GRFTH "dědeček"
-* #GRFTH ^definition = "Muž, který je otcem rodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "dědeček"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který je otcem rodiče dotčené osoby."
+// * #GRFTH ^definition = "Muž, který je otcem rodiče dotčené osoby."
 //* #GRFTH ^designation[0].language = #en
 //* #GRFTH ^designation[=].use.code = #definition
 //* #GRFTH ^designation[=].value = "The player of the role is the father of the scoping person's mother or father."
@@ -242,7 +350,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRFTH ^property[+].code = #subsumedBy
 // * #GRFTH ^property[=].valueCode = #GRPRN
 * #GRMTH "babička"
-* #GRMTH ^definition = "Žena, která je matkou rodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "babička"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která je matkou rodiče dotčené osoby."
+// * #GRMTH ^definition = "Žena, která je matkou rodiče dotčené osoby."
 //* #GRMTH ^designation[0].language = #en
 //* #GRMTH ^designation[=].use.code = #definition
 //* #GRMTH ^designation[=].value = "The player of the role is the mother of the scoping person's mother or father."
@@ -254,7 +368,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRMTH ^property[+].code = #subsumedBy
 // * #GRMTH ^property[=].valueCode = #GRPRN
 * #GRNDCHILD "vnouče"
-* #GRNDCHILD ^definition = "Potomek, který je dítětem syna nebo dcery dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "vnouče"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Potomek, který je dítětem syna nebo dcery dotčené osoby."
+// * #GRNDCHILD ^definition = "Potomek, který je dítětem syna nebo dcery dotčené osoby."
 //* #GRNDCHILD ^designation[0].language = #en
 //* #GRNDCHILD ^designation[=].use.code = #definition
 //* #GRNDCHILD ^designation[=].value = "The player of the role is a child of the scoping person's son or daughter."
@@ -266,7 +386,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRNDCHILD ^property[+].code = #subsumedBy
 // * #GRNDCHILD ^property[=].valueCode = #EXT
 * #GRNDDAU "vnučka"
-* #GRNDDAU ^definition = "Dcera syna nebo dcery dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "vnučka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dcera syna nebo dcery dotčené osoby."
+// * #GRNDDAU ^definition = "Dcera syna nebo dcery dotčené osoby."
 //* #GRNDDAU ^designation[0].language = #en
 //* #GRNDDAU ^designation[=].use.code = #definition
 //* #GRNDDAU ^designation[=].value = "The player of the role is a daughter of the scoping person's son or daughter."
@@ -278,7 +404,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRNDDAU ^property[+].code = #subsumedBy
 // * #GRNDDAU ^property[=].valueCode = #GRNDCHILD
 * #GRNDSON "vnuk"
-* #GRNDSON ^definition = "Syn syna nebo dcery dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "vnuk"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Syn syna nebo dcery dotčené osoby."
+// * #GRNDSON ^definition = "Syn syna nebo dcery dotčené osoby."
 //* #GRNDSON ^designation[0].language = #en
 //* #GRNDSON ^designation[=].use.code = #definition
 //* #GRNDSON ^designation[=].value = "The player of the role is a son of the scoping person's son or daughter."
@@ -290,7 +422,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRNDSON ^property[+].code = #subsumedBy
 // * #GRNDSON ^property[=].valueCode = #GRNDCHILD
 * #GRPRN "prarodič"
-* #GRPRN ^definition = "Osoba, která je rodičem rodiče dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "prarodič"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je rodičem rodiče dotčené osoby."
+// * #GRPRN ^definition = "Osoba, která je rodičem rodiče dotčené osoby."
 //* #GRPRN ^designation[0].language = #en
 //* #GRPRN ^designation[=].use.code = #definition
 //* #GRPRN ^designation[=].value = "The player of the role is a parent of the scoping person's mother or father."
@@ -302,7 +440,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #GRPRN ^property[+].code = #subsumedBy
 // * #GRPRN ^property[=].valueCode = #EXT
 * #HUSB "manžel"
-* #HUSB ^definition = "Muž, který je spojen s dotčenou ženou v manželství."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "manžel"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Muž, který je spojen s dotčenou ženou v manželství."
+// * #HUSB ^definition = "Muž, který je spojen s dotčenou ženou v manželství."
 //* #HUSB ^designation[0].language = #en
 //* #HUSB ^designation[=].use.code = #definition
 //* #HUSB ^designation[=].value = "The player of the role is a man joined to a woman (scoping person) in marriage."
@@ -315,7 +459,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #HUSB ^property[=].valueCode = #SPS
 
 * #INLAW "příbuzní ze strany manžela/manželky"
-* #INLAW ^definition = "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "příbuzní ze strany manžela/manželky"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera."
+// * #INLAW ^definition = "Vztah mezi jednotlivcem a členem nejbližší rodiny jeho manželského partnera."
 //* #INLAW ^designation[0].language = #en
 //* #INLAW ^designation[=].use.code = #definition
 //* #INLAW ^designation[=].value = "A relationship between an individual and a member of their spousal partner's immediate family."
@@ -328,7 +478,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #INLAW ^property[=].valueCode = #EXT
 
 * #MTH "matka"
-* #MTH ^definition = "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "matka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+// * #MTH ^definition = "Žena, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
 //* #MTH ^designation[0].language = #en
 //* #MTH ^designation[=].use.code = #definition
 //* #MTH ^designation[=].value = "The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child)."
@@ -340,7 +496,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #MTH ^property[+].code = #subsumedBy
 // * #MTH ^property[=].valueCode = #PRN
 * #MTHINLAW "tchýně"
-* #MTHINLAW ^definition = "Žena, která je matkou manžela nebo manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "tchýně"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která je matkou manžela nebo manželky dotčené osoby."
+// * #MTHINLAW ^definition = "Žena, která je matkou manžela nebo manželky dotčené osoby."
 //* #MTHINLAW ^designation[0].language = #en
 //* #MTHINLAW ^designation[=].use.code = #definition
 //* #MTHINLAW ^designation[=].value = "The player of the role is the mother of the scoping person's husband or wife."
@@ -354,7 +516,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #MTHINLAW ^property[+].code = #synonymCode
 // * #MTHINLAW ^property[=].valueCode = #MTHINLOAW
 * #MTHINLOAW "tchýně"
-* #MTHINLOAW ^definition = "Žena, která je matkou manžela nebo manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "tchýně"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která je matkou manžela nebo manželky dotčené osoby."
+// * #MTHINLOAW ^definition = "Žena, která je matkou manžela nebo manželky dotčené osoby."
 //* #MTHINLOAW ^designation[0].language = #en
 //* #MTHINLOAW ^designation[=].use.code = #definition
 //* #MTHINLOAW ^designation[=].value = "The player of the role is the mother of the scoping person's husband or wife."
@@ -368,7 +536,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #MTHINLOAW ^property[+].code = #synonymCode
 // * #MTHINLOAW ^property[=].valueCode = #MTHINLAW
 * #NBOR "soused/sousedka"
-* #NBOR ^definition = "Osoba, která žije v blízkosti nebo vedle dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "soused/sousedka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která žije v blízkosti nebo vedle dotčené osoby."
+// * #NBOR ^definition = "Osoba, která žije v blízkosti nebo vedle dotčené osoby."
 //* #NBOR ^designation[0].language = #en
 //* #NBOR ^designation[=].use.code = #definition
 //* #NBOR ^designation[=].value = "The player of the role lives near or next to the scoping person."
@@ -380,7 +554,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NBOR ^property[+].code = #subsumedBy
 // * #NBOR ^property[=].valueCode = #_PersonalRelationshipRoleType
 * #NCHILD "potomek"
-* #NCHILD ^definition = "Potomek dotčené entity (rodiče)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "potomek"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Potomek dotčené entity (rodiče)."
+// * #NCHILD ^definition = "Potomek dotčené entity (rodiče)."
 //* #NCHILD ^designation[0].language = #en
 //* #NCHILD ^designation[=].use.code = #definition
 //* #NCHILD ^designation[=].value = "The player of the role is an offspring of the scoping entity as determined by birth."
@@ -392,7 +572,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NCHILD ^property[+].code = #subsumedBy
 // * #NCHILD ^property[=].valueCode = #CHILD
 * #NEPHEW "synovec"
-* #NEPHEW ^definition = "Syn bratra nebo sestry dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "synovec"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Syn bratra nebo sestry dotčené osoby."
+// * #NEPHEW ^definition = "Syn bratra nebo sestry dotčené osoby."
 //* #NEPHEW ^designation[0].language = #en
 //* #NEPHEW ^designation[=].use.code = #definition
 //* #NEPHEW ^designation[=].value = "The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
@@ -404,7 +590,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NEPHEW ^property[+].code = #subsumedBy
 // * #NEPHEW ^property[=].valueCode = #NIENEPH
 * #NIECE "neteř"
-* #NIECE ^definition = "Dcera bratra nebo sestry dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "neteř"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dcera bratra nebo sestry dotčené osoby."
+// * #NIECE ^definition = "Dcera bratra nebo sestry dotčené osoby."
 //* #NIECE ^designation[0].language = #en
 //* #NIECE ^designation[=].use.code = #definition
 //* #NIECE ^designation[=].value = "The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
@@ -416,7 +608,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NIECE ^property[+].code = #subsumedBy
 // * #NIECE ^property[=].valueCode = #NIENEPH
 * #NIENEPH "neteř/synovec"
-* #NIENEPH ^definition = "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "neteř/synovec"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby."
+// * #NIENEPH ^definition = "Potomek bratra nebo sestry dotčené osoby nebo bratra nebo sestry manžela/manželky dotčené osoby."
 //* #NIENEPH ^designation[0].language = #en
 //* #NIENEPH ^designation[=].use.code = #definition
 //* #NIENEPH ^designation[=].value = "The player of the role is a child of scoping person's brother or sister or of the brother or sister of the scoping person's spouse."
@@ -428,7 +626,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NIENEPH ^property[+].code = #subsumedBy
 // * #NIENEPH ^property[=].valueCode = #EXT
 * #NOK "příbuzný"
-* #NOK ^definition = "Nejbližší příbuzný dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "příbuzný"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Nejbližší příbuzný dotčené osoby."
+// * #NOK ^definition = "Nejbližší příbuzný dotčené osoby."
 //* #NOK ^designation[0].language = #en
 //* #NOK ^designation[=].use.code = #definition
 //* #NOK ^designation[=].value = "Played by an individual who is designated as the next of kin for another individual which scopes the role."
@@ -440,7 +644,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #NOK ^property[+].code = #subsumedBy
 // * #NOK ^property[=].valueCode = #_ContactRoleType
 * #PRN "rodič"
-* #PRN ^definition = "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "rodič"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
+// * #PRN ^definition = "Osoba, která zplodila, porodila nebo vychovala a pečuje o dotčenou osobu (dítě)."
 //* #PRN ^designation[0].language = #en
 //* #PRN ^designation[=].use.code = #definition
 //* #PRN ^designation[=].value = "The player of the role is one who begets, gives birth to, or nurtures and raises the scoping entity (child)."
@@ -452,7 +662,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #PRN ^property[+].code = #subsumedBy
 // * #PRN ^property[=].valueCode = #FAMMEMB
 * #PRNINLAW "tchyně/tchán"
-* #PRNINLAW ^definition = "Rodič manžela nebo manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "tchyně/tchán"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Rodič manžela nebo manželky dotčené osoby."
+// * #PRNINLAW ^definition = "Rodič manžela nebo manželky dotčené osoby."
 //* #PRNINLAW ^designation[0].language = #en
 //* #PRNINLAW ^designation[=].use.code = #definition
 //* #PRNINLAW ^designation[=].value = "The player of the role is the parent of scoping person's husband or wife."
@@ -464,7 +680,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #PRNINLAW ^property[+].code = #subsumedBy
 // * #PRNINLAW ^property[=].valueCode = #INLAW
 * #ROOM "spolubydlící"
-* #ROOM ^definition = "Osoba, která sdílí obytné prostory s dotčenou osobou."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "spolubydlící"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která sdílí obytné prostory s dotčenou osobou."
+// * #ROOM ^definition = "Osoba, která sdílí obytné prostory s dotčenou osobou."
 //* #ROOM ^designation[0].language = #en
 //* #ROOM ^designation[=].use.code = #definition
 //* #ROOM ^designation[=].value = "One who shares living quarters with the subject."
@@ -477,7 +699,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #ROOM ^property[=].valueCode = #_PersonalRelationshipRoleType
 
 * #SIB "sourozenec"
-* #SIB ^definition = "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "sourozenec"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+// * #SIB ^definition = "Osoba, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
 //* #SIB ^designation[0].language = #en
 //* #SIB ^designation[=].use.code = #definition
 //* #SIB ^designation[=].value = "The player of the role shares one or both parents in common with the scoping entity."
@@ -490,7 +718,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SIB ^property[=].valueCode = #FAMMEMB
 
 * #SIBINLAW "švagr/švagrová"
-* #SIBINLAW ^definition = "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "švagr/švagrová"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby."
+// * #SIBINLAW ^definition = "Osoba, která je: (1) sourozencem manžela/manželky dotčené osoby, nebo (2) manželem/manželkou sourozence dotčené osoby, nebo (3) manželem/manželkou sourozence manžela/manželky dotčené osoby."
 //* #SIBINLAW ^designation[0].language = #en
 //* #SIBINLAW ^designation[=].use.code = #definition
 //* #SIBINLAW ^designation[=].value = "The player of the role is: (1) a sibling of the scoping person's spouse, or (2) the spouse of the scoping person's sibling, or (3) the spouse of a sibling of the scoping person's spouse."
@@ -503,7 +737,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SIBINLAW ^property[=].valueCode = #INLAW
 
 * #SIGOTHR "osoba blízká"
-* #SIGOTHR ^definition = "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "osoba blízká"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu."
+// * #SIGOTHR ^definition = "Osoba, která je důležitá pro blaho dotčené osoby; zejména manžel nebo osoba ve obdobném vztahu."
 //* #SIGOTHR ^designation[0].language = #en
 //* #SIGOTHR ^designation[=].use.code = #definition
 //* #SIGOTHR ^designation[=].value = "A person who is important to one's well being; especially a spouse or one in a similar relationship. (The player is the one who is important)"
@@ -515,7 +755,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SIGOTHR ^property[+].code = #subsumedBy
 // * #SIGOTHR ^property[=].valueCode = #FAMMEMB
 * #SIS "sestra"
-* #SIS ^definition = "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "sestra"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
+// * #SIS ^definition = "Žena, která sdílí jednoho nebo oba rodiče s dotčenou osobou."
 //* #SIS ^designation[0].language = #en
 //* #SIS ^designation[=].use.code = #definition
 //* #SIS ^designation[=].value = "The player of the role is a female sharing one or both parents in common with the scoping entity."
@@ -527,7 +773,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SIS ^property[+].code = #subsumedBy
 // * #SIS ^property[=].valueCode = #SIB
 * #SISINLAW "švagrová"
-* #SISINLAW ^definition = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "švagrová"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+// * #SISINLAW ^definition = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
 //* #SISINLAW ^designation[0].language = #en
 //* #SISINLAW ^designation[=].use.code = #definition
 //* #SISINLAW ^designation[=].value = "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
@@ -541,7 +793,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SISINLAW ^property[+].code = #synonymCode
 // * #SISINLAW ^property[=].valueCode = #SISLINLAW
 * #SISLINLAW "švagrová"
-* #SISLINLAW ^definition = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "švagrová"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
+// * #SISLINLAW ^definition = "Osoba, která je: (1) sestrou manžela/manželky dotčené osoby, nebo (2) manželkou bratra dotčené osoby, nebo (3) manželkou bratra manžela/manželky dotčené osoby."
 //* #SISLINLAW ^designation[0].language = #en
 //* #SISLINLAW ^designation[=].use.code = #definition
 //* #SISLINLAW ^designation[=].value = "The player of the role is: (1) a sister of the scoping person's spouse, or (2) the wife of the scoping person's brother, or (3) the wife of a brother of the scoping person's spouse."
@@ -555,7 +813,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SISLINLAW ^property[+].code = #synonymCode
 // * #SISLINLAW ^property[=].valueCode = #SISINLAW
 * #SON "vlastní syn"
-* #SON ^definition = "Mužský potomek dotčené entity (rodiče)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "vlastní syn"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Mužský potomek dotčené entity (rodiče)."
+// * #SON ^definition = "Mužský potomek dotčené entity (rodiče)."
 //* #SON ^designation[0].language = #en
 //* #SON ^designation[=].use.code = #definition
 //* #SON ^designation[=].value = "The player of the role is a male offspring of the scoping entity (parent)."
@@ -569,7 +833,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SON ^property[+].code = #subsumedBy
 // * #SON ^property[=].valueCode = #SONC
 * #SONADOPT "osvojený syn"
-* #SONADOPT ^definition = "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "osvojený syn"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
+// * #SONADOPT ^definition = "Mužský potomek dotčené entity (rodiče), který byl přijat do rodiny prostřednictvím právních prostředků a vychováván dotčenou osobou (rodičem) jako vlastní dítě."
 //* #SONADOPT ^designation[0].language = #en
 //* #SONADOPT ^designation[=].use.code = #definition
 //* #SONADOPT ^designation[=].value = "The player of the role is a male child taken into a family through legal means and raised by the scoping person (parent) as his or her own child."
@@ -583,7 +853,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SONADOPT ^property[+].code = #subsumedBy
 // * #SONADOPT ^property[=].valueCode = #SONC
 * #SONC "syn"
-* #SONC ^definition = "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "syn"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)."
+// * #SONC ^definition = "**Popis:** Mužský potomek (jakéhokoli typu) dotčené osoby (rodiče)."
 //* #SONC ^designation[0].language = #en
 //* #SONC ^designation[=].use.code = #definition
 //* #SONC ^designation[=].value = "**Description:** The player of the role is a male child (of any type) of scoping entity (parent)"
@@ -595,7 +871,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SONC ^property[+].code = #subsumedBy
 // * #SONC ^property[=].valueCode = #CHILD
 * #SONFOST "syn v náhradní péči (kromě osvojení)"
-* #SONFOST ^definition = "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "syn v náhradní péči (kromě osvojení)"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami."
+// * #SONFOST ^definition = "Mužský potomek dotčené entity (rodiče), který je v náhradní péči a výchově dotčené osoby (rodiče), ale není s ní spojen právními nebo biologickými vazbami."
 //* #SONFOST ^designation[0].language = #en
 //* #SONFOST ^designation[=].use.code = #definition
 //* #SONFOST ^designation[=].value = "The player of the role is a male child receiving parental care and nurture from the scoping person (parent) but not related to him or her through legal or blood ties."
@@ -609,7 +891,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SONFOST ^property[+].code = #subsumedBy
 // * #SONFOST ^property[=].valueCode = #SONC
 * #SONINLAW "zeť"
-* #SONINLAW ^definition = "Manžel dcery dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "zeť"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Manžel dcery dotčené osoby."
+// * #SONINLAW ^definition = "Manžel dcery dotčené osoby."
 //* #SONINLAW ^designation[0].language = #en
 //* #SONINLAW ^designation[=].use.code = #definition
 //* #SONINLAW ^designation[=].value = "The player of the role is the husband of scoping person's daughter."
@@ -621,7 +909,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SONINLAW ^property[+].code = #subsumedBy
 // * #SONINLAW ^property[=].valueCode = #CHLDINLAW
 * #SPS "manžel/maželka"
-* #SPS ^definition = "Osoba, která je manželským partnerem dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "manžel/maželka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Osoba, která je manželským partnerem dotčené osoby."
+// * #SPS ^definition = "Osoba, která je manželským partnerem dotčené osoby."
 //* #SPS ^designation[0].language = #en
 //* #SPS ^designation[=].use.code = #definition
 //* #SPS ^designation[=].value = "The player of the role is a marriage partner of the scoping person."
@@ -633,7 +927,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #SPS ^property[+].code = #subsumedBy
 // * #SPS ^property[=].valueCode = #SIGOTHR
 * #STPCHLD "nevlastní dítě"
-* #STPCHLD ^definition = "Dítě manžela/manželky dotčené osoby z předchozího manželství."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "nevlastní dítě"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Dítě manžela/manželky dotčené osoby z předchozího manželství."
+// * #STPCHLD ^definition = "Dítě manžela/manželky dotčené osoby z předchozího manželství."
 //* #STPCHLD ^designation[0].language = #en
 //* #STPCHLD ^designation[=].use.code = #definition
 //* #STPCHLD ^designation[=].value = "The player of the role is a child of the scoping person's spouse by a previous union."
@@ -645,7 +945,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #STPCHLD ^property[+].code = #subsumedBy
 // * #STPCHLD ^property[=].valueCode = #CHILD
 * #STPDAU "nevlastní dcera"
-* #STPDAU ^definition = "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "nevlastní dcera"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství."
+// * #STPDAU ^definition = "Ženský potomek manžela/manželky dotčené osoby z předchozího manželství."
 //* #STPDAU ^designation[0].language = #en
 //* #STPDAU ^designation[=].use.code = #definition
 //* #STPDAU ^designation[=].value = "The player of the role is a daughter of the scoping person's spouse by a previous union."
@@ -659,7 +965,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #STPDAU ^property[+].code = #subsumedBy
 // * #STPDAU ^property[=].valueCode = #STPCHLD
 * #STPSON "nevlastní syn"
-* #STPSON ^definition = "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "nevlastní syn"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství."
+// * #STPSON ^definition = "Mužský potomek manžela/manželky dotčené osoby z předchozího manželství."
 //* #STPSON ^designation[0].language = #en
 //* #STPSON ^designation[=].use.code = #definition
 //* #STPSON ^designation[=].value = "The player of the role is a son of the scoping person's spouse by a previous union."
@@ -673,7 +985,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #STPSON ^property[+].code = #subsumedBy
 // * #STPSON ^property[=].valueCode = #STPCHLD
 * #UNCLE "strýc"
-* #UNCLE ^definition = "Bratr matky nebo otce dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "strýc"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Bratr matky nebo otce dotčené osoby."
+// * #UNCLE ^definition = "Bratr matky nebo otce dotčené osoby."
 //* #UNCLE ^designation[0].language = #en
 //* #UNCLE ^designation[=].use.code = #definition
 //* #UNCLE ^designation[=].value = "The player of the role is a brother of the scoping person's mother or father."
@@ -685,7 +1003,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #UNCLE ^property[+].code = #subsumedBy
 // * #UNCLE ^property[=].valueCode = #EXT
 * #WIFE "manželka"
-* #WIFE ^definition = "Žena, která je manželským partnerem dotčené osoby."
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "manželka"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Žena, která je manželským partnerem dotčené osoby."
+// * #WIFE ^definition = "Žena, která je manželským partnerem dotčené osoby."
 //* #WIFE ^designation[0].language = #en
 //* #WIFE ^designation[=].use.code = #definition
 //* #WIFE ^designation[=].value = "The player of the role is a woman joined to a man (scoping person) in marriage."
@@ -698,7 +1022,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #WIFE ^property[=].valueCode = #SPS
 
 * #_ContactRoleType "ContactRoleType"
-* #_ContactRoleType ^definition = """Typy kontaktů pro kód role \"CON\“"""
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "ContactRoleType"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = """Typy kontaktů pro kód role \"CON\“"""
+// * #_ContactRoleType ^definition = """Typy kontaktů pro kód role \"CON\“"""
 //* #_ContactRoleType ^designation[0].language = #en
 //* #_ContactRoleType ^designation[=].use.code = #definition
 //* #_ContactRoleType ^designation[=].value = "Types of contact for Role code \"CON\""
@@ -711,7 +1041,13 @@ Description: "Český doplněk kódového systému v3-RoleCode, který je soubor
 // * #_ContactRoleType ^property[=].valueBoolean = true
 
 * #_PersonalRelationshipRoleType "PersonalRelationshipRoleType"
-* #_PersonalRelationshipRoleType ^definition = """Typy osobních vztahů pro kód role \"PRN\“"""
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "PersonalRelationshipRoleType"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = """Typy osobních vztahů pro kód role \"PRN\“"""
+// * #_PersonalRelationshipRoleType ^definition = """Typy osobních vztahů pro kód role \"PRN\“"""
 //* #_PersonalRelationshipRoleType ^designation[0].language = #en
 //* #_PersonalRelationshipRoleType ^designation[=].use.code = #display
 //* #_PersonalRelationshipRoleType ^designation[=].value = "PersonalRelationshipRoleType"

@@ -15,6 +15,6 @@ Description:   "Body Structure site laterality qualifier. It indicates the body 
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule ( 2, trial-use)
 
-* $sct#7771000 //"vlevo"
-* $sct#24028007 //"vpravo"
-* $sct#51440002 //"vpravo a vlevo"
+* $sctCZ#7771000 //"vlevo"
+* $sctCZ#24028007 //"vpravo"
+* $sctCZ#51440002 //"vpravo a vlevo"

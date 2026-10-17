@@ -18,5 +18,9 @@ Description:   "Číselník typů úhrady zdravotní péče."
 * insert ValueSetSupplementRule("https://hl7.cz/terminology/CodeSystem/v3-ActCode-cz")
 
 
-* http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0#HIP "zdravotní pojištění"
-* http://terminology.hl7.org/CodeSystem/coverage-selfpay|1.0.1#pay "samoplátce"
+* http://terminology.hl7.org/CodeSystem/coverage-selfpay|1.0.1#pay //"přímá úhrada" "Osoba nebo organizace hradí náklady na zdravotní péči."
+* $v3-ActCode#HIP "veřejné zdravotní pojištění"
+* $v3-ActCode#WCBPOL "pracovní lékařství / úhrada zaměstnavatelem"
+* $v3-ActCode#EHCPOL "komerční zdravotní pojištění"
+* $v3-ActCode#PUBLICPOL "státní zdravotní program - státní orgán / policie ČR / soud"
+

@@ -14,25 +14,25 @@ Description:   """Types of animal species for non-human subjects"""
 * insert SNOMEDCopyrightForVS
 * insert SetFmmandStatusRule (2, trial-use)
 
-* $sct#425134008
-* $sct#125097000
-* $sct#47290002
-* $sct#448771007
-* $sct#396620009
-* $sct#107246009
-* $sct#85626006
-* $sct#28482008
-* $sct#448169003
-* $sct#392390005
-* $sct#106831000
-* $sct#90580008
-* $sct#125099002
-* $sct#396524007
-* $sct#132950000
-* $sct#107101001
-* $sct#34618005
-* $sct#388445009
-* $sct#125076001
-* $sct#371564000
-* $sct#15778005
-* $sct#331171000009105
+* $sctCZ#425134008
+* $sctCZ#125097000
+* $sctCZ#47290002
+* $sctCZ#448771007
+* $sctCZ#396620009
+* $sctCZ#107246009
+* $sctCZ#85626006
+* $sctCZ#28482008
+* $sctCZ#448169003
+* $sctCZ#392390005
+* $sctCZ#106831000
+* $sctCZ#90580008
+* $sctCZ#125099002
+* $sctCZ#396524007
+* $sctCZ#132950000
+* $sctCZ#107101001
+* $sctCZ#34618005
+* $sctCZ#388445009
+* $sctCZ#125076001
+* $sctCZ#371564000
+* $sctCZ#15778005
+* $sctCZ#331171000009105

@@ -11,6 +11,7 @@ Description: "Laboratory study types"
 * ^publisher = "HL7 Czech Republic"
 * ^language = #cs
 * ^url = "https://ncez.mzcr.cz/terminology/ValueSet/cz-lab-study-type"
+* ^jurisdiction = urn:iso:std:iso:3166#CZ "Czechia"
 
 * insert LOINCCopyrightForVS
 * $loinc#18716-1 "alergologické laboratorní vyšetření"  // není v Evropském číselníku

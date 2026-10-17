@@ -31,3 +31,4 @@ It is defined as the union of:
 * codes from valueset dlp-atc
 * codes from valueset EHDSIAbsentOrUnknownAllergy
 * codes from valueset EHDSIExceptionalValue
+* codes from valueset SCT_Substance

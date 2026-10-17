@@ -23,6 +23,6 @@ Description: "Typ registrujícího lékaře. (Registering healthcare provider se
 * insert SetFmmandStatusRule(2, trial-use)
 * insert SNOMEDCopyrightForVS
 
-* include $sct#310061009 //"gynekologie - služba"
-* include $sct#700232004 //"všeobecná lékařská péče - služba"
-* include $sct#722176000 //"stomatologie - služba"
+* include $sctCZ#310061009 //"gynekologie - služba"
+* include $sctCZ#700232004 //"všeobecná lékařská péče - služba"
+* include $sctCZ#722176000 //"stomatologie - služba"

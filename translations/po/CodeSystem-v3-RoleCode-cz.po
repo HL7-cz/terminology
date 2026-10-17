@@ -356,7 +356,7 @@ msgstr ""
 
 # The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
 #: CodeSystem.concept.definition
-msgid "Vztah mezi dvěma osobami, který je charakterizován jako vztah \\"rodinný\\"."
+msgid "Vztah mezi dvěma osobami, který je charakterizován jako vztah \"rodinný\"."
 msgstr ""
 
 # The text value for this designation.
@@ -1196,7 +1196,7 @@ msgstr ""
 
 # The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
 #: CodeSystem.concept.definition
-msgid "Typy kontaktů pro kód role \\"CON\“"
+msgid "Typy kontaktů pro kód role \"CON\“"
 msgstr ""
 
 # The text value for this designation.
@@ -1216,7 +1216,7 @@ msgstr ""
 
 # The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
 #: CodeSystem.concept.definition
-msgid "Typy osobních vztahů pro kód role \\"PRN\“"
+msgid "Typy osobních vztahů pro kód role \"PRN\“"
 msgstr ""
 
 # The text value for this designation.

@@ -28,5 +28,5 @@ LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Obs
 * $loinc#57133-1 "žádanka o vyšetření"
 * $loinc#57830-2 "žádanka o hospitalizaci"
 * $loinc#57154-7 "žádanka o fyzioterapii"
-* $sct#721965002 "žádanka o laboratorní vyšetření"
-* $sct#721964003 "žádanka o zobrazovací vyšetření"
+* $sctCZ#721965002 "žádanka o laboratorní vyšetření"
+* $sctCZ#721964003 "žádanka o zobrazovací vyšetření"

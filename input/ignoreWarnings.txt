@@ -27,6 +27,7 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 # %https://uzis.cz/terminology/CodeSystem/mkn-10%
 
 # Known wrong display names - terminology issue
+%Wrong Display Name%
 %for http://snomed.info/sct%
 # %for http://loinc.org%
 %for http://terminology.hl7.org/CodeSystem/v3-ActCode%
@@ -47,13 +48,16 @@ The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produ
 # All SNOMED-CT concepts use preferred terms consistently - FSN tags in the warning are from the terminology server, not from our value sets
 %This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms)%
 
-# Suppress warning on missing OID identifiers for CDA compatibility
-%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)%
+# Suppress warnings on missing CodeSystem and ValueSet OID identifiers for CDA compatibility
+%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage%
 %The resource ImplementationGuide/hl7.fhir.cz.terminology could usefully have an OID assigned%
 
 # Suppress information about draft and experimental CodeSystems
 Reference to draft CodeSystem urn:iso:std:iso:3166|1.0.0
 Reference to experimental CodeSystem urn:ietf:bcp:13|0.0.2
 
-# Ignore warning on inactive SCT codes present in the MVC
-%The concept '37017009' has a status of inactive and its use should be reviewed%
+# Ignore warnings on inactive concepts
+%has a status of inactive and its use should be reviewed%
+
+# Ignore warning that IG uses old version of the IPS package
+The ImplementationGuide uses package hl7.fhir.uv.ips#1.1.0 released on 2022-11-22, but the most recent appropriate version is 2.0.1. This reference is getting old and the more recent version should be considered

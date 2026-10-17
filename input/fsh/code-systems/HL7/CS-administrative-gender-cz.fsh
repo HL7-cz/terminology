@@ -17,41 +17,18 @@ Description: "Pohlaví osoby používané pro administrativní účely. The gend
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/administrative-gender|4.0.1"
 
-* #female "žena" "Žena"
-  * ^designation[+].language = #cs
+* #female "žena" "Ženské administrativní pohlaví."
+  * ^designation[0].language = #cs
   * ^designation[=].value = "žena"
 
-* #male "muž" "Muž"
-  * ^designation[+].language = #cs
+* #male "muž" "Mužské administrativní pohlaví."
+  * ^designation[0].language = #cs
   * ^designation[=].value = "muž"
 
-* #other "jiné" "Jiné"
-  * ^designation[+].language = #cs
+* #other "jiné" "Jiné administrativní pohlaví."
+  * ^designation[0].language = #cs
   * ^designation[=].value = "jiné"
 
-* #unknown "neznámé" "Neznámé"
-  * ^designation[+].language = #cs
+* #unknown "neznámé" "Neznámé administrativní pohlaví."
+  * ^designation[0].language = #cs
   * ^designation[=].value = "neznámé"
-
-
-/* * #female "žena"
-* #female ^definition = "Žena"
-// * #female ^designation.language = #en
-//* #female ^designation.use.code = $des-usage#display
-// * #female ^designation.value = "Female"
-* #male "muž"
-* #male ^definition = "Muž"
-// * #male ^designation.language = #en
-//* #male ^designation.use.code = $des-usage#display
-// * #male ^designation.value = "Male"
-* #other "jiné"
-* #other ^definition = "Jiné"
-// * #other ^designation.language = #en
-//* #other ^designation.use.code = $des-usage#display
-// * #other ^designation.value = "Other"
-* #unknown "neznámé"
-* #unknown ^definition = "Neznámé"
-// * #unknown ^designation.language = #en
-//* #unknown ^designation.use.code = $des-usage#display
-// * #unknown ^designation.value = "Unknown"
- */

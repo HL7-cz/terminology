@@ -1,6 +1,7 @@
 ValueSet: VZPSmluvniOdbornost
 Id: vzp-smluvni-odbornost
 Title: "Číselník VZP - smluvní odbornost pracovišť"
+Description: "Smluvní odbornost pracovišť v systému zdravotního pojištění."
 * ^language = #cs
 // * ^extension.url = "https://termx.org/fhir/StructureDefinition/supported-language"
 // * ^extension.valueCode = #cs

@@ -6,6 +6,7 @@ Description: "Category of an identified substance associated with allergies or i
 // * ^extension[=].valueUrl = "https://termx-t2-admin.csez.cz/fhir/ValueSet/allergy-intolerance-category-cz"
 // * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
 // * ^extension[=].valueCanonical = "https://hl7.cz/terminology/CodeSystem/allergy-intolerance-category-cz|4.0.1"
+* ^language = #cs
 * ^url = "https://hl7.cz/terminology/ValueSet/allergy-intolerance-category-cz"
 * ^version = "1.0.0"
 * ^status = #active

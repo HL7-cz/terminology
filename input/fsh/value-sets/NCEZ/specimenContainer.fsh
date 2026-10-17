@@ -12,4 +12,4 @@ Description:   "List of the containers commonly used to collect specimens (e.g. 
 
 * insert SNOMEDCopyrightForVS
 
-* include codes from system $sct where concept is-a #706041008
+* include codes from system $sctCZ where concept is-a #706041008

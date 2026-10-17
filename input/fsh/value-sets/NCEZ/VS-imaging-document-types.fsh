@@ -17,9 +17,6 @@ Description: "Typy dokumentů obrazového komplementu"
 * ^compose.inactive = false
 * insert LOINCCopyrightForVS
 
-// Tahle varianta by stále měla fungovat, ale hází chyby v QA
-//* include codes from system $loinc where CLASS = "RAD" and SCALE_TYP = "Doc" and STATUS = "ACTIVE"
-// Tahle varianta aktuálně funguje bez chyb v QA
 * include codes from system $loinc where CLASS = #LP29684-5 and SCALE_TYP = #LP32888-7 and STATUS = "ACTIVE"
 // tohle je verze generovaná TermX, nezkoušel jsem
 //* include codes from system http://loinc.org|2.81
@@ -38,7 +35,7 @@ Description: "Typy dokumentů obrazového komplementu"
 * $loinc#24963-1 "CT bederní páteře"
 * $loinc#24978-9 "CT hrudní páteře"
 * $loinc#25045-6 "CT neupřesněné oblasti těla"
-* $loinc#18748-4 "Zobrazovací vyšetření"
+* $loinc#18748-4 "diagnostické zobrazovací vyšetření"
 * $loinc#25069-6 "RF-řízená biopsie – lokalita neupřesněna"
 * $loinc#24605-8 "Diagnostická mamografie"
 * $loinc#24606-6 "Screeningová mamografie"

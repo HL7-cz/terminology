@@ -52,13 +52,6 @@
         <source>HL7 International</source>
         <target></target>
       </trans-unit>
-      <trans-unit id="ValueSet-contactrole-cz" resname="ValueSet.compose.include.version">
-             <notes>
-               <note id="n1">The version of the code system that the codes are selected from, or the special version '*' for all versions.</note>
-             </notes>
-        <source>2.0.0</source>
-        <target></target>
-      </trans-unit>
     </body>
   </file>
 </xliff>

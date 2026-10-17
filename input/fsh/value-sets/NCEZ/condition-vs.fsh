@@ -14,8 +14,9 @@ Description:  """Condition value set includes selected codes from national and r
 * insert SNOMEDCopyrightForVS
 * codes from system $mkn-10
 * codes from system $orpha
-* codes from system $sct where concept is-a #404684003 "Clinical finding"
-//* codes from system $sct where concept is-a #71388002 "Procedure"
-//* codes from system $sct where concept is-a #243796009 "Context dependent categories"
-//* codes from system $sct where concept is-a #272379006 "Events"
+* codes from valueset ConditionSctVS
+//* codes from  $sctCZ where concept is-a #404684003 "Clinical finding"
+//* codes from system $sctCZ where concept is-a #71388002 "Procedure"
+//* codes from system $sctCZ where concept is-a #243796009 "Context dependent categories"
+//* codes from system $sctCZ where concept is-a #272379006 "Events"
 

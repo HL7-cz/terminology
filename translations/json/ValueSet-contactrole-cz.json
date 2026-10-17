@@ -46,12 +46,6 @@
           "context" : "A copyright statement relating to the value set and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the value set.",
           "source" : "HL7 International",
           "target" : null
-        },
-        {
-          "id" : "ValueSet.compose.include.version",
-          "context" : "The version of the code system that the codes are selected from, or the special version '*' for all versions.",
-          "source" : "2.0.0",
-          "target" : null
         }
       ]
     }

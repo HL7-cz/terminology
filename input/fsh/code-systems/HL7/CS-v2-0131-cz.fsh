@@ -29,26 +29,74 @@ Description: "Role kontaktní osoby. FHIR Code system definition for HL7 v2 tabl
 //* ^property[=].type = #code
 
 * #C "emergentní kontakt" "Emergentní kontakt"
-* #C ^property[0].code = #status
-* #C ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "emergentní kontakt"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Emergentní kontakt"
+// * #C ^property[0].code = #status
+// * #C ^property[=].valueCode = #active
 * #E "zaměstnavatel" "Zaměstnavatel"
-* #E ^property[0].code = #status
-* #E ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "zaměstnavatel"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Zaměstnavatel"
+// * #E ^property[0].code = #status
+// * #E ^property[=].valueCode = #active
 * #F "federální orgán" "Federální orgán"
-* #F ^property[0].code = #status
-* #F ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "federální orgán"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Federální orgán"
+// * #F ^property[0].code = #status
+// * #F ^property[=].valueCode = #active
 * #I "pojišťovna" "Pojišťovna"
-* #I ^property[0].code = #status
-* #I ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "pojišťovna"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Pojišťovna"
+// * #I ^property[0].code = #status
+// * #I ^property[=].valueCode = #active
 * #N "příbuzný" "Příbuzný"
-* #N ^property[0].code = #status
-* #N ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "příbuzný"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Příbuzný"
+// * #N ^property[0].code = #status
+// * #N ^property[=].valueCode = #active
 * #O "ostatní" "Ostatní"
-* #O ^property[0].code = #status
-* #O ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "ostatní"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Ostatní"
+// * #O ^property[0].code = #status
+// * #O ^property[=].valueCode = #active
 * #S "státní orgán" "Státní orgán"
-* #S ^property[0].code = #status
-* #S ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "státní orgán"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Státní orgán"
+// * #S ^property[0].code = #status
+// * #S ^property[=].valueCode = #active
 * #U "neznámý" "Neznámý"
-* #U ^property[0].code = #status
-* #U ^property[=].valueCode = #active
+  * ^designation[0].language = #cs
+  // * ^designation[=].use = $designation-usage#display
+  * ^designation[=].value = "neznámý"
+  // * ^designation[+].language = #cs
+  // * ^designation[=].use = $designation-usage#definition
+  // * ^designation[=].value = "Neznámý"
+// * #U ^property[0].code = #status
+// * #U ^property[=].valueCode = #active

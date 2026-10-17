@@ -34,8 +34,3 @@ msgstr ""
 msgid "HL7 International"
 msgstr ""
 
-# The version of the code system that the codes are selected from, or the special version '*' for all versions.
-#: ValueSet.compose.include.version
-msgid "2.0.0"
-msgstr ""
-

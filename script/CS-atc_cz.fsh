@@ -4,7 +4,7 @@ Title: "ATC CZ"
 Description: "Czech national version of the Anatomical Therapeutical Chemical (ATC) code system."
 * ^url = "https://ncez.mzcr.cz/CodeSystem/atc-cz"
 * ^version = "1.0.0"
-* ^status = #draft
+* ^status = #active
 * ^content = #complete
 * ^hierarchyMeaning = #grouped-by
 * ^publisher = "MZCR Czech Republic"
